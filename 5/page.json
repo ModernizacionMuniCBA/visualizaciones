@@ -1,7 +1,7 @@
 {
   "count": 297,
   "next": null,
-  "previous": null,
+  "previous": "https://gobiernoabierto.cordoba.gov.ar/api/funciones/?format=json&page=5",
   "results": [
     {
       "id": 1,
@@ -10,7 +10,7 @@
         "apellido": "Mestre",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": null
+        "foto": {}
       },
       "cargo": {
         "categoria": {
@@ -33,7 +33,11 @@
         "apellido": "Bee Sellares",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/BEE.jpg"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/BEE-thumbnail-32x32-70.jpg",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/BEE.jpg",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/BEE-thumbnail-125x125-70.jpg"
+        }
       },
       "cargo": {
         "categoria": {
@@ -56,7 +60,11 @@
         "apellido": "Arzani",
         "franjaetaria": "50's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_826_-_Arzani.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_826_-_Arzani-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_826_-_Arzani.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_826_-_Arzani-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -79,7 +87,11 @@
         "apellido": "Acevedo",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_293_-_Gabriel_Acevedo.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_293_-_Gabriel_Acevedo-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_293_-_Gabriel_Acevedo.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_293_-_Gabriel_Acevedo-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -102,7 +114,11 @@
         "apellido": "Romero",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/ROMERO.jpg"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/ROMERO-thumbnail-32x32-70.jpg",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/ROMERO.jpg",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/ROMERO-thumbnail-125x125-70.jpg"
+        }
       },
       "cargo": {
         "categoria": {
@@ -125,7 +141,11 @@
         "apellido": "Waisman",
         "franjaetaria": "60's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_025_-_Waismann.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_025_-_Waismann-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_025_-_Waismann.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_025_-_Waismann-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -148,7 +168,11 @@
         "apellido": "Gastaldi",
         "franjaetaria": "50's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RN_104_Omar_Gastaldi.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RN_104_Omar_Gastaldi-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RN_104_Omar_Gastaldi.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RN_104_Omar_Gastaldi-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -171,7 +195,11 @@
         "apellido": "Marchiaro",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_472_-_Francisco_Marchiaro.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_472_-_Francisco_Marchiaro-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_472_-_Francisco_Marchiaro.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_472_-_Francisco_Marchiaro-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -194,7 +222,11 @@
         "apellido": "Aro",
         "franjaetaria": "50's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_403_-_Cecilia_Aro.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_403_-_Cecilia_Aro-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_403_-_Cecilia_Aro.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_403_-_Cecilia_Aro-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -217,7 +249,11 @@
         "apellido": "Olmos",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/OLMOS.jpg"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/OLMOS-thumbnail-32x32-70.jpg",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/OLMOS.jpg",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/OLMOS-thumbnail-125x125-70.jpg"
+        }
       },
       "cargo": {
         "categoria": {
@@ -240,7 +276,11 @@
         "apellido": "Cossar",
         "franjaetaria": "40's",
         "genero": "",
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/Marcelo-Cossar.jpg"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/Marcelo-Cossar-thumbnail-32x32-70.jpg",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/Marcelo-Cossar.jpg",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/Marcelo-Cossar-thumbnail-125x125-70.jpg"
+        }
       },
       "cargo": {
         "categoria": {
@@ -263,7 +303,7 @@
         "apellido": "Font Angelelli",
         "franjaetaria": "30's",
         "genero": null,
-        "foto": null
+        "foto": {}
       },
       "cargo": {
         "categoria": {
@@ -286,7 +326,7 @@
         "apellido": "Frossasco",
         "franjaetaria": null,
         "genero": null,
-        "foto": null
+        "foto": {}
       },
       "cargo": {
         "categoria": {
@@ -309,7 +349,11 @@
         "apellido": "Rodriguez Aranciva",
         "franjaetaria": "50's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RN_018_-_Marcelo_Rodriguez_Aranciva.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RN_018_-_Marcelo_Rodriguez_Aranciva-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RN_018_-_Marcelo_Rodriguez_Aranciva.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RN_018_-_Marcelo_Rodriguez_Aranciva-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -332,7 +376,11 @@
         "apellido": "Yalovetzky",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_725_-_Roberto_Yalovetzky.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_725_-_Roberto_Yalovetzky-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_725_-_Roberto_Yalovetzky.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_725_-_Roberto_Yalovetzky-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -355,7 +403,11 @@
         "apellido": "Casati",
         "franjaetaria": "50's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_314_Casati.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_314_Casati-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_314_Casati.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_314_Casati-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -378,7 +430,11 @@
         "apellido": "Graco",
         "franjaetaria": "60's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_143_-_Daniel_Am%C3%A9rico_Graco.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_143_-_Daniel_Am%C3%A9rico_Graco-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_143_-_Daniel_Am%C3%A9rico_Graco.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_143_-_Daniel_Am%C3%A9rico_Graco-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -401,7 +457,11 @@
         "apellido": "Leiva",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RN_123_-_Adrian_Leiva.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RN_123_-_Adrian_Leiva-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RN_123_-_Adrian_Leiva.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RN_123_-_Adrian_Leiva-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -424,7 +484,11 @@
         "apellido": "Torres",
         "franjaetaria": "50's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_527_-_Ana_Lia_Torres_6mYfBxW.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_527_-_Ana_Lia_Torres_6mYfBxW-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_527_-_Ana_Lia_Torres_6mYfBxW.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_527_-_Ana_Lia_Torres_6mYfBxW-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -447,7 +511,11 @@
         "apellido": "Igarzabal",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_450_Igarzabal.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_450_Igarzabal-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_450_Igarzabal.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_450_Igarzabal-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -470,7 +538,11 @@
         "apellido": "Ferreyra",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/WALTER_FERREYRA.jpg"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/WALTER_FERREYRA-thumbnail-32x32-70.jpg",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/WALTER_FERREYRA.jpg",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/WALTER_FERREYRA-thumbnail-125x125-70.jpg"
+        }
       },
       "cargo": {
         "categoria": {
@@ -493,7 +565,11 @@
         "apellido": "Garrido",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_512_-_Hugo_Garrido.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_512_-_Hugo_Garrido-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_512_-_Hugo_Garrido.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_512_-_Hugo_Garrido-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -516,7 +592,11 @@
         "apellido": "Uyua",
         "franjaetaria": "50's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_371_-_Yris_Uyua.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_371_-_Yris_Uyua-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_371_-_Yris_Uyua.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_371_-_Yris_Uyua-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -539,7 +619,11 @@
         "apellido": "Maceira",
         "franjaetaria": "60's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/MACEIRA.jpg"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/MACEIRA-thumbnail-32x32-70.jpg",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/MACEIRA.jpg",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/MACEIRA-thumbnail-125x125-70.jpg"
+        }
       },
       "cargo": {
         "categoria": {
@@ -562,7 +646,11 @@
         "apellido": "Ferla",
         "franjaetaria": "50's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RN_111_-_Monica_Ferla.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RN_111_-_Monica_Ferla-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RN_111_-_Monica_Ferla.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RN_111_-_Monica_Ferla-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -585,7 +673,11 @@
         "apellido": "Guelbert",
         "franjaetaria": "30's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_865.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_865-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_865.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_865-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -608,7 +700,11 @@
         "apellido": "Taborda",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_026_-_Hector_Taborda.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_026_-_Hector_Taborda-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_026_-_Hector_Taborda.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_026_-_Hector_Taborda-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -631,7 +727,11 @@
         "apellido": "Farias",
         "franjaetaria": "50's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_037_-_Pablo_Farias.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_037_-_Pablo_Farias-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_037_-_Pablo_Farias.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_037_-_Pablo_Farias-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -654,7 +754,11 @@
         "apellido": "Guzmán",
         "franjaetaria": "60's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/GUZMAN.jpg"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/GUZMAN-thumbnail-32x32-70.jpg",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/GUZMAN.jpg",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/GUZMAN-thumbnail-125x125-70.jpg"
+        }
       },
       "cargo": {
         "categoria": {
@@ -677,7 +781,11 @@
         "apellido": "Salum",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/SALUM.jpg"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/SALUM-thumbnail-32x32-70.jpg",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/SALUM.jpg",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/SALUM-thumbnail-125x125-70.jpg"
+        }
       },
       "cargo": {
         "categoria": {
@@ -700,7 +808,11 @@
         "apellido": "Gómez",
         "franjaetaria": "30's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_453_Leticia_Gomez.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_453_Leticia_Gomez-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_453_Leticia_Gomez.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_453_Leticia_Gomez-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -723,7 +835,11 @@
         "apellido": "Roca Marti",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_195_-_Jos%C3%A9_Sebasti%C3%A1n_Roca_Marti.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_195_-_Jos%C3%A9_Sebasti%C3%A1n_Roca_Marti-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_195_-_Jos%C3%A9_Sebasti%C3%A1n_Roca_Marti.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_195_-_Jos%C3%A9_Sebasti%C3%A1n_Roca_Marti-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -746,7 +862,11 @@
         "apellido": "Argüello",
         "franjaetaria": "30's",
         "genero": "",
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_750.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_750-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_750.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_750-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -769,7 +889,11 @@
         "apellido": "Lyall",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_641_-_Guillermo_Juan_Lyall.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_641_-_Guillermo_Juan_Lyall-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_641_-_Guillermo_Juan_Lyall.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_641_-_Guillermo_Juan_Lyall-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -792,7 +916,11 @@
         "apellido": "Simbron",
         "franjaetaria": "50's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_552_Simbron.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_552_Simbron-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_552_Simbron.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_552_Simbron-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -815,7 +943,11 @@
         "apellido": "Slavin",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_705.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_705-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_705.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_705-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -838,7 +970,7 @@
         "apellido": "Calzon Lopez",
         "franjaetaria": "30's",
         "genero": null,
-        "foto": null
+        "foto": {}
       },
       "cargo": {
         "categoria": {
@@ -861,7 +993,11 @@
         "apellido": "Winkelmann",
         "franjaetaria": "50's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_476_-_Liliana_Winkelmann.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_476_-_Liliana_Winkelmann-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_476_-_Liliana_Winkelmann.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_476_-_Liliana_Winkelmann-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -884,7 +1020,11 @@
         "apellido": "Bassoli",
         "franjaetaria": "50's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_761.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_761-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_761.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_761-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -907,7 +1047,11 @@
         "apellido": "Tirante",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_721_Tirante.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_721_Tirante-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_721_Tirante.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_721_Tirante-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -930,7 +1074,11 @@
         "apellido": "Utz",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_580.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_580-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_580.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_580-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -953,7 +1101,11 @@
         "apellido": "Arias Ceballos",
         "franjaetaria": "60's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_361_-_Eduardo_Arias.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_361_-_Eduardo_Arias-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_361_-_Eduardo_Arias.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_361_-_Eduardo_Arias-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -976,7 +1128,11 @@
         "apellido": "Ortega",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_206_Manuel_Ortega.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_206_Manuel_Ortega-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_206_Manuel_Ortega.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_206_Manuel_Ortega-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -999,7 +1155,11 @@
         "apellido": "Albanese",
         "franjaetaria": "30's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_484_Natalia_Albanese.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_484_Natalia_Albanese-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_484_Natalia_Albanese.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_484_Natalia_Albanese-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -1022,7 +1182,11 @@
         "apellido": "Puricelli",
         "franjaetaria": "20's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_215_-_Marco_Puricelli.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_215_-_Marco_Puricelli-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_215_-_Marco_Puricelli.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_215_-_Marco_Puricelli-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -1045,7 +1209,11 @@
         "apellido": "Corna",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_070_Mauro_Corna.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_070_Mauro_Corna-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_070_Mauro_Corna.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_070_Mauro_Corna-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -1068,7 +1236,11 @@
         "apellido": "De León  Tosco",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_738_-_Ignacio_De_Leon.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_738_-_Ignacio_De_Leon-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_738_-_Ignacio_De_Leon.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_738_-_Ignacio_De_Leon-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -1091,7 +1263,11 @@
         "apellido": "Alvarez Nobell",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_700.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_700-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_700.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_700-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -1114,7 +1290,11 @@
         "apellido": "Orgaz",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RN_036_-_Jorge_Orgaz.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RN_036_-_Jorge_Orgaz-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RN_036_-_Jorge_Orgaz.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RN_036_-_Jorge_Orgaz-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -1137,7 +1317,7 @@
         "apellido": "Ortiz Arrigoni",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": null
+        "foto": {}
       },
       "cargo": {
         "categoria": {
@@ -1160,7 +1340,7 @@
         "apellido": "Ferrrer",
         "franjaetaria": null,
         "genero": null,
-        "foto": null
+        "foto": {}
       },
       "cargo": {
         "categoria": {
@@ -1183,7 +1363,11 @@
         "apellido": "Gastaldi",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_320_-_Lucas_Gastaldi.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_320_-_Lucas_Gastaldi-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_320_-_Lucas_Gastaldi.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_320_-_Lucas_Gastaldi-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -1206,7 +1390,11 @@
         "apellido": "Giorcelli",
         "franjaetaria": "50's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_694_-_Cristina_Giorcelli.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_694_-_Cristina_Giorcelli-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_694_-_Cristina_Giorcelli.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_694_-_Cristina_Giorcelli-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -1229,7 +1417,11 @@
         "apellido": "Romero",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_709_-_Pablo_Romero.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_709_-_Pablo_Romero-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_709_-_Pablo_Romero.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_709_-_Pablo_Romero-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -1252,7 +1444,11 @@
         "apellido": "Fernandez",
         "franjaetaria": "60's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_492_-_Elvira_Fernandez.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_492_-_Elvira_Fernandez-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_492_-_Elvira_Fernandez.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_492_-_Elvira_Fernandez-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -1275,7 +1471,11 @@
         "apellido": "Capra",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_607_Cristina_Capra.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_607_Cristina_Capra-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_607_Cristina_Capra.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_607_Cristina_Capra-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -1298,7 +1498,11 @@
         "apellido": "Vottero",
         "franjaetaria": "20's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_627_-_Santiago_Vottero.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_627_-_Santiago_Vottero-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_627_-_Santiago_Vottero.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_627_-_Santiago_Vottero-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -1321,7 +1525,11 @@
         "apellido": "Vázquez Flexes",
         "franjaetaria": "30's",
         "genero": "",
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_162.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_162-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_162.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_162-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -1344,7 +1552,11 @@
         "apellido": "Samame",
         "franjaetaria": "30's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_251_Lucas_Samame.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_251_Lucas_Samame-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_251_Lucas_Samame.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_251_Lucas_Samame-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -1367,7 +1579,11 @@
         "apellido": "Mias",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_068_-_Mias.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_068_-_Mias-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_068_-_Mias.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_068_-_Mias-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -1390,7 +1606,11 @@
         "apellido": "Wayar",
         "franjaetaria": "30's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_326_-_Noelia_Wayar.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_326_-_Noelia_Wayar-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_326_-_Noelia_Wayar.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_326_-_Noelia_Wayar-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -1413,7 +1633,7 @@
         "apellido": "Montamat",
         "franjaetaria": null,
         "genero": null,
-        "foto": null
+        "foto": {}
       },
       "cargo": {
         "categoria": {
@@ -1436,7 +1656,11 @@
         "apellido": "Juaneda",
         "franjaetaria": "30's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_098_-_Jaime_Juaneda.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_098_-_Jaime_Juaneda-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_098_-_Jaime_Juaneda.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_098_-_Jaime_Juaneda-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -1459,7 +1683,7 @@
         "apellido": "Dastoli",
         "franjaetaria": "50's",
         "genero": null,
-        "foto": null
+        "foto": {}
       },
       "cargo": {
         "categoria": {
@@ -1482,7 +1706,11 @@
         "apellido": "Peñaloza",
         "franjaetaria": "50's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_268.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_268-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_268.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_268-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -1505,7 +1733,11 @@
         "apellido": "Gonzalez",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_283.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_283-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_283.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_283-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -1528,7 +1760,11 @@
         "apellido": "Tomaino",
         "franjaetaria": "50's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RN_028.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RN_028-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RN_028.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RN_028-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -1551,7 +1787,11 @@
         "apellido": "Montenegro",
         "franjaetaria": "30's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_120.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_120-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_120.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_120-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -1574,7 +1814,11 @@
         "apellido": "Lopresti",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_047_Adrian_Lopresti.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_047_Adrian_Lopresti-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_047_Adrian_Lopresti.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_047_Adrian_Lopresti-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -1597,7 +1841,11 @@
         "apellido": "Rigoni",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_165_Gustavo_Rigoni.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_165_Gustavo_Rigoni-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_165_Gustavo_Rigoni.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_165_Gustavo_Rigoni-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -1620,7 +1868,11 @@
         "apellido": "Talarn",
         "franjaetaria": "50's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_158.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_158-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_158.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_158-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -1643,7 +1895,11 @@
         "apellido": "Casas",
         "franjaetaria": "70's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_040_Casas.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_040_Casas-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_040_Casas.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_040_Casas-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -1666,7 +1922,11 @@
         "apellido": "Ortiz",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_024_-_Osvaldo_Ortiz.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_024_-_Osvaldo_Ortiz-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_024_-_Osvaldo_Ortiz.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_024_-_Osvaldo_Ortiz-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -1689,7 +1949,11 @@
         "apellido": "Lupiañez",
         "franjaetaria": "50's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_082.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_082-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_082.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_082-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -1712,7 +1976,11 @@
         "apellido": "Suarez",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_755_-_Gonzalo_Suarez.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_755_-_Gonzalo_Suarez-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_755_-_Gonzalo_Suarez.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_755_-_Gonzalo_Suarez-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -1735,7 +2003,11 @@
         "apellido": "Centeno",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_201.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_201-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_201.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_201-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -1758,7 +2030,11 @@
         "apellido": "Szpanin",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_131_-__Ariela_Yanina_Szpanin.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_131_-__Ariela_Yanina_Szpanin-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_131_-__Ariela_Yanina_Szpanin.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_131_-__Ariela_Yanina_Szpanin-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -1781,7 +2057,11 @@
         "apellido": "Canavosio",
         "franjaetaria": "30's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_416.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_416-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_416.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_416-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -1804,7 +2084,11 @@
         "apellido": "Quinteros",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_403_-_Arnoldo_Quinteros.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_403_-_Arnoldo_Quinteros-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_403_-_Arnoldo_Quinteros.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_403_-_Arnoldo_Quinteros-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -1827,7 +2111,11 @@
         "apellido": "Godoy Vilela",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_697.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_697-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_697.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_697-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -1850,7 +2138,11 @@
         "apellido": "Brizuela",
         "franjaetaria": "50's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_788_Brizuela.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_788_Brizuela-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_788_Brizuela.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_788_Brizuela-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -1873,7 +2165,11 @@
         "apellido": "Barrera",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_352_-_Guillermo_Javier_Barrera.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_352_-_Guillermo_Javier_Barrera-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_352_-_Guillermo_Javier_Barrera.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_352_-_Guillermo_Javier_Barrera-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -1896,7 +2192,7 @@
         "apellido": "Torasso",
         "franjaetaria": null,
         "genero": null,
-        "foto": null
+        "foto": {}
       },
       "cargo": {
         "categoria": {
@@ -1919,7 +2215,11 @@
         "apellido": "Rodi",
         "franjaetaria": "60's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RN_093.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RN_093-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RN_093.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RN_093-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -1942,7 +2242,11 @@
         "apellido": "Botasso",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_675_Botasso.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_675_Botasso-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_675_Botasso.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_675_Botasso-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -1965,7 +2269,11 @@
         "apellido": "Malone",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_596_Malone.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_596_Malone-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_596_Malone.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_596_Malone-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -1988,7 +2296,11 @@
         "apellido": "Sacchi",
         "franjaetaria": "50's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_257_-_Daniela_Sacchi.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_257_-_Daniela_Sacchi-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_257_-_Daniela_Sacchi.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_257_-_Daniela_Sacchi-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -2011,7 +2323,7 @@
         "apellido": "Bolognino",
         "franjaetaria": null,
         "genero": null,
-        "foto": null
+        "foto": {}
       },
       "cargo": {
         "categoria": {
@@ -2034,7 +2346,11 @@
         "apellido": "Loutaif",
         "franjaetaria": "50's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RN_014_-_Liliana_Loutaif.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RN_014_-_Liliana_Loutaif-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RN_014_-_Liliana_Loutaif.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RN_014_-_Liliana_Loutaif-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -2057,7 +2373,7 @@
         "apellido": "Dionisio",
         "franjaetaria": "50's",
         "genero": null,
-        "foto": null
+        "foto": {}
       },
       "cargo": {
         "categoria": {
@@ -2080,7 +2396,11 @@
         "apellido": "Luque",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_567_-_Monica_Georgina_Luque.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_567_-_Monica_Georgina_Luque-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_567_-_Monica_Georgina_Luque.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_567_-_Monica_Georgina_Luque-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -2103,7 +2423,11 @@
         "apellido": "Fanego",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_854_-_Silvia_Fanego_MDH3cjR.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_854_-_Silvia_Fanego_MDH3cjR-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_854_-_Silvia_Fanego_MDH3cjR.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_854_-_Silvia_Fanego_MDH3cjR-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -2126,7 +2450,11 @@
         "apellido": "Garcia",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_688_-_Lucia_Garcia.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_688_-_Lucia_Garcia-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_688_-_Lucia_Garcia.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_688_-_Lucia_Garcia-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -2149,7 +2477,7 @@
         "apellido": "Casado Gálvez",
         "franjaetaria": "30's",
         "genero": null,
-        "foto": null
+        "foto": {}
       },
       "cargo": {
         "categoria": {
@@ -2172,7 +2500,11 @@
         "apellido": "Yalovetsky",
         "franjaetaria": "30's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_441_-_Natalia_Yalovetzky.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_441_-_Natalia_Yalovetzky-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_441_-_Natalia_Yalovetzky.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_441_-_Natalia_Yalovetzky-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -2195,7 +2527,11 @@
         "apellido": "Commisso",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_013.jpg"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_013-thumbnail-32x32-70.jpg",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_013.jpg",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_013-thumbnail-125x125-70.jpg"
+        }
       },
       "cargo": {
         "categoria": {
@@ -2218,7 +2554,11 @@
         "apellido": "Salazar Bisceglia",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_534.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_534-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_534.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_534-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -2241,7 +2581,7 @@
         "apellido": "Fagandini",
         "franjaetaria": null,
         "genero": null,
-        "foto": null
+        "foto": {}
       },
       "cargo": {
         "categoria": {
@@ -2264,7 +2604,7 @@
         "apellido": "Urteaga",
         "franjaetaria": "50's",
         "genero": null,
-        "foto": null
+        "foto": {}
       },
       "cargo": {
         "categoria": {
@@ -2287,7 +2627,11 @@
         "apellido": "Zarate",
         "franjaetaria": "30's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_389.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_389-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_389.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_389-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -2310,7 +2654,11 @@
         "apellido": "Bosio",
         "franjaetaria": "30's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_381_-_Matias_Bosio.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_381_-_Matias_Bosio-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_381_-_Matias_Bosio.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_381_-_Matias_Bosio-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -2333,7 +2681,11 @@
         "apellido": "Fragas",
         "franjaetaria": "50's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_094_-_Hugo_Fragas.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_094_-_Hugo_Fragas-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_094_-_Hugo_Fragas.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_094_-_Hugo_Fragas-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -2356,7 +2708,11 @@
         "apellido": "Alemany Luque",
         "franjaetaria": "30's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_489_-_Matias_Alemany.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_489_-_Matias_Alemany-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_489_-_Matias_Alemany.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_489_-_Matias_Alemany-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -2379,7 +2735,11 @@
         "apellido": "Barbera",
         "franjaetaria": "30's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_448_Fernando_Barbera.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_448_Fernando_Barbera-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_448_Fernando_Barbera.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_448_Fernando_Barbera-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -2402,7 +2762,7 @@
         "apellido": "Asís",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": null
+        "foto": {}
       },
       "cargo": {
         "categoria": {
@@ -2425,7 +2785,11 @@
         "apellido": "Waquim Nini",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_772.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_772-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_772.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_772-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -2448,7 +2812,11 @@
         "apellido": "Novero",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_748.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_748-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_748.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_748-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -2471,7 +2839,11 @@
         "apellido": "Ramirez",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_798_-_Matias_Ramirez.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_798_-_Matias_Ramirez-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_798_-_Matias_Ramirez.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_798_-_Matias_Ramirez-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -2494,7 +2866,11 @@
         "apellido": "Rodriguez Brizuela",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_892_-_Martin_Rodriguez_Brizuela.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_892_-_Martin_Rodriguez_Brizuela-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_892_-_Martin_Rodriguez_Brizuela.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_892_-_Martin_Rodriguez_Brizuela-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -2517,7 +2893,11 @@
         "apellido": "Mira",
         "franjaetaria": "50's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_920_-_Silvia_Mira.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_920_-_Silvia_Mira-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_920_-_Silvia_Mira.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_920_-_Silvia_Mira-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -2540,7 +2920,11 @@
         "apellido": "Viartola",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_777_-_Carolina_Viartola_4vRkmMs.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_777_-_Carolina_Viartola_4vRkmMs-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_777_-_Carolina_Viartola_4vRkmMs.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_777_-_Carolina_Viartola_4vRkmMs-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -2563,7 +2947,11 @@
         "apellido": "Herrera",
         "franjaetaria": "50's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_903.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_903-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_903.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_903-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -2586,7 +2974,11 @@
         "apellido": "Panici",
         "franjaetaria": "50's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_803_-_Nancy_Panici.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_803_-_Nancy_Panici-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_803_-_Nancy_Panici.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_803_-_Nancy_Panici-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -2609,7 +3001,11 @@
         "apellido": "Maldonado Garcia",
         "franjaetaria": "30's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_823_-_Guadalupe_Maldonado_I8Tl0cT.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_823_-_Guadalupe_Maldonado_I8Tl0cT-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_823_-_Guadalupe_Maldonado_I8Tl0cT.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_823_-_Guadalupe_Maldonado_I8Tl0cT-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -2632,7 +3028,11 @@
         "apellido": "Pedraza",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_729_-_Silvia_Pedraza.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_729_-_Silvia_Pedraza-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_729_-_Silvia_Pedraza.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_729_-_Silvia_Pedraza-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -2655,7 +3055,11 @@
         "apellido": "Carvajal Gáfaro",
         "franjaetaria": "30's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_863.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_863-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_863.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_863-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -2678,7 +3082,11 @@
         "apellido": "Bono",
         "franjaetaria": "30's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_173_Diego_Bono.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_173_Diego_Bono-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_173_Diego_Bono.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_173_Diego_Bono-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -2701,7 +3109,11 @@
         "apellido": "Perez",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_518.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_518-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_518.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_518-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -2724,7 +3136,11 @@
         "apellido": "Gauna",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_572.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_572-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_572.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_572-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -2747,7 +3163,11 @@
         "apellido": "Sosa",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_836.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_836-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_836.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_836-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -2770,7 +3190,11 @@
         "apellido": "Lamon",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_874.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_874-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_874.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_874-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -2793,7 +3217,11 @@
         "apellido": "Gómez",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_715.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_715-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_715.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_715-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -2816,7 +3244,11 @@
         "apellido": "Moreno",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_350.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_350-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_350.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_350-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -2839,7 +3271,11 @@
         "apellido": "Said Nisi",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_847.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_847-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_847.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_847-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -2862,7 +3298,11 @@
         "apellido": "Marinetti",
         "franjaetaria": "50's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_180.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_180-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_180.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_180-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -2885,7 +3325,11 @@
         "apellido": "Farias",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_519_-_Maria_Alejandra_Farias.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_519_-_Maria_Alejandra_Farias-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_519_-_Maria_Alejandra_Farias.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_519_-_Maria_Alejandra_Farias-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -2908,7 +3352,11 @@
         "apellido": "Abad",
         "franjaetaria": "50's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_547_Abad.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_547_Abad-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_547_Abad.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_547_Abad-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -2931,7 +3379,11 @@
         "apellido": "Ammann",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_612.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_612-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_612.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_612-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -2954,7 +3406,11 @@
         "apellido": "Pardina",
         "franjaetaria": "60's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_430.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_430-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_430.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_430-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -2977,7 +3433,11 @@
         "apellido": "Yzet",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_635.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_635-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_635.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_635-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -3000,7 +3460,11 @@
         "apellido": "Aravena",
         "franjaetaria": "60's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_537.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_537-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_537.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_537-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -3023,7 +3487,11 @@
         "apellido": "Rossi",
         "franjaetaria": "30's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_105_-_Esteban_Rossi.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_105_-_Esteban_Rossi-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_105_-_Esteban_Rossi.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_105_-_Esteban_Rossi-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -3046,7 +3514,7 @@
         "apellido": "Collado",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": null
+        "foto": {}
       },
       "cargo": {
         "categoria": {
@@ -3069,7 +3537,11 @@
         "apellido": "Dentesano",
         "franjaetaria": "60's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_047_Raul_Dentesano.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_047_Raul_Dentesano-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_047_Raul_Dentesano.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_047_Raul_Dentesano-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -3092,7 +3564,11 @@
         "apellido": "Alonso",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_012_Narciso_Alonso.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_012_Narciso_Alonso-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_012_Narciso_Alonso.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_012_Narciso_Alonso-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -3115,7 +3591,11 @@
         "apellido": "Cena",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_132_Adrian_Cena.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_132_Adrian_Cena-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_132_Adrian_Cena.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_132_Adrian_Cena-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -3138,7 +3618,11 @@
         "apellido": "Vercesi",
         "franjaetaria": "50's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_054_Daniel_Vercesi.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_054_Daniel_Vercesi-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_054_Daniel_Vercesi.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_054_Daniel_Vercesi-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -3161,7 +3645,11 @@
         "apellido": "Leslie",
         "franjaetaria": "50's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_494_-_Eduardo_Leslie.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_494_-_Eduardo_Leslie-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_494_-_Eduardo_Leslie.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_494_-_Eduardo_Leslie-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -3184,7 +3672,7 @@
         "apellido": "Llaryora",
         "franjaetaria": "50's",
         "genero": null,
-        "foto": null
+        "foto": {}
       },
       "cargo": {
         "categoria": {
@@ -3207,7 +3695,11 @@
         "apellido": "Silva",
         "franjaetaria": "50's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_515_-_Fernando_Silva.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_515_-_Fernando_Silva-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_515_-_Fernando_Silva.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_515_-_Fernando_Silva-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -3230,7 +3722,7 @@
         "apellido": "Vaccaro",
         "franjaetaria": null,
         "genero": null,
-        "foto": null
+        "foto": {}
       },
       "cargo": {
         "categoria": {
@@ -3253,7 +3745,11 @@
         "apellido": "Mentesana",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_242_-_Mentesana.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_242_-_Mentesana-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_242_-_Mentesana.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_242_-_Mentesana-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -3276,7 +3772,7 @@
         "apellido": "Buffa",
         "franjaetaria": "60's",
         "genero": null,
-        "foto": null
+        "foto": {}
       },
       "cargo": {
         "categoria": {
@@ -3299,7 +3795,11 @@
         "apellido": "Giunta",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_286_Santiago_Giunta.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_286_Santiago_Giunta-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_286_Santiago_Giunta.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_286_Santiago_Giunta-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -3322,7 +3822,11 @@
         "apellido": "Toya",
         "franjaetaria": "50's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_273_Alejandra_Toya.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_273_Alejandra_Toya-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_273_Alejandra_Toya.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_273_Alejandra_Toya-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -3345,7 +3849,11 @@
         "apellido": "Prina",
         "franjaetaria": "50's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_328.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_328-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_328.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_328-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -3368,7 +3876,11 @@
         "apellido": "Cerutti",
         "franjaetaria": "30's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_228_Mariangeles_Cerutti.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_228_Mariangeles_Cerutti-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_228_Mariangeles_Cerutti.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_228_Mariangeles_Cerutti-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -3391,7 +3903,11 @@
         "apellido": "Aventuroso",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_244.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_244-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_244.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_244-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -3414,7 +3930,11 @@
         "apellido": "Mugas",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_313.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_313-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_313.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_313-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -3437,7 +3957,11 @@
         "apellido": "Suarez",
         "franjaetaria": "50's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_502_XRq7adr.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_502_XRq7adr-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_502_XRq7adr.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_502_XRq7adr-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -3460,7 +3984,11 @@
         "apellido": "Bisio",
         "franjaetaria": "30's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RN_004.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RN_004-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RN_004.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RN_004-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -3483,7 +4011,11 @@
         "apellido": "Pigini",
         "franjaetaria": "30's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_419_Diego_Pigini.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_419_Diego_Pigini-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_419_Diego_Pigini.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_419_Diego_Pigini-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -3506,7 +4038,11 @@
         "apellido": "Antezana",
         "franjaetaria": "50's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_300.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_300-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_300.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_300-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -3529,7 +4065,11 @@
         "apellido": "Salguero",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_259.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_259-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_259.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_259-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -3552,7 +4092,11 @@
         "apellido": "Vélez",
         "franjaetaria": "20's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_339_-_Nicol%C3%A1s_Velez.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_339_-_Nicol%C3%A1s_Velez-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_339_-_Nicol%C3%A1s_Velez.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_339_-_Nicol%C3%A1s_Velez-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -3575,7 +4119,11 @@
         "apellido": "Aliaga",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_219.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_219-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_219.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_219-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -3598,7 +4146,11 @@
         "apellido": "Bernal",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_432_-_Marcelo_Bernal.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_432_-_Marcelo_Bernal-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_432_-_Marcelo_Bernal.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_432_-_Marcelo_Bernal-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -3621,7 +4173,11 @@
         "apellido": "Flores",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_468_MCb1zw2.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_468_MCb1zw2-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_468_MCb1zw2.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_468_MCb1zw2-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -3644,7 +4200,11 @@
         "apellido": "Hernandez",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_065.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_065-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_065.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_065-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -3667,7 +4227,11 @@
         "apellido": "Esteban",
         "franjaetaria": "30's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_651_-_Hernan_Esteban.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_651_-_Hernan_Esteban-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_651_-_Hernan_Esteban.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_651_-_Hernan_Esteban-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -3690,7 +4254,11 @@
         "apellido": "Fontan",
         "franjaetaria": "60's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_194_Fontan.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_194_Fontan-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_194_Fontan.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_194_Fontan-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -3713,7 +4281,7 @@
         "apellido": "Ferrero",
         "franjaetaria": "50's",
         "genero": null,
-        "foto": null
+        "foto": {}
       },
       "cargo": {
         "categoria": {
@@ -3736,7 +4304,11 @@
         "apellido": "Eulmesekian",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_768_Eulsekian_Roberto.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_768_Eulsekian_Roberto-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_768_Eulsekian_Roberto.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_768_Eulsekian_Roberto-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -3759,7 +4331,11 @@
         "apellido": "Respuela",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_572_-_Ignacio_Respuela.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_572_-_Ignacio_Respuela-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_572_-_Ignacio_Respuela.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_572_-_Ignacio_Respuela-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -3782,7 +4358,11 @@
         "apellido": "Vera",
         "franjaetaria": "50's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_346_Edgardo_Vera.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_346_Edgardo_Vera-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_346_Edgardo_Vera.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_346_Edgardo_Vera-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -3805,7 +4385,11 @@
         "apellido": "Bocco",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_579_Fernando_Bocco.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_579_Fernando_Bocco-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_579_Fernando_Bocco.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_579_Fernando_Bocco-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -3828,7 +4412,11 @@
         "apellido": "Martiniau",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_503_-_Carlos_Martineau.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_503_-_Carlos_Martineau-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_503_-_Carlos_Martineau.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_503_-_Carlos_Martineau-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -3851,7 +4439,11 @@
         "apellido": "Luque Mariño",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_461_PowNMmF.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_461_PowNMmF-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_461_PowNMmF.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_461_PowNMmF-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -3874,7 +4466,11 @@
         "apellido": "Simes",
         "franjaetaria": "30's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_154_-_Benjamien_Simes.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_154_-_Benjamien_Simes-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_154_-_Benjamien_Simes.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_154_-_Benjamien_Simes-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -3897,7 +4493,11 @@
         "apellido": "Fuccia",
         "franjaetaria": "30's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_717_-_Luciano_Fuccia.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_717_-_Luciano_Fuccia-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_717_-_Luciano_Fuccia.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_717_-_Luciano_Fuccia-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -3920,7 +4520,11 @@
         "apellido": "Panebianco",
         "franjaetaria": "30's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_142.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_142-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_142.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_142-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -3943,7 +4547,11 @@
         "apellido": "Barrionuevo",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_143_-_Facundo_Barrionuevo.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_143_-_Facundo_Barrionuevo-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_143_-_Facundo_Barrionuevo.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_143_-_Facundo_Barrionuevo-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -3966,7 +4574,11 @@
         "apellido": "Magliano",
         "franjaetaria": "30's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RN_077_-_Sebasti%C3%A1n_Magliano.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RN_077_-_Sebasti%C3%A1n_Magliano-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RN_077_-_Sebasti%C3%A1n_Magliano.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RN_077_-_Sebasti%C3%A1n_Magliano-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -3989,7 +4601,11 @@
         "apellido": "Cortes Olmedo",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RN_066_-_Martin_Cortes_Olmedo.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RN_066_-_Martin_Cortes_Olmedo-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RN_066_-_Martin_Cortes_Olmedo.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RN_066_-_Martin_Cortes_Olmedo-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -4012,7 +4628,11 @@
         "apellido": "Piccardo",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RN_080_Ivana_Picardo.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RN_080_Ivana_Picardo-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RN_080_Ivana_Picardo.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RN_080_Ivana_Picardo-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -4035,7 +4655,11 @@
         "apellido": "Perez",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RN_022_Cecilia_Perez.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RN_022_Cecilia_Perez-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RN_022_Cecilia_Perez.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RN_022_Cecilia_Perez-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -4058,7 +4682,11 @@
         "apellido": "Lopez Canetti",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RN_034.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RN_034-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RN_034.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RN_034-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -4081,7 +4709,11 @@
         "apellido": "Ciacci",
         "franjaetaria": "30's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RN_044.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RN_044-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RN_044.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RN_044-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -4104,7 +4736,11 @@
         "apellido": "Petrini",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RN_069_-_Jose_Petrini.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RN_069_-_Jose_Petrini-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RN_069_-_Jose_Petrini.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RN_069_-_Jose_Petrini-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -4127,7 +4763,11 @@
         "apellido": "Valenti",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_397_-_Sebastian_Valenti_lwRqNU7.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_397_-_Sebastian_Valenti_lwRqNU7-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_397_-_Sebastian_Valenti_lwRqNU7.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_397_-_Sebastian_Valenti_lwRqNU7-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -4150,7 +4790,11 @@
         "apellido": "Torres",
         "franjaetaria": "20's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_103_Agustin_Torres.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_103_Agustin_Torres-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_103_Agustin_Torres.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_103_Agustin_Torres-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -4173,7 +4817,7 @@
         "apellido": "Astiz Campos",
         "franjaetaria": "30's",
         "genero": null,
-        "foto": null
+        "foto": {}
       },
       "cargo": {
         "categoria": {
@@ -4196,7 +4840,7 @@
         "apellido": "Capdevila",
         "franjaetaria": null,
         "genero": null,
-        "foto": null
+        "foto": {}
       },
       "cargo": {
         "categoria": {
@@ -4219,7 +4863,11 @@
         "apellido": "Borgobello",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_588_-_Edgar_Daniel_Borgobello.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_588_-_Edgar_Daniel_Borgobello-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_588_-_Edgar_Daniel_Borgobello.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_588_-_Edgar_Daniel_Borgobello-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -4242,7 +4890,11 @@
         "apellido": "Mazzieri",
         "franjaetaria": "30's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_617_-_Romina_Soledad_Mazzieri.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_617_-_Romina_Soledad_Mazzieri-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_617_-_Romina_Soledad_Mazzieri.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_617_-_Romina_Soledad_Mazzieri-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -4265,7 +4917,11 @@
         "apellido": "Millaa Torres",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_186_-_Ger%C3%B3nimo_Milla_Torres.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_186_-_Ger%C3%B3nimo_Milla_Torres-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_186_-_Ger%C3%B3nimo_Milla_Torres.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_186_-_Ger%C3%B3nimo_Milla_Torres-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -4288,7 +4944,11 @@
         "apellido": "Castagno",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_150_-_Marcelo_Daniel_Castagno.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_150_-_Marcelo_Daniel_Castagno-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_150_-_Marcelo_Daniel_Castagno.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_150_-_Marcelo_Daniel_Castagno-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -4311,7 +4971,11 @@
         "apellido": "Perassi",
         "franjaetaria": "60's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_087_-_Perassi.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_087_-_Perassi-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_087_-_Perassi.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_087_-_Perassi-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -4334,7 +4998,7 @@
         "apellido": "Barcelona",
         "franjaetaria": "20's",
         "genero": null,
-        "foto": null
+        "foto": {}
       },
       "cargo": {
         "categoria": {
@@ -4357,7 +5021,11 @@
         "apellido": "Arroñades",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_080.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_080-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_080.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_080-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -4380,7 +5048,11 @@
         "apellido": "Pereyra",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_271.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_271-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_271.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_271-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -4403,7 +5075,11 @@
         "apellido": "Machado",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RN_054_-_Ramon_Machado.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RN_054_-_Ramon_Machado-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RN_054_-_Ramon_Machado.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RN_054_-_Ramon_Machado-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -4426,7 +5102,11 @@
         "apellido": "Bevacqua de Chiara",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_123.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_123-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_123.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_123-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -4449,7 +5129,11 @@
         "apellido": "Martinez",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_051.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_051-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_051.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_051-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -4472,7 +5156,11 @@
         "apellido": "Paez",
         "franjaetaria": "60's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_171.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_171-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_171.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_171-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -4495,7 +5183,7 @@
         "apellido": "Perez Carreño",
         "franjaetaria": null,
         "genero": null,
-        "foto": null
+        "foto": {}
       },
       "cargo": {
         "categoria": {
@@ -4518,7 +5206,11 @@
         "apellido": "Maldonado",
         "franjaetaria": "50's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_219_-_Maldonado.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_219_-_Maldonado-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_219_-_Maldonado.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_219_-_Maldonado-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -4541,7 +5233,7 @@
         "apellido": "Avendaño",
         "franjaetaria": null,
         "genero": null,
-        "foto": null
+        "foto": {}
       },
       "cargo": {
         "categoria": {
@@ -4564,7 +5256,11 @@
         "apellido": "Solaso",
         "franjaetaria": "50's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_031_Solaso.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_031_Solaso-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_031_Solaso.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_031_Solaso-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -4587,7 +5283,11 @@
         "apellido": "Marquez",
         "franjaetaria": "60's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_020.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_020-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_020.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_020-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -4610,7 +5310,11 @@
         "apellido": "Flores",
         "franjaetaria": "30's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_030_-_Omar_Flores.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_030_-_Omar_Flores-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_030_-_Omar_Flores.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_030_-_Omar_Flores-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -4633,7 +5337,11 @@
         "apellido": "Ceballos",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_062-Luciano_Ceballos.jpg"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_062-Luciano_Ceballos-thumbnail-32x32-70.jpg",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_062-Luciano_Ceballos.jpg",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_062-Luciano_Ceballos-thumbnail-125x125-70.jpg"
+        }
       },
       "cargo": {
         "categoria": {
@@ -4656,7 +5364,11 @@
         "apellido": "Ostchega",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_604.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_604-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_604.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_604-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -4679,7 +5391,11 @@
         "apellido": "Beas",
         "franjaetaria": "30's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_307.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_307-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_307.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_307-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -4702,7 +5418,7 @@
         "apellido": "Reynoso",
         "franjaetaria": "30's",
         "genero": null,
-        "foto": null
+        "foto": {}
       },
       "cargo": {
         "categoria": {
@@ -4725,7 +5441,11 @@
         "apellido": "Molas y Molas",
         "franjaetaria": "50's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_288_Guillermo_Molas_y_Molas.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_288_Guillermo_Molas_y_Molas-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_288_Guillermo_Molas_y_Molas.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_288_Guillermo_Molas_y_Molas-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -4748,7 +5468,11 @@
         "apellido": "Aguero",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_298_-_Luis_Aguero.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_298_-_Luis_Aguero-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_298_-_Luis_Aguero.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_298_-_Luis_Aguero-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -4771,7 +5495,11 @@
         "apellido": "Gudiño",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_124.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_124-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_124.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_124-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -4794,7 +5522,7 @@
         "apellido": "Mandrilli",
         "franjaetaria": null,
         "genero": null,
-        "foto": null
+        "foto": {}
       },
       "cargo": {
         "categoria": {
@@ -4817,7 +5545,11 @@
         "apellido": "Gomez Mahut",
         "franjaetaria": "30's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_389_-_Nadia_Gomez.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_389_-_Nadia_Gomez-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_389_-_Nadia_Gomez.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_389_-_Nadia_Gomez-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -4840,7 +5572,7 @@
         "apellido": "Santos",
         "franjaetaria": "60's",
         "genero": null,
-        "foto": null
+        "foto": {}
       },
       "cargo": {
         "categoria": {
@@ -4863,7 +5595,7 @@
         "apellido": "Sosa",
         "franjaetaria": null,
         "genero": null,
-        "foto": null
+        "foto": {}
       },
       "cargo": {
         "categoria": {
@@ -4886,7 +5618,11 @@
         "apellido": "Minelli",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_782_-_Pablo_Minelli.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_782_-_Pablo_Minelli-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_782_-_Pablo_Minelli.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_782_-_Pablo_Minelli-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -4909,7 +5645,11 @@
         "apellido": "Alonso",
         "franjaetaria": "30's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_057_-_Augusto_Alonso.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_057_-_Augusto_Alonso-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_057_-_Augusto_Alonso.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_057_-_Augusto_Alonso-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -4932,7 +5672,11 @@
         "apellido": "Poliotto",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_692_LjyKDKW.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_692_LjyKDKW-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_692_LjyKDKW.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_692_LjyKDKW-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -4955,7 +5699,11 @@
         "apellido": "Maizon",
         "franjaetaria": "30's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_649_Carloz_Maizon.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_649_Carloz_Maizon-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_649_Carloz_Maizon.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_649_Carloz_Maizon-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -4978,7 +5726,11 @@
         "apellido": "Donozo",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_393.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_393-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_393.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_393-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -5001,7 +5753,11 @@
         "apellido": "Gramajo",
         "franjaetaria": "60's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_481_-_Emilio_Gramajo_GvwwLwe.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_481_-_Emilio_Gramajo_GvwwLwe-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_481_-_Emilio_Gramajo_GvwwLwe.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_481_-_Emilio_Gramajo_GvwwLwe-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -5024,7 +5780,11 @@
         "apellido": "García Faure",
         "franjaetaria": "30's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_814_Tomas_Garcia_Faure.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_814_Tomas_Garcia_Faure-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_814_Tomas_Garcia_Faure.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_814_Tomas_Garcia_Faure-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -5047,7 +5807,11 @@
         "apellido": "Nieto",
         "franjaetaria": "60's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_905_-_Mario_Nieto.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_905_-_Mario_Nieto-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_905_-_Mario_Nieto.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_905_-_Mario_Nieto-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -5070,7 +5834,11 @@
         "apellido": "Gonzalez",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_735.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_735-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_735.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_735-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -5093,7 +5861,11 @@
         "apellido": "Savio Simes",
         "franjaetaria": "30's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_629.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_629-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_629.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_629-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -5116,7 +5888,11 @@
         "apellido": "Moreno",
         "franjaetaria": "50's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_741_-_Hugo_Moreno.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_741_-_Hugo_Moreno-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_741_-_Hugo_Moreno.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_741_-_Hugo_Moreno-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -5139,7 +5915,11 @@
         "apellido": "Casadei",
         "franjaetaria": "30's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RN_057.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RN_057-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RN_057.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RN_057-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -5162,7 +5942,11 @@
         "apellido": "Oviedo",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_364_Oviedo.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_364_Oviedo-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_364_Oviedo.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_364_Oviedo-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -5185,7 +5969,11 @@
         "apellido": "Marti",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_617_-_Myriam_Cristina_Marti.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_617_-_Myriam_Cristina_Marti-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_617_-_Myriam_Cristina_Marti.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_617_-_Myriam_Cristina_Marti-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -5208,7 +5996,11 @@
         "apellido": "Druetta",
         "franjaetaria": "30's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_835_Druetta.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_835_Druetta-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_835_Druetta.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_835_Druetta-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -5231,7 +6023,11 @@
         "apellido": "Zalazar",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_885_Pw1x64c.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_885_Pw1x64c-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_885_Pw1x64c.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_885_Pw1x64c-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -5254,7 +6050,11 @@
         "apellido": "Tittarelli",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_670.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_670-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_670.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_670-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -5277,7 +6077,11 @@
         "apellido": "Di Tofino",
         "franjaetaria": "60's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_662.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_662-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_662.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_662-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -5300,7 +6104,11 @@
         "apellido": "Dotti",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_355.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_355-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_355.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_355-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -5323,7 +6131,11 @@
         "apellido": "Morales",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_642.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_642-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_642.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_642-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -5346,7 +6158,11 @@
         "apellido": "Ramos",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_399.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_399-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_399.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_399-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -5369,7 +6185,11 @@
         "apellido": "Moyano",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_652.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_652-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_652.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_652-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -5392,7 +6212,11 @@
         "apellido": "Peisino",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_587_Peisino.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_587_Peisino-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_587_Peisino.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_587_Peisino-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -5415,7 +6239,11 @@
         "apellido": "De la Peña",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_089.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_089-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_089.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_089-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -5438,7 +6266,11 @@
         "apellido": "Martinez",
         "franjaetaria": "50's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_667_-_Jorge_Martinez.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_667_-_Jorge_Martinez-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_667_-_Jorge_Martinez.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_667_-_Jorge_Martinez-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -5461,7 +6293,11 @@
         "apellido": "Sanz Pardo",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_007_Rafael_Sanz_Pardo.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_007_Rafael_Sanz_Pardo-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_007_Rafael_Sanz_Pardo.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_007_Rafael_Sanz_Pardo-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -5484,7 +6320,11 @@
         "apellido": "Cerri",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_381_Cristian_Cerri.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_381_Cristian_Cerri-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_381_Cristian_Cerri.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_381_Cristian_Cerri-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -5507,7 +6347,11 @@
         "apellido": "Savino",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_082.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_082-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_082.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_082-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -5530,7 +6374,7 @@
         "apellido": "Medran",
         "franjaetaria": null,
         "genero": null,
-        "foto": null
+        "foto": {}
       },
       "cargo": {
         "categoria": {
@@ -5553,7 +6397,7 @@
         "apellido": "Tozzini",
         "franjaetaria": "60's",
         "genero": null,
-        "foto": null
+        "foto": {}
       },
       "cargo": {
         "categoria": {
@@ -5576,7 +6420,7 @@
         "apellido": "Sabattini",
         "franjaetaria": null,
         "genero": null,
-        "foto": null
+        "foto": {}
       },
       "cargo": {
         "categoria": {
@@ -5599,7 +6443,11 @@
         "apellido": "Brisighelli",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_730_Brisighelli.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_730_Brisighelli-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_730_Brisighelli.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_730_Brisighelli-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -5622,7 +6470,7 @@
         "apellido": "Schiaroli",
         "franjaetaria": null,
         "genero": null,
-        "foto": null
+        "foto": {}
       },
       "cargo": {
         "categoria": {
@@ -5645,7 +6493,7 @@
         "apellido": "Bardagi",
         "franjaetaria": null,
         "genero": null,
-        "foto": null
+        "foto": {}
       },
       "cargo": {
         "categoria": {
@@ -5668,7 +6516,7 @@
         "apellido": "Rustan",
         "franjaetaria": null,
         "genero": null,
-        "foto": null
+        "foto": {}
       },
       "cargo": {
         "categoria": {
@@ -5691,7 +6539,11 @@
         "apellido": "Melone",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_227_Lis_Melone.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_227_Lis_Melone-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_227_Lis_Melone.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_227_Lis_Melone-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -5714,7 +6566,11 @@
         "apellido": "Calle Machado",
         "franjaetaria": "50's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_595_-_Calle_Machado.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_595_-_Calle_Machado-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_595_-_Calle_Machado.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_595_-_Calle_Machado-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -5737,7 +6593,7 @@
         "apellido": "Fleitas",
         "franjaetaria": null,
         "genero": null,
-        "foto": null
+        "foto": {}
       },
       "cargo": {
         "categoria": {
@@ -5760,7 +6616,11 @@
         "apellido": "Machado",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_111_ai1MWp6.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_111_ai1MWp6-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_111_ai1MWp6.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_111_ai1MWp6-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -5783,7 +6643,11 @@
         "apellido": "Monguillot",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_703_-_Maria_Pia_Monguillot.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_703_-_Maria_Pia_Monguillot-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_703_-_Maria_Pia_Monguillot.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_703_-_Maria_Pia_Monguillot-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -5806,7 +6670,11 @@
         "apellido": "Poncio",
         "franjaetaria": "50's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_178.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_178-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_178.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_178-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -5829,7 +6697,11 @@
         "apellido": "Vanoli de Richardson",
         "franjaetaria": "60's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_325_Alicia_Vanoli.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_325_Alicia_Vanoli-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_325_Alicia_Vanoli.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_325_Alicia_Vanoli-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -5852,7 +6724,11 @@
         "apellido": "Righetti",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_181_-_Analia_Righetti.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_181_-_Analia_Righetti-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_181_-_Analia_Righetti.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_181_-_Analia_Righetti-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -5875,7 +6751,11 @@
         "apellido": "Jairedin",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_318.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_318-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_318.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_318-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -5898,7 +6778,11 @@
         "apellido": "Soraire",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_303_-_Marcos_Soraire.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_303_-_Marcos_Soraire-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_303_-_Marcos_Soraire.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_303_-_Marcos_Soraire-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -5921,7 +6805,11 @@
         "apellido": "Vera",
         "franjaetaria": "50's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_252_Silvia_Vera.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_252_Silvia_Vera-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_252_Silvia_Vera.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_252_Silvia_Vera-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -5944,7 +6832,7 @@
         "apellido": "Novillo Corvalan",
         "franjaetaria": null,
         "genero": null,
-        "foto": null
+        "foto": {}
       },
       "cargo": {
         "categoria": {
@@ -5967,7 +6855,11 @@
         "apellido": "Sanchez",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_120.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_120-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_120.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_120-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -5990,7 +6882,11 @@
         "apellido": "Campo",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_467_-_Fiorela_Campo.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_467_-_Fiorela_Campo-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_467_-_Fiorela_Campo.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_467_-_Fiorela_Campo-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -6013,7 +6909,11 @@
         "apellido": "Marti",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_365_Sebastian_Marti.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_365_Sebastian_Marti-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_365_Sebastian_Marti.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_365_Sebastian_Marti-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -6036,7 +6936,11 @@
         "apellido": "Uanini",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_449_-_Natalia_Alejandra_Vanini.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_449_-_Natalia_Alejandra_Vanini-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_449_-_Natalia_Alejandra_Vanini.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_449_-_Natalia_Alejandra_Vanini-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -6059,7 +6963,11 @@
         "apellido": "Gonzalez",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_272_Natalia_Gonzalez.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_272_Natalia_Gonzalez-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_272_Natalia_Gonzalez.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_272_Natalia_Gonzalez-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -6082,7 +6990,11 @@
         "apellido": "Videla Ayala",
         "franjaetaria": "30's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_423_-_Marcia_VIdela_Ayala.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_423_-_Marcia_VIdela_Ayala-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_423_-_Marcia_VIdela_Ayala.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_423_-_Marcia_VIdela_Ayala-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -6105,7 +7017,11 @@
         "apellido": "Lovos",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_412_-_Lorena_Lobo.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_412_-_Lorena_Lobo-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_412_-_Lorena_Lobo.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_412_-_Lorena_Lobo-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -6128,7 +7044,11 @@
         "apellido": "Rodriguez Saa",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_439_-_Pablo_Rodriguez_Saa.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_439_-_Pablo_Rodriguez_Saa-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_439_-_Pablo_Rodriguez_Saa.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_439_-_Pablo_Rodriguez_Saa-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -6151,7 +7071,11 @@
         "apellido": "Cejas",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_654_-_Alejandro_Cejas.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_654_-_Alejandro_Cejas-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_654_-_Alejandro_Cejas.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_654_-_Alejandro_Cejas-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -6174,7 +7098,11 @@
         "apellido": "Colazo",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_074_Colazo.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_074_Colazo-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_074_Colazo.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_074_Colazo-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -6197,7 +7125,11 @@
         "apellido": "Acebey",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_677_-_Walter_Acebey.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_677_-_Walter_Acebey-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_677_-_Walter_Acebey.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_677_-_Walter_Acebey-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -6220,7 +7152,11 @@
         "apellido": "Boncini",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_763_Lucas_Boncini.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_763_Lucas_Boncini-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_763_Lucas_Boncini.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_763_Lucas_Boncini-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -6243,7 +7179,7 @@
         "apellido": "Ottogalli",
         "franjaetaria": "20's",
         "genero": null,
-        "foto": null
+        "foto": {}
       },
       "cargo": {
         "categoria": {
@@ -6266,7 +7202,11 @@
         "apellido": "Gigena",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_670_-_Gast%C3%B3n_Gigena.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_670_-_Gast%C3%B3n_Gigena-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_670_-_Gast%C3%B3n_Gigena.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_670_-_Gast%C3%B3n_Gigena-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -6289,7 +7229,11 @@
         "apellido": "Gordillo",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_689_-_Maria_Eugenia_Gordillo.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_689_-_Maria_Eugenia_Gordillo-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_689_-_Maria_Eugenia_Gordillo.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_689_-_Maria_Eugenia_Gordillo-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -6312,7 +7256,7 @@
         "apellido": "Cisneros",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": null
+        "foto": {}
       },
       "cargo": {
         "categoria": {
@@ -6335,7 +7279,11 @@
         "apellido": "Funes",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_165_-_Gustavo_Funes.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_165_-_Gustavo_Funes-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_165_-_Gustavo_Funes.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_165_-_Gustavo_Funes-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -6358,7 +7306,11 @@
         "apellido": "Rivas",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_720_-_Daniel_Rivas.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_720_-_Daniel_Rivas-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_720_-_Daniel_Rivas.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_720_-_Daniel_Rivas-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -6381,7 +7333,11 @@
         "apellido": "Brussino",
         "franjaetaria": "30's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_546_-_Marilina_Brussino.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_546_-_Marilina_Brussino-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_546_-_Marilina_Brussino.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_546_-_Marilina_Brussino-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -6404,7 +7360,11 @@
         "apellido": "Malone Mestre",
         "franjaetaria": "20's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_531_-_Florencia_Malone.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_531_-_Florencia_Malone-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_531_-_Florencia_Malone.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_531_-_Florencia_Malone-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -6427,7 +7387,11 @@
         "apellido": "Lascano",
         "franjaetaria": "30's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_238.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_238-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_238.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_238-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -6450,7 +7414,11 @@
         "apellido": "Rodriguez",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_109_Sergio_Rodriguez.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_109_Sergio_Rodriguez-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_109_Sergio_Rodriguez.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_109_Sergio_Rodriguez-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -6473,7 +7441,11 @@
         "apellido": "Urquiza",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_635_-_Belen_Urquizas.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_635_-_Belen_Urquizas-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_635_-_Belen_Urquizas.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_635_-_Belen_Urquizas-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -6496,7 +7468,11 @@
         "apellido": "Sapp",
         "franjaetaria": "50's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RN_089_-_Alfredo_Sapp.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RN_089_-_Alfredo_Sapp-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RN_089_-_Alfredo_Sapp.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RN_089_-_Alfredo_Sapp-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -6519,7 +7495,11 @@
         "apellido": "Ortega",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RN_078_-_Ramon_Ortega.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RN_078_-_Ramon_Ortega-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RN_078_-_Ramon_Ortega.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RN_078_-_Ramon_Ortega-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -6542,7 +7522,11 @@
         "apellido": "Lucas",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_339_-_Martin_Lucas.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_339_-_Martin_Lucas-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_339_-_Martin_Lucas.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_339_-_Martin_Lucas-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -6565,7 +7549,11 @@
         "apellido": "Ferrero",
         "franjaetaria": "30's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_371_-_Alejandra_Ferrero.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_371_-_Alejandra_Ferrero-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_371_-_Alejandra_Ferrero.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_371_-_Alejandra_Ferrero-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -6588,7 +7576,11 @@
         "apellido": "Mansilla",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_558.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_558-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RM_558.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RM_558-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -6611,7 +7603,11 @@
         "apellido": "Rinaldini",
         "franjaetaria": null,
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_599_-_Juan_Ignacio_Rinaldini.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_599_-_Juan_Ignacio_Rinaldini-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/FU_599_-_Juan_Ignacio_Rinaldini.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/FU_599_-_Juan_Ignacio_Rinaldini-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -6634,7 +7630,7 @@
         "apellido": "Almagro",
         "franjaetaria": null,
         "genero": null,
-        "foto": null
+        "foto": {}
       },
       "cargo": {
         "categoria": {
@@ -6657,7 +7653,7 @@
         "apellido": "Rodriguez",
         "franjaetaria": "60's",
         "genero": null,
-        "foto": null
+        "foto": {}
       },
       "cargo": {
         "categoria": {
@@ -6680,7 +7676,7 @@
         "apellido": "Roca",
         "franjaetaria": null,
         "genero": null,
-        "foto": null
+        "foto": {}
       },
       "cargo": {
         "categoria": {
@@ -6703,7 +7699,11 @@
         "apellido": "Zapiola",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RN_050_Zapiola.JPG"
+        "foto": {
+          "thumbnail_32x32": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RN_050_Zapiola-thumbnail-32x32-70.JPG",
+          "original": "https://gobiernoabierto.cordoba.gov.ar/media/imagenes/personas/RN_050_Zapiola.JPG",
+          "thumbnail": "https://gobiernoabierto.cordoba.gov.ar/media/__sized__/imagenes/personas/RN_050_Zapiola-thumbnail-125x125-70.JPG"
+        }
       },
       "cargo": {
         "categoria": {
@@ -6726,7 +7726,7 @@
         "apellido": "Faustinelli",
         "franjaetaria": "50's",
         "genero": null,
-        "foto": null
+        "foto": {}
       },
       "cargo": {
         "categoria": {
@@ -6749,7 +7749,7 @@
         "apellido": "Juarez Centeno",
         "franjaetaria": null,
         "genero": null,
-        "foto": null
+        "foto": {}
       },
       "cargo": {
         "categoria": {
@@ -6772,7 +7772,7 @@
         "apellido": "Soria",
         "franjaetaria": "40's",
         "genero": null,
-        "foto": null
+        "foto": {}
       },
       "cargo": {
         "categoria": {
@@ -6795,7 +7795,7 @@
         "apellido": "Zapiola",
         "franjaetaria": null,
         "genero": null,
-        "foto": null
+        "foto": {}
       },
       "cargo": {
         "categoria": {
@@ -6818,7 +7818,7 @@
         "apellido": "Giunta",
         "franjaetaria": null,
         "genero": null,
-        "foto": null
+        "foto": {}
       },
       "cargo": {
         "categoria": {
