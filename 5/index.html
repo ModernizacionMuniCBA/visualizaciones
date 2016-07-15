@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,26 +22,28 @@
 <div class="container">
 <h2>Funcionarios Cordoba</h2>
 <div id="content">
-        <div style="text-align:center" id="age-chart">
-            <strong>por grupos de edad</strong>
-            <a class="reset" href="javascript:ageChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
-            <div class="clearfix"></div>
-        </div>
+    
+  <div class="row">
+    <div class="col-sm-6" style="text-align:center" id="age-chart">
+        <strong>por grupos de edad</strong>
+        <a class="reset" href="javascript:ageChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+        <div class="clearfix"></div>
+    </div>
+    <div class="col-sm-6" style="text-align:center" id="secretary-chart">
+        <strong>por categoría del cargo</strong>
+        <a class="reset" href="javascript:secretaryChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+        <div class="clearfix"></div>
+    </div>
+  </div>
 
-        <div style="text-align:center" id="secretary-chart">
-            <strong>por categoría del cargo</strong>
-            <a class="reset" href="javascript:secretaryChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
-            <div class="clearfix"></div>
-        </div>
-
-    <div class="row">
+  <div class="row">
         <div>
             <div class="dc-data-count">
                 <span class="filter-count"></span> selected out of <span class="total-count"></span> people | <a
                     href="javascript:dc.filterAll(); dc.renderAll();"> Reset All</a>
             </div>
         </div>
-    </div>
+  </div>
     <div>
         <!-- <h3>Personas</h3> -->
         <table class="table table-hover dc-data-table"></table>
