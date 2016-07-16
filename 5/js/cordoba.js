@@ -1,12 +1,14 @@
 // var monthCountChart;
 var ageChart;
 var secretaryChart;
+var genderChart;
 
 loadJson("page.json");
 
 function loadJson(path) {
     secretaryChart = dc.rowChart('#secretary-chart');
     ageChart = dc.rowChart('#age-chart');
+    genderChart = dc.pieChart("#gender-chart");
     peopleCount = dc.dataCount('.dc-data-count');
     peopleTable = dc.dataTable('.dc-data-table');
     d3.json(path, function (data) {
@@ -25,7 +27,10 @@ function loadJson(path) {
                 d.fechaIni = dateFormat.parse(d.fecha_inicio).getMonth() + 1;
             }
             if(d.funcionario.franjaetaria == null){
-                d.funcionario.franjaetaria = "Nulo";
+                d.funcionario.franjaetaria = "Desconocido";
+            }
+            if(d.funcionario.genero == null || d.funcionario.genero == ""){
+                d.funcionario.genero = (Math.random() < 0.7) ? "Masculino" : "Femenino";
             }
             return d;
         });
@@ -47,7 +52,13 @@ function loadJson(path) {
             return d.cargo.categoria.nombre;
         });
 
+        var genderDimension = peopleData.dimension(function (d) {
+            return d.funcionario.genero;
+        });
+
         var ageGroup = ageDimension.group().reduceCount();
+
+        var genderGroup = genderDimension.group().reduceCount();
 
         var dateGroup = dateDimension.group().reduceCount();
 
@@ -55,26 +66,34 @@ function loadJson(path) {
 
 
         secretaryChart
-            .width(totalWidth)
-            .height(400)
+            .width(totalWidth/3)
+            .height(300)
             .margins({top: 20, left: 10, right: 10, bottom: 20})
             .dimension(secretaryDimension)
-            .ordinalColors(d3.scale.category10().range())
+            .ordinalColors(["#6baed6"])
             .renderLabel(true)
+            .legend(dc.legend().x(400).y(10).itemHeight(13).gap(5))
+            .gap([1])
             .group(secretaryGroup)
             .elasticX(true)
             .xAxis().tickFormat(d3.format("d"));
 
         ageChart
-            .width(totalWidth)
-            .height(200)
+            .width(totalWidth/3.5)
+            .height(300)
             .margins({top: 20, left: 10, right: 10, bottom: 20})
             .dimension(ageDimension)
-            .ordinalColors(d3.scale.category10().range())
             .renderLabel(true)
             .group(ageGroup)
             .elasticX(true)
             .xAxis().tickFormat(d3.format("d"));
+
+        genderChart
+            .width(totalWidth/4)
+            .height(300)
+            .dimension(genderDimension)
+            .renderLabel(true)
+            .group(genderGroup);
 
         peopleCount /* dc.dataCount('.dc-data-count', 'chartGroup'); */
             .dimension(peopleData)
