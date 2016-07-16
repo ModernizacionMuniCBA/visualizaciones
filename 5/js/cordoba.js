@@ -112,7 +112,6 @@ function loadJson(path) {
             .size(400)
             .columns([
                 {
-                    // Specify a custom format for column 'Change' by using a label with a function.
                     label: 'Foto',
                     format: function (d) {
                         if(d.funcionario.foto.thumbnail == null || d.funcionario.foto.thumbnail === undefined)
@@ -121,13 +120,22 @@ function loadJson(path) {
                     }
                 },
                 {
-                    // Specify a custom format for column 'Change' by using a label with a function.
                     label: 'Funcionario',
                     format: function (d) {
                         return d.funcionario.nombre + " " + d.funcionario.apellido;
                     }
                 },
-                'fecha_inicio'
+                {
+                    label: 'Cargo',
+                    format: function (d) {
+                        return d.cargo.categoria.nombre;
+                    }
+                },                {
+                    label: 'Organismo',
+                    format: function (d) {
+                        return d.cargo.nombre ;
+                    }
+                },
             ])
             .order(d3.ascending)
             .on('renderlet', function (table) {
