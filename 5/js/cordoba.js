@@ -100,7 +100,7 @@ function loadJson(path) {
             .group(all)
             .html({
                 some: '<strong>%filter-count</strong> de <strong>%total-count</strong> ' +
-                ' | <a href=\'javascript:dc.filterAll(); dc.renderAll();\'\'>limpiar la selección</a>',
+                ' | <a href=\'javascript:dc.filterAll(); dc.renderAll();\'\'>borrar todos los filtros</a>',
                 all: 'Todos los funcionarios están seleccionados.'
             });
 
