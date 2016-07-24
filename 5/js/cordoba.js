@@ -1,12 +1,13 @@
-// var monthCountChart;
 var ageChart;
 var secretaryChart;
 var genderChart;
+var rankChart;
 
 loadJson("page.json");
 
 function loadJson(path) {
     secretaryChart = dc.rowChart('#secretary-chart');
+    rankChart = dc.rowChart('#rank-chart');
     ageChart = dc.rowChart('#age-chart');
     genderChart = dc.pieChart("#gender-chart");
     peopleCount = dc.dataCount('.dc-data-count');
@@ -35,7 +36,15 @@ function loadJson(path) {
             return d;
         });
 
-        console.log(people);
+        var root = getSubordinates(people, null)[0];
+        var directSubs = getSubordinates(people, root.id);
+        directSubs.forEach(function(val){
+            val.secretary = val.cargo.nombre;
+            loadSecretary(people, val.id, val.secretary);
+        });
+
+        loadDefaultValues(people, root.id);
+
 
         var peopleData = crossfilter(people);
         var all = peopleData.groupAll();
@@ -48,9 +57,14 @@ function loadJson(path) {
             return d.fechaIni;
         });
 
-        var secretaryDimension = peopleData.dimension(function (d) {
+        var rankDimension = peopleData.dimension(function (d) {
             return d.cargo.categoria.nombre;
         });
+
+        var secretaryDimension = peopleData.dimension(function (d) {
+            return d.secretary;
+        });
+
 
         var genderDimension = peopleData.dimension(function (d) {
             return d.funcionario.genero;
@@ -62,8 +76,23 @@ function loadJson(path) {
 
         var dateGroup = dateDimension.group().reduceCount();
 
+        var rankGroup = rankDimension.group().reduceCount();
+
         var secretaryGroup = secretaryDimension.group().reduceCount();
 
+
+        rankChart
+            .width(totalWidth/3)
+            .height(300)
+            .margins({top: 20, left: 10, right: 10, bottom: 20})
+            .dimension(rankDimension)
+            .ordinalColors(["#6baed6"])
+            .renderLabel(true)
+            .legend(dc.legend().x(400).y(10).itemHeight(13).gap(5))
+            .gap([1])
+            .group(rankGroup)
+            .elasticX(true)
+            .xAxis().tickFormat(d3.format("d"));
 
         secretaryChart
             .width(totalWidth/3)
@@ -79,19 +108,21 @@ function loadJson(path) {
             .xAxis().tickFormat(d3.format("d"));
 
         ageChart
-            .width(totalWidth/3.5)
+            .width(totalWidth/4)
             .height(300)
             .margins({top: 20, left: 10, right: 10, bottom: 20})
             .dimension(ageDimension)
+            .ordinalColors(['#6baed6'])
             .renderLabel(true)
             .group(ageGroup)
             .elasticX(true)
             .xAxis().tickFormat(d3.format("d"));
 
         genderChart
-            .width(totalWidth/4)
+            .width(totalWidth/5)
             .height(300)
             .dimension(genderDimension)
+            .ordinalColors(['#e377c2',"#1f77b4"])
             .renderLabel(true)
             .group(genderGroup);
 
@@ -145,5 +176,36 @@ function loadJson(path) {
         dc.renderAll();
 
 
+    });
+}
+
+function getSubordinates(array, id){
+    var results = new Array();
+    array.forEach(function(person){
+        if(person.cargo.depende_de == id){
+            results.push(person);
+        }
+    });
+    return results;
+}
+
+function loadSecretary(array, id, secretary){
+    array.forEach(function(person){
+        if(person.cargo.depende_de == id){
+            person.secretary = secretary;
+            loadSecretary(array, person.id, secretary);
+        }
+    });
+}
+
+function loadDefaultValues(people, rootId){
+    loadDefaultValue(people, "secretary", "Unknown", rootId);
+}
+
+function loadDefaultValue(people, field, value, excludeId){
+    people.forEach(function(val){
+        if((val[field] == undefined || val[field] == null) && val.id != excludeId){
+            val[field] = value;
+        }
     });
 }
