@@ -3,7 +3,7 @@ function draw(root) {
     diameter = 960;
 
 var color = d3.scale.linear()
-    .domain([-1, 5])
+    .domain([1, depth])
     .range(["hsl(152,80%,80%)", "hsl(228,30%,40%)"])
     .interpolate(d3.interpolateHcl);
 
@@ -40,7 +40,7 @@ var svg = d3.select("body").append("svg")
   var node = svg.selectAll("circle,text");
 
   d3.select("body")
-      .style("background", color(-1))
+      .style("background", '#FFF')
       .on("click", function() { zoom(root); });
 
   zoomTo([root.x, root.y, root.r * 2 + margin]);

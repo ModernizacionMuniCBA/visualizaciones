@@ -1,6 +1,7 @@
 var clerk;
 var data;
 var count;
+var depth;
 
 $( document ).ready(function() {
 
@@ -14,15 +15,20 @@ $( document ).ready(function() {
   		'children': []
   	};
   	count = 1;
-  	searchDependencies(firstElem.id, data);
-  	//console.log(data);
-  	// console.log(count);
+  	depth = 1;
+  	searchDependencies(firstElem.id, data, depth);
+  	console.log(data);
+  	console.log(count);
+  	console.log(depth);
   	draw(data);
   });
 });
 
-function searchDependencies(id, root) {
+function searchDependencies(id, root, depthItem) {
 	const dependencies = _.filter(clerk, function(o) { return o.cargo['depende_de'] == id; });
+	if (dependencies.length > 0) {
+		depth = Math.max(depth, depthItem);
+	}
 	$.each(dependencies, function(indexDepency, dependency) {
 		count++;
 		root.children.push({
@@ -31,6 +37,6 @@ function searchDependencies(id, root) {
   		'size': 20,
   		'children': []
 		})
-		searchDependencies(dependency.id, root.children[indexDepency]);
+		searchDependencies(dependency.id, root.children[indexDepency], depthItem + 1);
 	});
 }
