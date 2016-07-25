@@ -40,13 +40,11 @@
 
   d3.json("page.json", function(error, funcionarios) {
     if (error) throw error;
-    var results = funcionarios.results;
-    results = results.map(function(val){
-        return {name: val.funcionario.nombre + " " + val.funcionario.apellido, size: 3000};
-    });
-    var root = {name: "cordoba", children: results};
-    console.log(root);
-    var nodes = cluster.nodes(root);
+    var results = generateTree(funcionarios.results, null, 0)[0];
+    console.log(countPeople(results));
+    var nodes = cluster.nodes(results);
+
+    console.log(nodes);
 
     var link = svg.selectAll("path.link")
             .data(cluster.links(nodes))
@@ -69,6 +67,30 @@
             .attr("transform", function(d) { return d.x < 180 ? "translate(8)" : "rotate(180)translate(-8)"; })
             .text(function(d) { return d.name; });
   });
+
+  function generateTree(array, id, level){
+      var results = new Array();
+      array.forEach(function(person){
+        if(person.cargo.depende_de == id){
+            console.log(person.id);
+            var children = generateTree(array, person.id, level+1);
+            var fullName = person.funcionario.nombre + " " + person.funcionario.apellido;
+            if(children.length != 0) {
+                results.push({ name: fullName, children: children, size: 3000 });
+            } else {
+                results.push({name: fullName, size: 3000});
+            }
+        }
+      });
+      return results;
+  }
+
+  function countPeople(tree){
+      if(tree.children === undefined){
+          return 1;
+      }
+      return 1 + tree.children.map(countPeople).reduce(function(a,b){return a + b});
+  }
 
   d3.select(self.frameElement).style("height", radius * 2 + "px");
 
