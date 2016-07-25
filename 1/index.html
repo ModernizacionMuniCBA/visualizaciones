@@ -3,95 +3,162 @@
 <title>Dendograma Funcionario</title>
 <style>
 
-  .node circle {
-    fill: #fff;
-    stroke: steelblue;
-    stroke-width: 1.5px;
-  }
+    .node circle {
+        fill: #fff;
+        stroke-width: 1.5px;
+    }
 
-  .node {
-    font: 10px sans-serif;
-  }
+    .node {
+        font: 10px sans-serif;
+    }
 
-  .link {
-    fill: none;
-    stroke: #ccc;
-    stroke-width: 1.5px;
-  }
+    .link {
+        fill: none;
+        stroke: #ccc;
+        stroke-width: 1.5px;
+    }
+
+    div.tooltip {
+        position: absolute;
+        text-align: center;
+        width: 150px;
+        height: 200px;
+        padding: 8px;
+        font: 12px sans-serif;
+        background: #ffffff;
+        border: solid 1px #aaa;
+        border-radius: 8px;
+        pointer-events: none;
+    }
 
 </style>
 <body>
 <script src="//d3js.org/d3.v3.min.js"></script>
 <script>
 
-  var radius = 960 / 2;
+    var radius = 960 / 2;
 
-  var cluster = d3.layout.cluster()
-          .size([360, radius - 120]);
+    var cluster = d3.layout.cluster()
+            .size([360, radius - 120]);
 
-  var diagonal = d3.svg.diagonal.radial()
-          .projection(function(d) { return [d.y, d.x / 180 * Math.PI]; });
+    var diagonal = d3.svg.diagonal.radial()
+            .projection(function (d) {
+                return [d.y, d.x / 180 * Math.PI];
+            });
 
-  var svg = d3.select("body").append("svg")
-          .attr("width", radius * 2)
-          .attr("height", radius * 2)
-          .append("g")
-          .attr("transform", "translate(" + radius + "," + radius + ")");
+    var svg = d3.select("body").append("svg")
+            .attr("width", radius * 2)
+            .attr("height", radius * 2)
+            .append("g")
+            .attr("transform", "translate(" + radius + "," + radius + ")");
 
-  d3.json("page.json", function(error, funcionarios) {
-    if (error) throw error;
-    var results = generateTree(funcionarios.results, null, 0)[0];
-    console.log(countPeople(results));
-    var nodes = cluster.nodes(results);
+    d3.json("page.json", function (error, funcionarios) {
+        if (error) throw error;
+        var results = generateTree(funcionarios.results, null, 0)[0];
+        var nodes = cluster.nodes(results);
 
-    console.log(nodes);
+        console.log(nodes);
 
-    var link = svg.selectAll("path.link")
-            .data(cluster.links(nodes))
-            .enter().append("path")
-            .attr("class", "link")
-            .attr("d", diagonal);
+        var link = svg.selectAll("path.link")
+                .data(cluster.links(nodes))
+                .enter().append("path")
+                .attr("class", "link")
+                .attr("d", diagonal);
 
-    var node = svg.selectAll("g.node")
-            .data(nodes)
-            .enter().append("g")
-            .attr("class", "node")
-            .attr("transform", function(d) { return "rotate(" + (d.x - 90) + ")translate(" + d.y + ")"; })
+        var node = svg.selectAll("g.node")
+                .data(nodes)
+                .enter().append("g")
+                .attr("class", "node")
+                .attr("transform", function (d) {
+                    return "rotate(" + (d.x - 90) + ")translate(" + d.y + ")";
+                });
 
-    node.append("circle")
-            .attr("r", 4.5);
+        var div = d3.select("body").append("div")
+                .attr("class", "tooltip")
+                .style("opacity", 1e-6);
 
-    node.append("text")
-            .attr("dy", ".31em")
-            .attr("text-anchor", function(d) { return d.x < 180 ? "start" : "end"; })
-            .attr("transform", function(d) { return d.x < 180 ? "translate(8)" : "rotate(180)translate(-8)"; })
-            .text(function(d) { return d.name; });
-  });
+        node.append("circle")
+                .attr("r", function(d){
+                    return (20 - d.size)/2;
+                })
+                .attr("stroke", function(d){
+                    return (d.gender == "Masculino") ? "DarkBlue" : "DeepPink";
+                })
+                .on("mouseover", mouseover)
+                .on("mousemove", function (d) {
+                    mousemove(d);
+                })
+                .on("mouseout", mouseout);
 
-  function generateTree(array, id, level){
-      var results = new Array();
-      array.forEach(function(person){
-        if(person.cargo.depende_de == id){
-            console.log(person.id);
-            var children = generateTree(array, person.id, level+1);
-            var fullName = person.funcionario.nombre + " " + person.funcionario.apellido;
-            if(children.length != 0) {
-                results.push({ name: fullName, children: children, size: 3000 });
-            } else {
-                results.push({name: fullName, size: 3000});
-            }
+        node.append("text")
+                .attr("dy", ".31em")
+                .attr("text-anchor", function (d) {
+                    return d.x < 180 ? "start" : "end";
+                })
+                .attr("transform", function (d) {
+                    return d.x < 180 ? "translate(8)" : "rotate(180)translate(-8)";
+                })
+                .text(function (d) {
+                    return d.name;
+                });
+
+        function mouseover() {
+            div.transition()
+                    .duration(300)
+                    .style("opacity", 1);
         }
-      });
-      return results;
-  }
 
-  function countPeople(tree){
-      if(tree.children === undefined){
-          return 1;
-      }
-      return 1 + tree.children.map(countPeople).reduce(function(a,b){return a + b});
-  }
+        function mousemove(d) {
+            div
+                    .html("<img style='max-height:100px;max-width:150px' src='" + d.photo + "'/><br/>" +
+                            "Nombre: " +d.name + "<br/>" +
+                            "Cargo: " + d.rank)
+                    .style("left", (d3.event.pageX ) + "px")
+                    .style("top", (d3.event.pageY) + "px");
+        }
 
-  d3.select(self.frameElement).style("height", radius * 2 + "px");
+        function mouseout() {
+            div.transition()
+                    .duration(300)
+                    .style("opacity", 1e-6);
+        }
+    });
+
+    function generateTree(array, id, level) {
+        var results = new Array();
+        array.forEach(function (person) {
+            if (person.cargo.depende_de == id) {
+//                console.log(person.id);
+                var children = generateTree(array, person.id, level + 1);
+                var fullName = person.funcionario.nombre + " " + person.funcionario.apellido;
+                var rank = person.cargo.categoria.nombre;
+                var photo = person.funcionario.foto.thumbnail;
+                if(photo === undefined || photo == null){
+                    photo = "http://plumtri.org/sites/all/themes/plumtritheme/images/default_profile.jpg";
+                }
+                var gender = person.funcionario.genero;
+                if(gender == null || gender === undefined){
+                    gender = Math.random() < 0.5 ? "Masculino" : "Femenino";
+                }
+                if (children.length != 0) {
+                    results.push({name: fullName, rank: rank, photo: photo, gender: gender, children: children, size: level});
+                } else {
+                    results.push({name: fullName, rank: rank, photo: photo, gender: gender, size: level});
+                }
+            }
+        });
+        return results;
+    }
+
+    function countPeople(tree) {
+        if (tree.children === undefined) {
+            return 1;
+        }
+        return 1 + tree.children.map(countPeople).reduce(function (a, b) {
+                    return a + b
+                });
+    }
+
+    d3.select(self.frameElement).style("height", radius * 2 + "px");
 
 </script>
