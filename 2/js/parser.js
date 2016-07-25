@@ -1,5 +1,7 @@
 $( document ).ready(function() {
 
-    console.log( "ready!" );
-    
+  d3.json("data/page.json", function(error, json) {
+  	console.log(json);
+  });
+
 });
