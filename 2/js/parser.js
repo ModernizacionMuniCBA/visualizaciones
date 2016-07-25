@@ -1,13 +1,13 @@
-var funcionarios;
+var clerk;
 var data;
 var count;
 
 $( document ).ready(function() {
 
   d3.json("data/page.json", function(error, json) {
-  	funcionarios = json.results;
+  	clerk = json.results;
 
-  	var firstElem = _.find(funcionarios, function(o) { return o.cargo['depende_de'] == null; });
+  	var firstElem = _.find(clerk, function(o) { return o.cargo['depende_de'] == null; });
   	data = {
   		'name': firstElem.funcionario.nombre + ' ' + firstElem.funcionario.apellido,
   		'object': firstElem,
@@ -15,14 +15,14 @@ $( document ).ready(function() {
   	};
   	count = 1;
   	searchDependencies(firstElem.id, data);
-  	console.log(data);
-  	console.log(count);
+  	//console.log(data);
+  	// console.log(count);
   	draw(data);
   });
 });
 
 function searchDependencies(id, root) {
-	const dependencies = _.filter(funcionarios, function(o) { return o.cargo['depende_de'] == id; });
+	const dependencies = _.filter(clerk, function(o) { return o.cargo['depende_de'] == id; });
 	$.each(dependencies, function(indexDepency, dependency) {
 		count++;
 		root.children.push({
