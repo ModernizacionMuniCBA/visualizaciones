@@ -18,6 +18,10 @@ var svg = d3.select("body").append("svg")
   .append("g")
   .attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
 
+d3.select("body")
+  .style("background", '#FFF')
+  .on("click", function() { zoom(root); });
+
   // pending
   var tooltip = d3.select('body')
     .append('div')
@@ -36,17 +40,14 @@ var svg = d3.select("body").append("svg")
 
   var text = svg.selectAll("text")
     .data(nodes)
-    .enter().append("text")
+    .enter()
+    .append("text")
     .attr("class", "label")
     .style("fill-opacity", function(d) { return d.parent === root ? 1 : 0; })
     .style("display", function(d) { return d.parent === root ? "inline" : "none"; })
     .text(function(d) { return d.name; });
 
   var node = svg.selectAll("circle,text");
-
-  d3.select("body")
-      .style("background", '#FFF')
-      .on("click", function() { zoom(root); });
 
   zoomTo([root.x, root.y, root.r * 2 + margin]);
 

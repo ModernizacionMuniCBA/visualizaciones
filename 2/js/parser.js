@@ -7,7 +7,6 @@ $( document ).ready(function() {
 
   d3.json("data/page.json", function(error, json) {
   	clerk = json.results;
-
   	var firstElem = _.find(clerk, function(o) { return o.cargo['depende_de'] == null; });
   	data = {
   		'name': firstElem.funcionario.nombre + ' ' + firstElem.funcionario.apellido,
@@ -34,7 +33,7 @@ function searchDependencies(id, root, depthItem) {
 		root.children.push({
   		'name': dependency.funcionario.nombre + ' ' + dependency.funcionario.apellido,
   		'object': dependency,
-  		'size': 20,
+  		'size': 1,
   		'children': []
 		})
 		searchDependencies(dependency.id, root.children[indexDepency], depthItem + 1);
