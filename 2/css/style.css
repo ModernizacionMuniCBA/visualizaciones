@@ -22,3 +22,47 @@
 .node--leaf {
   pointer-events: none;
 }
+
+
+/************** TOOLTIP **************/
+
+.tooltip {
+	display: none;
+	min-height: 25px;
+	position: absolute;
+	background-color: #2E2D2E;
+	border-radius: 5px;
+	padding: 5px 10px;
+	text-align: center;
+}
+
+.tooltip span,
+.tooltip p {
+	margin: 0;
+	line-height: 25px;
+	color: #BDBDBD;
+	font-size: 12px;
+}
+
+.tooltip span {
+	font-weight: 700;
+}
+
+.tooltip .arrow {
+  display: block;
+  border-color: transparent;
+	border-style: solid;
+	border-width: 0 7px 10px;
+	width: 0;
+	height: 0;
+  line-height: 0;    
+  top: -10px;
+  position: absolute;
+  left: 15px;
+  margin: 0;
+}
+
+.tooltip .arrow-up {
+  border-top-color: transparent;
+  border-bottom-color: #2E2D2E;
+}

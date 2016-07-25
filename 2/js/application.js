@@ -13,29 +13,34 @@ var pack = d3.layout.pack()
     .value(function(d) { return d.size; })
 
 var svg = d3.select("body").append("svg")
-    .attr("width", diameter)
-    .attr("height", diameter)
+  .attr("width", diameter)
+  .attr("height", diameter)
   .append("g")
-    .attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
+  .attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
+
+  // pending
+  var tooltip = d3.select('body')
+    .append('div')
+    .attr('class', 'tooltip');
 
   var focus = root,
       nodes = pack.nodes(root),
       view;
 
   var circle = svg.selectAll("circle")
-      .data(nodes)
+    .data(nodes)
     .enter().append("circle")
-      .attr("class", function(d) { return d.parent ? d.children ? "node" : "node node--leaf" : "node node--root"; })
-      .style("fill", function(d) { return d.children ? color(d.depth) : null; })
-      .on("click", function(d) { if (focus !== d) zoom(d), d3.event.stopPropagation(); });
+    .attr("class", function(d) { return d.parent ? d.children ? "node" : "node node--leaf" : "node node--root"; })
+    .style("fill", function(d) { return d.children ? color(d.depth) : null; })
+    .on("click", function(d) { if (focus !== d) zoom(d), d3.event.stopPropagation(); });
 
   var text = svg.selectAll("text")
-      .data(nodes)
+    .data(nodes)
     .enter().append("text")
-      .attr("class", "label")
-      .style("fill-opacity", function(d) { return d.parent === root ? 1 : 0; })
-      .style("display", function(d) { return d.parent === root ? "inline" : "none"; })
-      .text(function(d) { return d.name; });
+    .attr("class", "label")
+    .style("fill-opacity", function(d) { return d.parent === root ? 1 : 0; })
+    .style("display", function(d) { return d.parent === root ? "inline" : "none"; })
+    .text(function(d) { return d.name; });
 
   var node = svg.selectAll("circle,text");
 
