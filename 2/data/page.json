@@ -7833,6 +7833,52 @@
       },
       "fecha_inicio": "2015-12-10",
       "fecha_fin": null
+    },
+    {
+      "id": 347,
+      "funcionario": {
+        "nombre": "John",
+        "apellido": "Doe",
+        "franjaetaria": null,
+        "genero": null,
+        "foto": {}
+      },
+      "cargo": {
+        "categoria": {
+          "nombre": "Asesor de gabinete ad honorem",
+          "requiere_declaracion_jurada": true,
+          "nombre_corto": "Asesor ad honorem",
+          "orden": 100
+        },
+        "nombre": "Asesor de Gabinete (Ad honorem)",
+        "depende_de": 1,
+        "electivo": false
+      },
+      "fecha_inicio": "2015-12-10",
+      "fecha_fin": null
+    },
+    {
+      "id": 348,
+      "funcionario": {
+        "nombre": "Noelia",
+        "apellido": "Lopez",
+        "franjaetaria": null,
+        "genero": null,
+        "foto": {}
+      },
+      "cargo": {
+        "categoria": {
+          "nombre": "Asesor de gabinete ad honorem",
+          "requiere_declaracion_jurada": true,
+          "nombre_corto": "Asesor ad honorem",
+          "orden": 100
+        },
+        "nombre": "Asesor de Gabinete (Ad honorem)",
+        "depende_de": 1,
+        "electivo": false
+      },
+      "fecha_inicio": "2015-12-10",
+      "fecha_fin": null
     }
   ]
 }
