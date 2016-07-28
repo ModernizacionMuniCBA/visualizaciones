@@ -31,12 +31,13 @@ function loadJson(path) {
                 d.funcionario.franjaetaria = "Desconocido";
             }
             if(d.funcionario.genero == null || d.funcionario.genero == ""){
-                d.funcionario.genero = (Math.random() < 0.7) ? "Masculino" : "Femenino";
+                d.funcionario.genero = null;
             }
             return d;
         });
 
         var root = getSubordinates(people, null)[0];
+        root.secretary = "Intendencia";
         var directSubs = getSubordinates(people, root.id);
         directSubs.forEach(function(val){
             val.secretary = val.cargo.nombre;
@@ -122,7 +123,7 @@ function loadJson(path) {
             .width(totalWidth/5)
             .height(300)
             .dimension(genderDimension)
-            .ordinalColors(['#e377c2',"#1f77b4"])
+            .ordinalColors(['#e377c2',"#1f77b4", "#DDD"])
             .renderLabel(true)
             .group(genderGroup);
 
@@ -191,9 +192,8 @@ function getSubordinates(array, id){
 
 function loadSecretary(array, id, secretary){
     array.forEach(function(person){
-        if(person.cargo.depende_de == id){
+        if($.inArray(id, person.cargo.superioresids) != -1){
             person.secretary = secretary;
-            loadSecretary(array, person.id, secretary);
         }
     });
 }
