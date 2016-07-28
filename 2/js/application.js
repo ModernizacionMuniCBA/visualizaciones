@@ -4,7 +4,7 @@ function draw(root) {
 
 var saturationDepthPink = d3.scale.linear()
     .domain([1, depth])
-    .range([61, 91]);
+    .range([60, 85]);
 
 var saturationDepthBlue = d3.scale.linear()
     .domain([1, depth])
@@ -42,8 +42,8 @@ d3.select("body")
     console.log(d);
     console.log(d.object.funcionario.genero);
     if (d.object.funcionario.genero == 'F') {
-      // hsla(317, 97%, 76%, 1)
-      return 'hsl(317, 97%,' + saturationDepthPink(d.depth) + '%)';
+      // hsla(343, 100%, 58%, 1)
+      return 'hsl(343, 100%,' + saturationDepthPink(d.depth) + '%)';
     } else if (d.object.funcionario.genero == 'M') {
       // hsla(199, 85%, 65%, 1)
       return 'hsl(199, 85%,' + saturationDepthBlue(d.depth) + '%)';
