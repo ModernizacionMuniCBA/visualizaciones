@@ -1,0 +1,1397 @@
+{
+   "count":297,
+   "next":"http://localhost:8000/api/funciones/?format=json&page=2",
+   "previous":null,
+   "results":[
+      {
+         "id":1,
+         "funcionario":{
+            "nombre":"Ramon Javier",
+            "apellido":"Mestre",
+            "franjaetaria":"40's",
+            "genero":"M",
+            "edad":44,
+            "foto":{
+
+            }
+         },
+         "cargo":{
+            "categoria":{
+               "nombre":"Intendente",
+               "requiere_declaracion_jurada":true,
+               "nombre_corto":"Intendente",
+               "orden":10
+            },
+            "nombre":"Intendente",
+            "depende_de":null,
+            "electivo":true
+         },
+         "fecha_inicio":"2015-12-10",
+         "fecha_fin":null
+      },
+      {
+         "id":204,
+         "funcionario":{
+            "nombre":"HÃ©ctor Javier",
+            "apellido":"Bee Sellares",
+            "franjaetaria":"40's",
+            "genero":"M",
+            "edad":46,
+            "foto":{
+               "original":"http://localhost:8000/media/imagenes/personas/BEE.jpg",
+               "thumbnail":"http://localhost:8000/media/__sized__/imagenes/personas/BEE-thumbnail-125x125-70.jpg",
+               "thumbnail_32x32":"http://localhost:8000/media/__sized__/imagenes/personas/BEE-thumbnail-32x32-70.jpg"
+            }
+         },
+         "cargo":{
+            "categoria":{
+               "nombre":"Secretario del Departamento Ejecutivo",
+               "requiere_declaracion_jurada":true,
+               "nombre_corto":"Secretario",
+               "orden":40
+            },
+            "nombre":"SECRETARÃA DE GOBIERNO, PARTICIPACIÃ“N CIUDADANA y DESARROLLO SOCIAL",
+            "depende_de":1,
+            "electivo":false
+         },
+         "fecha_inicio":"2015-12-11",
+         "fecha_fin":null
+      },
+      {
+         "id":185,
+         "funcionario":{
+            "nombre":"Daniel Omar",
+            "apellido":"Arzani",
+            "franjaetaria":"50's",
+            "genero":"M",
+            "edad":50,
+            "foto":{
+               "original":"http://localhost:8000/media/imagenes/personas/RM_826_-_Arzani.JPG",
+               "thumbnail":"http://localhost:8000/media/__sized__/imagenes/personas/RM_826_-_Arzani-thumbnail-125x125-70.JPG",
+               "thumbnail_32x32":"http://localhost:8000/media/__sized__/imagenes/personas/RM_826_-_Arzani-thumbnail-32x32-70.JPG"
+            }
+         },
+         "cargo":{
+            "categoria":{
+               "nombre":"Secretario del Departamento Ejecutivo",
+               "requiere_declaracion_jurada":true,
+               "nombre_corto":"Secretario",
+               "orden":40
+            },
+            "nombre":"SECRETARÃA GENERAL",
+            "depende_de":1,
+            "electivo":false
+         },
+         "fecha_inicio":"2015-12-10",
+         "fecha_fin":null
+      },
+      {
+         "id":182,
+         "funcionario":{
+            "nombre":"Grabriel Esteban",
+            "apellido":"Acevedo",
+            "franjaetaria":"40's",
+            "genero":"M",
+            "edad":49,
+            "foto":{
+               "original":"http://localhost:8000/media/imagenes/personas/FU_293_-_Gabriel_Acevedo.JPG",
+               "thumbnail":"http://localhost:8000/media/__sized__/imagenes/personas/FU_293_-_Gabriel_Acevedo-thumbnail-125x125-70.JPG",
+               "thumbnail_32x32":"http://localhost:8000/media/__sized__/imagenes/personas/FU_293_-_Gabriel_Acevedo-thumbnail-32x32-70.JPG"
+            }
+         },
+         "cargo":{
+            "categoria":{
+               "nombre":"Secretario del Departamento Ejecutivo",
+               "requiere_declaracion_jurada":true,
+               "nombre_corto":"Secretario",
+               "orden":40
+            },
+            "nombre":"SECRETARÃA DE SALUD",
+            "depende_de":1,
+            "electivo":false
+         },
+         "fecha_inicio":"2015-12-10",
+         "fecha_fin":null
+      },
+      {
+         "id":145,
+         "funcionario":{
+            "nombre":"VÃ­ctor Hugo",
+            "apellido":"Romero",
+            "franjaetaria":null,
+            "genero":"M",
+            "edad":null,
+            "foto":{
+               "original":"http://localhost:8000/media/imagenes/personas/ROMERO.jpg",
+               "thumbnail":"http://localhost:8000/media/__sized__/imagenes/personas/ROMERO-thumbnail-125x125-70.jpg",
+               "thumbnail_32x32":"http://localhost:8000/media/__sized__/imagenes/personas/ROMERO-thumbnail-32x32-70.jpg"
+            }
+         },
+         "cargo":{
+            "categoria":{
+               "nombre":"Secretario del Departamento Ejecutivo",
+               "requiere_declaracion_jurada":true,
+               "nombre_corto":"Secretario",
+               "orden":40
+            },
+            "nombre":"SECRETARÃA DE ECONOMÃA Y FINANZAS",
+            "depende_de":1,
+            "electivo":false
+         },
+         "fecha_inicio":"2015-12-10",
+         "fecha_fin":null
+      },
+      {
+         "id":110,
+         "funcionario":{
+            "nombre":"Julio CÃ©sar",
+            "apellido":"Waisman",
+            "franjaetaria":"60's",
+            "genero":"M",
+            "edad":63,
+            "foto":{
+               "original":"http://localhost:8000/media/imagenes/personas/FU_025_-_Waismann.JPG",
+               "thumbnail":"http://localhost:8000/media/__sized__/imagenes/personas/FU_025_-_Waismann-thumbnail-125x125-70.JPG",
+               "thumbnail_32x32":"http://localhost:8000/media/__sized__/imagenes/personas/FU_025_-_Waismann-thumbnail-32x32-70.JPG"
+            }
+         },
+         "cargo":{
+            "categoria":{
+               "nombre":"Secretario del Departamento Ejecutivo",
+               "requiere_declaracion_jurada":true,
+               "nombre_corto":"Secretario",
+               "orden":40
+            },
+            "nombre":"SECRETARÃA DE SERVICIOS PÃšBLICOS",
+            "depende_de":1,
+            "electivo":false
+         },
+         "fecha_inicio":"2015-12-10",
+         "fecha_fin":null
+      },
+      {
+         "id":96,
+         "funcionario":{
+            "nombre":"Omar Arsenio",
+            "apellido":"Gastaldi",
+            "franjaetaria":"50's",
+            "genero":"M",
+            "edad":59,
+            "foto":{
+               "original":"http://localhost:8000/media/imagenes/personas/RN_104_Omar_Gastaldi.JPG",
+               "thumbnail":"http://localhost:8000/media/__sized__/imagenes/personas/RN_104_Omar_Gastaldi-thumbnail-125x125-70.JPG",
+               "thumbnail_32x32":"http://localhost:8000/media/__sized__/imagenes/personas/RN_104_Omar_Gastaldi-thumbnail-32x32-70.JPG"
+            }
+         },
+         "cargo":{
+            "categoria":{
+               "nombre":"Secretario del Departamento Ejecutivo",
+               "requiere_declaracion_jurada":true,
+               "nombre_corto":"Secretario",
+               "orden":40
+            },
+            "nombre":"SECRETARÃA DE PLANEAMIENTO E INFRAESTRUCTURA",
+            "depende_de":1,
+            "electivo":false
+         },
+         "fecha_inicio":"2015-12-10",
+         "fecha_fin":null
+      },
+      {
+         "id":69,
+         "funcionario":{
+            "nombre":"Francisco TomÃ¡s",
+            "apellido":"Marchiaro",
+            "franjaetaria":"40's",
+            "genero":"M",
+            "edad":40,
+            "foto":{
+               "original":"http://localhost:8000/media/imagenes/personas/FU_472_-_Francisco_Marchiaro.JPG",
+               "thumbnail":"http://localhost:8000/media/__sized__/imagenes/personas/FU_472_-_Francisco_Marchiaro-thumbnail-125x125-70.JPG",
+               "thumbnail_32x32":"http://localhost:8000/media/__sized__/imagenes/personas/FU_472_-_Francisco_Marchiaro-thumbnail-32x32-70.JPG"
+            }
+         },
+         "cargo":{
+            "categoria":{
+               "nombre":"Secretario del Departamento Ejecutivo",
+               "requiere_declaracion_jurada":true,
+               "nombre_corto":"Secretario",
+               "orden":40
+            },
+            "nombre":"SECRETARÃA DE CULTURA",
+            "depende_de":1,
+            "electivo":false
+         },
+         "fecha_inicio":"2015-12-10",
+         "fecha_fin":null
+      },
+      {
+         "id":59,
+         "funcionario":{
+            "nombre":"Cecilia",
+            "apellido":"Aro",
+            "franjaetaria":"50's",
+            "genero":"F",
+            "edad":52,
+            "foto":{
+               "original":"http://localhost:8000/media/imagenes/personas/FU_403_-_Cecilia_Aro.JPG",
+               "thumbnail":"http://localhost:8000/media/__sized__/imagenes/personas/FU_403_-_Cecilia_Aro-thumbnail-125x125-70.JPG",
+               "thumbnail_32x32":"http://localhost:8000/media/__sized__/imagenes/personas/FU_403_-_Cecilia_Aro-thumbnail-32x32-70.JPG"
+            }
+         },
+         "cargo":{
+            "categoria":{
+               "nombre":"Secretario del Departamento Ejecutivo",
+               "requiere_declaracion_jurada":true,
+               "nombre_corto":"Secretario",
+               "orden":40
+            },
+            "nombre":"SECRETARÃA DE EDUCACIÃ“N",
+            "depende_de":1,
+            "electivo":false
+         },
+         "fecha_inicio":"2016-05-03",
+         "fecha_fin":null
+      },
+      {
+         "id":51,
+         "funcionario":{
+            "nombre":"JosÃ© MarÃ­a",
+            "apellido":"Olmos",
+            "franjaetaria":"40's",
+            "genero":"M",
+            "edad":43,
+            "foto":{
+               "original":"http://localhost:8000/media/imagenes/personas/OLMOS.jpg",
+               "thumbnail":"http://localhost:8000/media/__sized__/imagenes/personas/OLMOS-thumbnail-125x125-70.jpg",
+               "thumbnail_32x32":"http://localhost:8000/media/__sized__/imagenes/personas/OLMOS-thumbnail-32x32-70.jpg"
+            }
+         },
+         "cargo":{
+            "categoria":{
+               "nombre":"Secretario del Departamento Ejecutivo",
+               "requiere_declaracion_jurada":true,
+               "nombre_corto":"Secretario",
+               "orden":40
+            },
+            "nombre":"SECRETARÃA DE CONTROL, FISCALIZACIÃ“N Y CONVIVENCIA CIUDADANA",
+            "depende_de":1,
+            "electivo":false
+         },
+         "fecha_inicio":"2015-12-10",
+         "fecha_fin":null
+      },
+      {
+         "id":2,
+         "funcionario":{
+            "nombre":"Marcelo Arnolfo",
+            "apellido":"Cossar",
+            "franjaetaria":"40's",
+            "genero":"M",
+            "edad":47,
+            "foto":{
+               "original":"http://localhost:8000/media/imagenes/personas/Marcelo-Cossar.jpg",
+               "thumbnail":"http://localhost:8000/media/__sized__/imagenes/personas/Marcelo-Cossar-thumbnail-125x125-70.jpg",
+               "thumbnail_32x32":"http://localhost:8000/media/__sized__/imagenes/personas/Marcelo-Cossar-thumbnail-32x32-70.jpg"
+            }
+         },
+         "cargo":{
+            "categoria":{
+               "nombre":"Secretario del Departamento Ejecutivo",
+               "requiere_declaracion_jurada":true,
+               "nombre_corto":"Secretario",
+               "orden":40
+            },
+            "nombre":"SECRETARÃA DE MODERNIZACIÃ“N, COMUNICACIÃ“N Y DESARROLLO ESTRATÃ‰GICO",
+            "depende_de":1,
+            "electivo":false
+         },
+         "fecha_inicio":"2016-04-08",
+         "fecha_fin":null
+      },
+      {
+         "id":16,
+         "funcionario":{
+            "nombre":"Mariano SebastiÃ¡n",
+            "apellido":"Font Angelelli",
+            "franjaetaria":"30's",
+            "genero":"M",
+            "edad":36,
+            "foto":{
+
+            }
+         },
+         "cargo":{
+            "categoria":{
+               "nombre":"Secretario del Departamento Ejecutivo",
+               "requiere_declaracion_jurada":true,
+               "nombre_corto":"Secretario",
+               "orden":40
+            },
+            "nombre":"SECRETARÃA PRIVADA",
+            "depende_de":1,
+            "electivo":false
+         },
+         "fecha_inicio":"2015-12-10",
+         "fecha_fin":null
+      },
+      {
+         "id":11,
+         "funcionario":{
+            "nombre":"Diego Luis",
+            "apellido":"Frossasco",
+            "franjaetaria":null,
+            "genero":"M",
+            "edad":null,
+            "foto":{
+
+            }
+         },
+         "cargo":{
+            "categoria":{
+               "nombre":"Secretario del Departamento Ejecutivo",
+               "requiere_declaracion_jurada":true,
+               "nombre_corto":"Secretario",
+               "orden":40
+            },
+            "nombre":"SECRETARÃA LEGAL Y TÃ‰CNICA",
+            "depende_de":1,
+            "electivo":false
+         },
+         "fecha_inicio":"2015-12-10",
+         "fecha_fin":null
+      },
+      {
+         "id":21,
+         "funcionario":{
+            "nombre":"Marcelo",
+            "apellido":"Rodriguez Aranciva",
+            "franjaetaria":"50's",
+            "genero":"M",
+            "edad":56,
+            "foto":{
+               "original":"http://localhost:8000/media/imagenes/personas/RN_018_-_Marcelo_Rodriguez_Aranciva.JPG",
+               "thumbnail":"http://localhost:8000/media/__sized__/imagenes/personas/RN_018_-_Marcelo_Rodriguez_Aranciva-thumbnail-125x125-70.JPG",
+               "thumbnail_32x32":"http://localhost:8000/media/__sized__/imagenes/personas/RN_018_-_Marcelo_Rodriguez_Aranciva-thumbnail-32x32-70.JPG"
+            }
+         },
+         "cargo":{
+            "categoria":{
+               "nombre":"Asesor letrado",
+               "requiere_declaracion_jurada":true,
+               "nombre_corto":"Asesor letrado",
+               "orden":41
+            },
+            "nombre":"ASESORÃA LETRADA",
+            "depende_de":1,
+            "electivo":false
+         },
+         "fecha_inicio":"2015-12-10",
+         "fecha_fin":null
+      },
+      {
+         "id":211,
+         "funcionario":{
+            "nombre":"Roberto",
+            "apellido":"Yalovetzky",
+            "franjaetaria":"40's",
+            "genero":"M",
+            "edad":45,
+            "foto":{
+               "original":"http://localhost:8000/media/imagenes/personas/FU_725_-_Roberto_Yalovetzky.JPG",
+               "thumbnail":"http://localhost:8000/media/__sized__/imagenes/personas/FU_725_-_Roberto_Yalovetzky-thumbnail-125x125-70.JPG",
+               "thumbnail_32x32":"http://localhost:8000/media/__sized__/imagenes/personas/FU_725_-_Roberto_Yalovetzky-thumbnail-32x32-70.JPG"
+            }
+         },
+         "cargo":{
+            "categoria":{
+               "nombre":"Subsecretario del Departamento Ejecutivo",
+               "requiere_declaracion_jurada":true,
+               "nombre_corto":"Subsecretario",
+               "orden":50
+            },
+            "nombre":"SUBSECRETARÃŒA DE GOBIERNO",
+            "depende_de":6,
+            "electivo":false
+         },
+         "fecha_inicio":"2015-12-10",
+         "fecha_fin":null
+      },
+      {
+         "id":199,
+         "funcionario":{
+            "nombre":"AdriÃ¡n Fernando",
+            "apellido":"Casati",
+            "franjaetaria":"50's",
+            "genero":"M",
+            "edad":50,
+            "foto":{
+               "original":"http://localhost:8000/media/imagenes/personas/RM_314_Casati.JPG",
+               "thumbnail":"http://localhost:8000/media/__sized__/imagenes/personas/RM_314_Casati-thumbnail-125x125-70.JPG",
+               "thumbnail_32x32":"http://localhost:8000/media/__sized__/imagenes/personas/RM_314_Casati-thumbnail-32x32-70.JPG"
+            }
+         },
+         "cargo":{
+            "categoria":{
+               "nombre":"Subsecretario del Departamento Ejecutivo",
+               "requiere_declaracion_jurada":true,
+               "nombre_corto":"Subsecretario",
+               "orden":50
+            },
+            "nombre":"SUBSECRETARÃA DE PARTICIPACIÃ“N CIUDADANA",
+            "depende_de":6,
+            "electivo":false
+         },
+         "fecha_inicio":"2015-12-10",
+         "fecha_fin":null
+      },
+      {
+         "id":192,
+         "funcionario":{
+            "nombre":"Daniel AmÃ©rico",
+            "apellido":"Graco",
+            "franjaetaria":"60's",
+            "genero":"M",
+            "edad":60,
+            "foto":{
+               "original":"http://localhost:8000/media/imagenes/personas/RM_143_-_Daniel_Am%C3%A9rico_Graco.JPG",
+               "thumbnail":"http://localhost:8000/media/__sized__/imagenes/personas/RM_143_-_Daniel_Am%C3%A9rico_Graco-thumbnail-125x125-70.JPG",
+               "thumbnail_32x32":"http://localhost:8000/media/__sized__/imagenes/personas/RM_143_-_Daniel_Am%C3%A9rico_Graco-thumbnail-32x32-70.JPG"
+            }
+         },
+         "cargo":{
+            "categoria":{
+               "nombre":"Subsecretario del Departamento Ejecutivo",
+               "requiere_declaracion_jurada":true,
+               "nombre_corto":"Subsecretario",
+               "orden":50
+            },
+            "nombre":"SUBSECRETARÃA DE DEPORTES Y RECREACIÃ“N",
+            "depende_de":6,
+            "electivo":false
+         },
+         "fecha_inicio":"2015-12-10",
+         "fecha_fin":null
+      },
+      {
+         "id":244,
+         "funcionario":{
+            "nombre":"Adrian",
+            "apellido":"Leiva",
+            "franjaetaria":"50's",
+            "genero":"M",
+            "edad":54,
+            "foto":{
+               "original":"http://localhost:8000/media/imagenes/personas/RN_123_-_Adrian_Leiva.JPG",
+               "thumbnail":"http://localhost:8000/media/__sized__/imagenes/personas/RN_123_-_Adrian_Leiva-thumbnail-125x125-70.JPG",
+               "thumbnail_32x32":"http://localhost:8000/media/__sized__/imagenes/personas/RN_123_-_Adrian_Leiva-thumbnail-32x32-70.JPG"
+            }
+         },
+         "cargo":{
+            "categoria":{
+               "nombre":"Subsecretario del Departamento Ejecutivo",
+               "requiere_declaracion_jurada":true,
+               "nombre_corto":"Subsecretario",
+               "orden":50
+            },
+            "nombre":"SUBSECRETARÃA DE SERVICIOS GENERALES",
+            "depende_de":57,
+            "electivo":false
+         },
+         "fecha_inicio":"2015-12-10",
+         "fecha_fin":null
+      },
+      {
+         "id":181,
+         "funcionario":{
+            "nombre":"Ana LÃ­a",
+            "apellido":"Torres",
+            "franjaetaria":"50's",
+            "genero":"F",
+            "edad":52,
+            "foto":{
+               "original":"http://localhost:8000/media/imagenes/personas/RM_527_-_Ana_Lia_Torres_6mYfBxW.JPG",
+               "thumbnail":"http://localhost:8000/media/__sized__/imagenes/personas/RM_527_-_Ana_Lia_Torres_6mYfBxW-thumbnail-125x125-70.JPG",
+               "thumbnail_32x32":"http://localhost:8000/media/__sized__/imagenes/personas/RM_527_-_Ana_Lia_Torres_6mYfBxW-thumbnail-32x32-70.JPG"
+            }
+         },
+         "cargo":{
+            "categoria":{
+               "nombre":"Subsecretario del Departamento Ejecutivo",
+               "requiere_declaracion_jurada":true,
+               "nombre_corto":"Subsecretario",
+               "orden":50
+            },
+            "nombre":"SUBSECRETARÃA DE ATENCIÃ“N DE LA SALUD",
+            "depende_de":63,
+            "electivo":false
+         },
+         "fecha_inicio":"2015-12-10",
+         "fecha_fin":null
+      },
+      {
+         "id":175,
+         "funcionario":{
+            "nombre":"Pablo",
+            "apellido":"Igarzabal",
+            "franjaetaria":"40's",
+            "genero":"M",
+            "edad":47,
+            "foto":{
+               "original":"http://localhost:8000/media/imagenes/personas/RM_450_Igarzabal.JPG",
+               "thumbnail":"http://localhost:8000/media/__sized__/imagenes/personas/RM_450_Igarzabal-thumbnail-125x125-70.JPG",
+               "thumbnail_32x32":"http://localhost:8000/media/__sized__/imagenes/personas/RM_450_Igarzabal-thumbnail-32x32-70.JPG"
+            }
+         },
+         "cargo":{
+            "categoria":{
+               "nombre":"Subsecretario del Departamento Ejecutivo",
+               "requiere_declaracion_jurada":true,
+               "nombre_corto":"Subsecretario",
+               "orden":50
+            },
+            "nombre":"SUBSECRETARÃA DE ATENCIÃ“N HOSPITALARIA",
+            "depende_de":63,
+            "electivo":false
+         },
+         "fecha_inicio":"2015-12-10",
+         "fecha_fin":null
+      },
+      {
+         "id":174,
+         "funcionario":{
+            "nombre":"Walter RubÃ©n",
+            "apellido":"Ferreyra",
+            "franjaetaria":null,
+            "genero":"M",
+            "edad":null,
+            "foto":{
+               "original":"http://localhost:8000/media/imagenes/personas/WALTER_FERREYRA.jpg",
+               "thumbnail":"http://localhost:8000/media/__sized__/imagenes/personas/WALTER_FERREYRA-thumbnail-125x125-70.jpg",
+               "thumbnail_32x32":"http://localhost:8000/media/__sized__/imagenes/personas/WALTER_FERREYRA-thumbnail-32x32-70.jpg"
+            }
+         },
+         "cargo":{
+            "categoria":{
+               "nombre":"Subsecretario del Departamento Ejecutivo",
+               "requiere_declaracion_jurada":true,
+               "nombre_corto":"Subsecretario",
+               "orden":50
+            },
+            "nombre":"SUBSECRETARÃA DE DESARROLLO SOCIAL",
+            "depende_de":6,
+            "electivo":false
+         },
+         "fecha_inicio":"2015-12-10",
+         "fecha_fin":null
+      },
+      {
+         "id":155,
+         "funcionario":{
+            "nombre":"Hugo Ariel",
+            "apellido":"Garrido",
+            "franjaetaria":"40's",
+            "genero":"M",
+            "edad":46,
+            "foto":{
+               "original":"http://localhost:8000/media/imagenes/personas/RM_512_-_Hugo_Garrido.JPG",
+               "thumbnail":"http://localhost:8000/media/__sized__/imagenes/personas/RM_512_-_Hugo_Garrido-thumbnail-125x125-70.JPG",
+               "thumbnail_32x32":"http://localhost:8000/media/__sized__/imagenes/personas/RM_512_-_Hugo_Garrido-thumbnail-32x32-70.JPG"
+            }
+         },
+         "cargo":{
+            "categoria":{
+               "nombre":"Subsecretario del Departamento Ejecutivo",
+               "requiere_declaracion_jurada":true,
+               "nombre_corto":"Subsecretario",
+               "orden":50
+            },
+            "nombre":"SUBSECRETARÃA DE EMERGENCIA URBANA",
+            "depende_de":57,
+            "electivo":false
+         },
+         "fecha_inicio":null,
+         "fecha_fin":null
+      },
+      {
+         "id":152,
+         "funcionario":{
+            "nombre":"Argentina Yris",
+            "apellido":"Uyua",
+            "franjaetaria":"50's",
+            "genero":"F",
+            "edad":58,
+            "foto":{
+               "original":"http://localhost:8000/media/imagenes/personas/RM_371_-_Yris_Uyua.JPG",
+               "thumbnail":"http://localhost:8000/media/__sized__/imagenes/personas/RM_371_-_Yris_Uyua-thumbnail-125x125-70.JPG",
+               "thumbnail_32x32":"http://localhost:8000/media/__sized__/imagenes/personas/RM_371_-_Yris_Uyua-thumbnail-32x32-70.JPG"
+            }
+         },
+         "cargo":{
+            "categoria":{
+               "nombre":"Subsecretario del Departamento Ejecutivo",
+               "requiere_declaracion_jurada":true,
+               "nombre_corto":"Subsecretario",
+               "orden":50
+            },
+            "nombre":"SUBSECRETARÃA DE RECURSOS HUMANOS",
+            "depende_de":57,
+            "electivo":false
+         },
+         "fecha_inicio":"2015-12-10",
+         "fecha_fin":null
+      },
+      {
+         "id":149,
+         "funcionario":{
+            "nombre":"Juan Carlos",
+            "apellido":"Maceira",
+            "franjaetaria":"60's",
+            "genero":"M",
+            "edad":61,
+            "foto":{
+               "original":"http://localhost:8000/media/imagenes/personas/MACEIRA.jpg",
+               "thumbnail":"http://localhost:8000/media/__sized__/imagenes/personas/MACEIRA-thumbnail-125x125-70.jpg",
+               "thumbnail_32x32":"http://localhost:8000/media/__sized__/imagenes/personas/MACEIRA-thumbnail-32x32-70.jpg"
+            }
+         },
+         "cargo":{
+            "categoria":{
+               "nombre":"Subsecretario del Departamento Ejecutivo",
+               "requiere_declaracion_jurada":true,
+               "nombre_corto":"Subsecretario",
+               "orden":50
+            },
+            "nombre":"SUBSECRETARÃA DE GESTIÃ“N Y COORDINACIÃ“N LABORAL",
+            "depende_de":57,
+            "electivo":false
+         },
+         "fecha_inicio":"2015-12-10",
+         "fecha_fin":null
+      },
+      {
+         "id":144,
+         "funcionario":{
+            "nombre":"MÃ³nica Esther",
+            "apellido":"Ferla",
+            "franjaetaria":"50's",
+            "genero":"F",
+            "edad":56,
+            "foto":{
+               "original":"http://localhost:8000/media/imagenes/personas/RN_111_-_Monica_Ferla.JPG",
+               "thumbnail":"http://localhost:8000/media/__sized__/imagenes/personas/RN_111_-_Monica_Ferla-thumbnail-125x125-70.JPG",
+               "thumbnail_32x32":"http://localhost:8000/media/__sized__/imagenes/personas/RN_111_-_Monica_Ferla-thumbnail-32x32-70.JPG"
+            }
+         },
+         "cargo":{
+            "categoria":{
+               "nombre":"Subsecretario del Departamento Ejecutivo",
+               "requiere_declaracion_jurada":true,
+               "nombre_corto":"Subsecretario",
+               "orden":50
+            },
+            "nombre":"SUBSECRETARÃA DE INGRESOS PÃšBLICOS",
+            "depende_de":123,
+            "electivo":false
+         },
+         "fecha_inicio":"2015-12-10",
+         "fecha_fin":null
+      },
+      {
+         "id":131,
+         "funcionario":{
+            "nombre":"Gustavo Ariel",
+            "apellido":"Guelbert",
+            "franjaetaria":"30's",
+            "genero":"M",
+            "edad":33,
+            "foto":{
+               "original":"http://localhost:8000/media/imagenes/personas/RM_865.JPG",
+               "thumbnail":"http://localhost:8000/media/__sized__/imagenes/personas/RM_865-thumbnail-125x125-70.JPG",
+               "thumbnail_32x32":"http://localhost:8000/media/__sized__/imagenes/personas/RM_865-thumbnail-32x32-70.JPG"
+            }
+         },
+         "cargo":{
+            "categoria":{
+               "nombre":"Subsecretario del Departamento Ejecutivo",
+               "requiere_declaracion_jurada":true,
+               "nombre_corto":"Subsecretario",
+               "orden":50
+            },
+            "nombre":"SUBSECRETARÃA DE FINANZAS",
+            "depende_de":123,
+            "electivo":false
+         },
+         "fecha_inicio":"2015-12-10",
+         "fecha_fin":null
+      },
+      {
+         "id":109,
+         "funcionario":{
+            "nombre":"HÃ©ctor Antonio",
+            "apellido":"Taborda",
+            "franjaetaria":"50's",
+            "genero":"M",
+            "edad":54,
+            "foto":{
+               "original":"http://localhost:8000/media/imagenes/personas/FU_026_-_Hector_Taborda.JPG",
+               "thumbnail":"http://localhost:8000/media/__sized__/imagenes/personas/FU_026_-_Hector_Taborda-thumbnail-125x125-70.JPG",
+               "thumbnail_32x32":"http://localhost:8000/media/__sized__/imagenes/personas/FU_026_-_Hector_Taborda-thumbnail-32x32-70.JPG"
+            }
+         },
+         "cargo":{
+            "categoria":{
+               "nombre":"Subsecretario del Departamento Ejecutivo",
+               "requiere_declaracion_jurada":true,
+               "nombre_corto":"Subsecretario",
+               "orden":50
+            },
+            "nombre":"SUBSECRETARÃA DE TRANSPORTE",
+            "depende_de":180,
+            "electivo":false
+         },
+         "fecha_inicio":"2015-12-10",
+         "fecha_fin":null
+      },
+      {
+         "id":104,
+         "funcionario":{
+            "nombre":"Pablo JosÃ©",
+            "apellido":"Farias",
+            "franjaetaria":"50's",
+            "genero":"M",
+            "edad":55,
+            "foto":{
+               "original":"http://localhost:8000/media/imagenes/personas/FU_037_-_Pablo_Farias.JPG",
+               "thumbnail":"http://localhost:8000/media/__sized__/imagenes/personas/FU_037_-_Pablo_Farias-thumbnail-125x125-70.JPG",
+               "thumbnail_32x32":"http://localhost:8000/media/__sized__/imagenes/personas/FU_037_-_Pablo_Farias-thumbnail-32x32-70.JPG"
+            }
+         },
+         "cargo":{
+            "categoria":{
+               "nombre":"Subsecretario del Departamento Ejecutivo",
+               "requiere_declaracion_jurada":true,
+               "nombre_corto":"Subsecretario",
+               "orden":50
+            },
+            "nombre":"SUBSECRETARÃA DE TRÃNSITO",
+            "depende_de":180,
+            "electivo":false
+         },
+         "fecha_inicio":"2015-12-10",
+         "fecha_fin":null
+      },
+      {
+         "id":99,
+         "funcionario":{
+            "nombre":"Francisco Alberto",
+            "apellido":"GuzmÃ¡n",
+            "franjaetaria":"60's",
+            "genero":"M",
+            "edad":60,
+            "foto":{
+               "original":"http://localhost:8000/media/imagenes/personas/GUZMAN.jpg",
+               "thumbnail":"http://localhost:8000/media/__sized__/imagenes/personas/GUZMAN-thumbnail-125x125-70.jpg",
+               "thumbnail_32x32":"http://localhost:8000/media/__sized__/imagenes/personas/GUZMAN-thumbnail-32x32-70.jpg"
+            }
+         },
+         "cargo":{
+            "categoria":{
+               "nombre":"Subsecretario del Departamento Ejecutivo",
+               "requiere_declaracion_jurada":true,
+               "nombre_corto":"Subsecretario",
+               "orden":50
+            },
+            "nombre":"SUBSECRETARÃA DE HIGIENE URBANA",
+            "depende_de":180,
+            "electivo":false
+         },
+         "fecha_inicio":"2015-12-10",
+         "fecha_fin":null
+      },
+      {
+         "id":95,
+         "funcionario":{
+            "nombre":"MatÃ­as Alejandro",
+            "apellido":"Salum",
+            "franjaetaria":null,
+            "genero":"M",
+            "edad":null,
+            "foto":{
+               "original":"http://localhost:8000/media/imagenes/personas/SALUM.jpg",
+               "thumbnail":"http://localhost:8000/media/__sized__/imagenes/personas/SALUM-thumbnail-125x125-70.jpg",
+               "thumbnail_32x32":"http://localhost:8000/media/__sized__/imagenes/personas/SALUM-thumbnail-32x32-70.jpg"
+            }
+         },
+         "cargo":{
+            "categoria":{
+               "nombre":"Subsecretario del Departamento Ejecutivo",
+               "requiere_declaracion_jurada":true,
+               "nombre_corto":"Subsecretario",
+               "orden":50
+            },
+            "nombre":"SUBSECRETARÃA DE INFRAESTRUCTURA",
+            "depende_de":198,
+            "electivo":false
+         },
+         "fecha_inicio":"2015-12-10",
+         "fecha_fin":null
+      },
+      {
+         "id":86,
+         "funcionario":{
+            "nombre":"Leticia",
+            "apellido":"GÃ³mez",
+            "franjaetaria":"30's",
+            "genero":"F",
+            "edad":38,
+            "foto":{
+               "original":"http://localhost:8000/media/imagenes/personas/FU_453_Leticia_Gomez.JPG",
+               "thumbnail":"http://localhost:8000/media/__sized__/imagenes/personas/FU_453_Leticia_Gomez-thumbnail-125x125-70.JPG",
+               "thumbnail_32x32":"http://localhost:8000/media/__sized__/imagenes/personas/FU_453_Leticia_Gomez-thumbnail-32x32-70.JPG"
+            }
+         },
+         "cargo":{
+            "categoria":{
+               "nombre":"Subsecretario del Departamento Ejecutivo",
+               "requiere_declaracion_jurada":true,
+               "nombre_corto":"Subsecretario",
+               "orden":50
+            },
+            "nombre":"SUBSECRETARÃA DE PLANEAMIENTO",
+            "depende_de":198,
+            "electivo":false
+         },
+         "fecha_inicio":"2016-02-01",
+         "fecha_fin":null
+      },
+      {
+         "id":277,
+         "funcionario":{
+            "nombre":"JosÃ© SebastiÃ¡n",
+            "apellido":"Roca Marti",
+            "franjaetaria":"40's",
+            "genero":"M",
+            "edad":45,
+            "foto":{
+               "original":"http://localhost:8000/media/imagenes/personas/FU_195_-_Jos%C3%A9_Sebasti%C3%A1n_Roca_Marti.JPG",
+               "thumbnail":"http://localhost:8000/media/__sized__/imagenes/personas/FU_195_-_Jos%C3%A9_Sebasti%C3%A1n_Roca_Marti-thumbnail-125x125-70.JPG",
+               "thumbnail_32x32":"http://localhost:8000/media/__sized__/imagenes/personas/FU_195_-_Jos%C3%A9_Sebasti%C3%A1n_Roca_Marti-thumbnail-32x32-70.JPG"
+            }
+         },
+         "cargo":{
+            "categoria":{
+               "nombre":"Subsecretario del Departamento Ejecutivo",
+               "requiere_declaracion_jurada":true,
+               "nombre_corto":"Subsecretario",
+               "orden":50
+            },
+            "nombre":"SUBSECRETARÃA DE AMBIENTE",
+            "depende_de":198,
+            "electivo":false
+         },
+         "fecha_inicio":"2015-12-10",
+         "fecha_fin":null
+      },
+      {
+         "id":32,
+         "funcionario":{
+            "nombre":"Luis Maria",
+            "apellido":"ArgÃ¼ello",
+            "franjaetaria":"30's",
+            "genero":"M",
+            "edad":37,
+            "foto":{
+               "original":"http://localhost:8000/media/imagenes/personas/FU_750.JPG",
+               "thumbnail":"http://localhost:8000/media/__sized__/imagenes/personas/FU_750-thumbnail-125x125-70.JPG",
+               "thumbnail_32x32":"http://localhost:8000/media/__sized__/imagenes/personas/FU_750-thumbnail-32x32-70.JPG"
+            }
+         },
+         "cargo":{
+            "categoria":{
+               "nombre":"Subsecretario del Departamento Ejecutivo",
+               "requiere_declaracion_jurada":true,
+               "nombre_corto":"Subsecretario",
+               "orden":50
+            },
+            "nombre":"SUBSECRETARÃA DE MODERNIZACIÃ“N Y TECNOLOGÃA",
+            "depende_de":290,
+            "electivo":false
+         },
+         "fecha_inicio":"2016-04-08",
+         "fecha_fin":null
+      },
+      {
+         "id":210,
+         "funcionario":{
+            "nombre":"Guillermo Juan",
+            "apellido":"Lyall",
+            "franjaetaria":"40's",
+            "genero":"M",
+            "edad":46,
+            "foto":{
+               "original":"http://localhost:8000/media/imagenes/personas/FU_641_-_Guillermo_Juan_Lyall.JPG",
+               "thumbnail":"http://localhost:8000/media/__sized__/imagenes/personas/FU_641_-_Guillermo_Juan_Lyall-thumbnail-125x125-70.JPG",
+               "thumbnail_32x32":"http://localhost:8000/media/__sized__/imagenes/personas/FU_641_-_Guillermo_Juan_Lyall-thumbnail-32x32-70.JPG"
+            }
+         },
+         "cargo":{
+            "categoria":{
+               "nombre":"Subsecretario del Departamento Ejecutivo",
+               "requiere_declaracion_jurada":true,
+               "nombre_corto":"Subsecretario",
+               "orden":50
+            },
+            "nombre":"INSTITUTO DE FORMACIÃ“N Y SELECCIÃ“N DE SERVIDORES PÃšBLICOS",
+            "depende_de":1,
+            "electivo":false
+         },
+         "fecha_inicio":"2015-12-10",
+         "fecha_fin":null
+      },
+      {
+         "id":194,
+         "funcionario":{
+            "nombre":"Fanny Esther",
+            "apellido":"Simbron",
+            "franjaetaria":"50's",
+            "genero":"F",
+            "edad":55,
+            "foto":{
+               "original":"http://localhost:8000/media/imagenes/personas/RM_552_Simbron.JPG",
+               "thumbnail":"http://localhost:8000/media/__sized__/imagenes/personas/RM_552_Simbron-thumbnail-125x125-70.JPG",
+               "thumbnail_32x32":"http://localhost:8000/media/__sized__/imagenes/personas/RM_552_Simbron-thumbnail-32x32-70.JPG"
+            }
+         },
+         "cargo":{
+            "categoria":{
+               "nombre":"Director General",
+               "requiere_declaracion_jurada":true,
+               "nombre_corto":"Director General",
+               "orden":55
+            },
+            "nombre":"DirecciÃ³n General de CoordinaciÃ³n de Centros de ParticipaciÃ³n Comunal",
+            "depende_de":17,
+            "electivo":false
+         },
+         "fecha_inicio":"2016-01-21",
+         "fecha_fin":null
+      },
+      {
+         "id":180,
+         "funcionario":{
+            "nombre":"AdriÃ¡n Federico",
+            "apellido":"Slavin",
+            "franjaetaria":"40's",
+            "genero":"M",
+            "edad":43,
+            "foto":{
+               "original":"http://localhost:8000/media/imagenes/personas/RM_705.JPG",
+               "thumbnail":"http://localhost:8000/media/__sized__/imagenes/personas/RM_705-thumbnail-125x125-70.JPG",
+               "thumbnail_32x32":"http://localhost:8000/media/__sized__/imagenes/personas/RM_705-thumbnail-32x32-70.JPG"
+            }
+         },
+         "cargo":{
+            "categoria":{
+               "nombre":"Director General",
+               "requiere_declaracion_jurada":true,
+               "nombre_corto":"Director General",
+               "orden":55
+            },
+            "nombre":"DirecciÃ³n General de AtenciÃ³n de la Salud",
+            "depende_de":64,
+            "electivo":false
+         },
+         "fecha_inicio":"2015-12-10",
+         "fecha_fin":null
+      },
+      {
+         "id":154,
+         "funcionario":{
+            "nombre":"Martin Fernando",
+            "apellido":"Calzon Lopez",
+            "franjaetaria":"30's",
+            "genero":"M",
+            "edad":35,
+            "foto":{
+
+            }
+         },
+         "cargo":{
+            "categoria":{
+               "nombre":"Director General",
+               "requiere_declaracion_jurada":true,
+               "nombre_corto":"Director General",
+               "orden":55
+            },
+            "nombre":"DirecciÃ³n General de Defensa Civil, CapacitaciÃ³n y Emergencia Urbana",
+            "depende_de":103,
+            "electivo":false
+         },
+         "fecha_inicio":"2015-12-10",
+         "fecha_fin":null
+      },
+      {
+         "id":148,
+         "funcionario":{
+            "nombre":"Liliana",
+            "apellido":"Winkelmann",
+            "franjaetaria":"50's",
+            "genero":"F",
+            "edad":53,
+            "foto":{
+               "original":"http://localhost:8000/media/imagenes/personas/RM_476_-_Liliana_Winkelmann.JPG",
+               "thumbnail":"http://localhost:8000/media/__sized__/imagenes/personas/RM_476_-_Liliana_Winkelmann-thumbnail-125x125-70.JPG",
+               "thumbnail_32x32":"http://localhost:8000/media/__sized__/imagenes/personas/RM_476_-_Liliana_Winkelmann-thumbnail-32x32-70.JPG"
+            }
+         },
+         "cargo":{
+            "categoria":{
+               "nombre":"Director General",
+               "requiere_declaracion_jurada":true,
+               "nombre_corto":"Director General",
+               "orden":55
+            },
+            "nombre":"DirecciÃ³n General de Mesa General de Entradas, Aforos y Archivo General",
+            "depende_de":57,
+            "electivo":false
+         },
+         "fecha_inicio":"2015-12-10",
+         "fecha_fin":null
+      },
+      {
+         "id":141,
+         "funcionario":{
+            "nombre":"Hugo Fernando",
+            "apellido":"Bassoli",
+            "franjaetaria":"50's",
+            "genero":"M",
+            "edad":50,
+            "foto":{
+               "original":"http://localhost:8000/media/imagenes/personas/RM_761.JPG",
+               "thumbnail":"http://localhost:8000/media/__sized__/imagenes/personas/RM_761-thumbnail-125x125-70.JPG",
+               "thumbnail_32x32":"http://localhost:8000/media/__sized__/imagenes/personas/RM_761-thumbnail-32x32-70.JPG"
+            }
+         },
+         "cargo":{
+            "categoria":{
+               "nombre":"Director General",
+               "requiere_declaracion_jurada":true,
+               "nombre_corto":"Director General",
+               "orden":55
+            },
+            "nombre":"DirecciÃ³n General de Recursos Tributarios",
+            "depende_de":124,
+            "electivo":false
+         },
+         "fecha_inicio":"2016-05-02",
+         "fecha_fin":null
+      },
+      {
+         "id":139,
+         "funcionario":{
+            "nombre":"Gabriel Hernan",
+            "apellido":"Tirante",
+            "franjaetaria":"40's",
+            "genero":"M",
+            "edad":41,
+            "foto":{
+               "original":"http://localhost:8000/media/imagenes/personas/RM_721_Tirante.JPG",
+               "thumbnail":"http://localhost:8000/media/__sized__/imagenes/personas/RM_721_Tirante-thumbnail-125x125-70.JPG",
+               "thumbnail_32x32":"http://localhost:8000/media/__sized__/imagenes/personas/RM_721_Tirante-thumbnail-32x32-70.JPG"
+            }
+         },
+         "cargo":{
+            "categoria":{
+               "nombre":"Director General",
+               "requiere_declaracion_jurada":true,
+               "nombre_corto":"Director General",
+               "orden":55
+            },
+            "nombre":"DirecciÃ³n General de ProcuraciÃ³n Fiscal",
+            "depende_de":124,
+            "electivo":false
+         },
+         "fecha_inicio":"2015-12-10",
+         "fecha_fin":null
+      },
+      {
+         "id":115,
+         "funcionario":{
+            "nombre":"Lisandro Carlos",
+            "apellido":"Utz",
+            "franjaetaria":"40's",
+            "genero":"M",
+            "edad":41,
+            "foto":{
+               "original":"http://localhost:8000/media/imagenes/personas/RM_580.JPG",
+               "thumbnail":"http://localhost:8000/media/__sized__/imagenes/personas/RM_580-thumbnail-125x125-70.JPG",
+               "thumbnail_32x32":"http://localhost:8000/media/__sized__/imagenes/personas/RM_580-thumbnail-32x32-70.JPG"
+            }
+         },
+         "cargo":{
+            "categoria":{
+               "nombre":"Director General",
+               "requiere_declaracion_jurada":true,
+               "nombre_corto":"Director General",
+               "orden":55
+            },
+            "nombre":"DirecciÃ³n General de Programas de Salud",
+            "depende_de":63,
+            "electivo":false
+         },
+         "fecha_inicio":"2015-12-10",
+         "fecha_fin":null
+      },
+      {
+         "id":74,
+         "funcionario":{
+            "nombre":"Antonio Eduardo",
+            "apellido":"Arias Ceballos",
+            "franjaetaria":"60's",
+            "genero":"M",
+            "edad":62,
+            "foto":{
+               "original":"http://localhost:8000/media/imagenes/personas/FU_361_-_Eduardo_Arias.JPG",
+               "thumbnail":"http://localhost:8000/media/__sized__/imagenes/personas/FU_361_-_Eduardo_Arias-thumbnail-125x125-70.JPG",
+               "thumbnail_32x32":"http://localhost:8000/media/__sized__/imagenes/personas/FU_361_-_Eduardo_Arias-thumbnail-32x32-70.JPG"
+            }
+         },
+         "cargo":{
+            "categoria":{
+               "nombre":"Director General",
+               "requiere_declaracion_jurada":true,
+               "nombre_corto":"Director General",
+               "orden":55
+            },
+            "nombre":"DirecciÃ³n General de Cementerios",
+            "depende_de":220,
+            "electivo":false
+         },
+         "fecha_inicio":"2015-12-10",
+         "fecha_fin":null
+      },
+      {
+         "id":68,
+         "funcionario":{
+            "nombre":"Manuel",
+            "apellido":"Ortega",
+            "franjaetaria":"40's",
+            "genero":"M",
+            "edad":44,
+            "foto":{
+               "original":"http://localhost:8000/media/imagenes/personas/FU_206_Manuel_Ortega.JPG",
+               "thumbnail":"http://localhost:8000/media/__sized__/imagenes/personas/FU_206_Manuel_Ortega-thumbnail-125x125-70.JPG",
+               "thumbnail_32x32":"http://localhost:8000/media/__sized__/imagenes/personas/FU_206_Manuel_Ortega-thumbnail-32x32-70.JPG"
+            }
+         },
+         "cargo":{
+            "categoria":{
+               "nombre":"Director General",
+               "requiere_declaracion_jurada":true,
+               "nombre_corto":"Director General",
+               "orden":55
+            },
+            "nombre":"DirecciÃ³n General de cultura y Patrimonios",
+            "depende_de":238,
+            "electivo":false
+         },
+         "fecha_inicio":"2015-12-10",
+         "fecha_fin":null
+      },
+      {
+         "id":64,
+         "funcionario":{
+            "nombre":"Natalia BelÃ©n",
+            "apellido":"Albanese",
+            "franjaetaria":"30's",
+            "genero":"F",
+            "edad":31,
+            "foto":{
+               "original":"http://localhost:8000/media/imagenes/personas/FU_484_Natalia_Albanese.JPG",
+               "thumbnail":"http://localhost:8000/media/__sized__/imagenes/personas/FU_484_Natalia_Albanese-thumbnail-125x125-70.JPG",
+               "thumbnail_32x32":"http://localhost:8000/media/__sized__/imagenes/personas/FU_484_Natalia_Albanese-thumbnail-32x32-70.JPG"
+            }
+         },
+         "cargo":{
+            "categoria":{
+               "nombre":"Director General",
+               "requiere_declaracion_jurada":true,
+               "nombre_corto":"Director General",
+               "orden":55
+            },
+            "nombre":"DirecciÃ³n General de CooperaciÃ³n y Desarrollo Cultural",
+            "depende_de":238,
+            "electivo":false
+         },
+         "fecha_inicio":"2015-12-10",
+         "fecha_fin":null
+      },
+      {
+         "id":52,
+         "funcionario":{
+            "nombre":"Marco Julio",
+            "apellido":"Puricelli",
+            "franjaetaria":"20's",
+            "genero":"M",
+            "edad":28,
+            "foto":{
+               "original":"http://localhost:8000/media/imagenes/personas/FU_215_-_Marco_Puricelli.JPG",
+               "thumbnail":"http://localhost:8000/media/__sized__/imagenes/personas/FU_215_-_Marco_Puricelli-thumbnail-125x125-70.JPG",
+               "thumbnail_32x32":"http://localhost:8000/media/__sized__/imagenes/personas/FU_215_-_Marco_Puricelli-thumbnail-32x32-70.JPG"
+            }
+         },
+         "cargo":{
+            "categoria":{
+               "nombre":"Director General",
+               "requiere_declaracion_jurada":true,
+               "nombre_corto":"Director General",
+               "orden":55
+            },
+            "nombre":"DirecciÃ³n General de EducaciÃ³n",
+            "depende_de":254,
+            "electivo":false
+         },
+         "fecha_inicio":"2016-05-03",
+         "fecha_fin":null
+      },
+      {
+         "id":50,
+         "funcionario":{
+            "nombre":"Mauro Pedro",
+            "apellido":"Corna",
+            "franjaetaria":"40's",
+            "genero":"M",
+            "edad":44,
+            "foto":{
+               "original":"http://localhost:8000/media/imagenes/personas/FU_070_Mauro_Corna.JPG",
+               "thumbnail":"http://localhost:8000/media/__sized__/imagenes/personas/FU_070_Mauro_Corna-thumbnail-125x125-70.JPG",
+               "thumbnail_32x32":"http://localhost:8000/media/__sized__/imagenes/personas/FU_070_Mauro_Corna-thumbnail-32x32-70.JPG"
+            }
+         },
+         "cargo":{
+            "categoria":{
+               "nombre":"Director General",
+               "requiere_declaracion_jurada":true,
+               "nombre_corto":"Director General",
+               "orden":55
+            },
+            "nombre":"DirecciÃ³n General de FiscalizaciÃ³n y Control",
+            "depende_de":268,
+            "electivo":false
+         },
+         "fecha_inicio":"2015-12-10",
+         "fecha_fin":null
+      },
+      {
+         "id":31,
+         "funcionario":{
+            "nombre":"Ignacio",
+            "apellido":"De LeÃ³n Tosco",
+            "franjaetaria":"20's",
+            "genero":"M",
+            "edad":29,
+            "foto":{
+               "original":"http://localhost:8000/media/imagenes/personas/FU_738_-_Ignacio_De_Leon.JPG",
+               "thumbnail":"http://localhost:8000/media/__sized__/imagenes/personas/FU_738_-_Ignacio_De_Leon-thumbnail-125x125-70.JPG",
+               "thumbnail_32x32":"http://localhost:8000/media/__sized__/imagenes/personas/FU_738_-_Ignacio_De_Leon-thumbnail-32x32-70.JPG"
+            }
+         },
+         "cargo":{
+            "categoria":{
+               "nombre":"Director General",
+               "requiere_declaracion_jurada":true,
+               "nombre_corto":"Director General",
+               "orden":55
+            },
+            "nombre":"DirecciÃ³n General de ModernizaciÃ³n y TecnologÃ­a",
+            "depende_de":291,
+            "electivo":false
+         },
+         "fecha_inicio":"2016-04-08",
+         "fecha_fin":null
+      },
+      {
+         "id":24,
+         "funcionario":{
+            "nombre":"Alejandro",
+            "apellido":"Alvarez Nobell",
+            "franjaetaria":"30's",
+            "genero":"M",
+            "edad":34,
+            "foto":{
+               "original":"http://localhost:8000/media/imagenes/personas/FU_700.JPG",
+               "thumbnail":"http://localhost:8000/media/__sized__/imagenes/personas/FU_700-thumbnail-125x125-70.JPG",
+               "thumbnail_32x32":"http://localhost:8000/media/__sized__/imagenes/personas/FU_700-thumbnail-32x32-70.JPG"
+            }
+         },
+         "cargo":{
+            "categoria":{
+               "nombre":"Director General",
+               "requiere_declaracion_jurada":true,
+               "nombre_corto":"Director General",
+               "orden":55
+            },
+            "nombre":"DirecciÃ³n General de ComunicaciÃ³n y Medios",
+            "depende_de":290,
+            "electivo":false
+         },
+         "fecha_inicio":"2016-04-08",
+         "fecha_fin":null
+      },
+      {
+         "id":290,
+         "funcionario":{
+            "nombre":"Jorge Oscar",
+            "apellido":"Orgaz",
+            "franjaetaria":"40's",
+            "genero":"M",
+            "edad":47,
+            "foto":{
+               "original":"http://localhost:8000/media/imagenes/personas/RN_036_-_Jorge_Orgaz.JPG",
+               "thumbnail":"http://localhost:8000/media/__sized__/imagenes/personas/RN_036_-_Jorge_Orgaz-thumbnail-125x125-70.JPG",
+               "thumbnail_32x32":"http://localhost:8000/media/__sized__/imagenes/personas/RN_036_-_Jorge_Orgaz-thumbnail-32x32-70.JPG"
+            }
+         },
+         "cargo":{
+            "categoria":{
+               "nombre":"Director General",
+               "requiere_declaracion_jurada":true,
+               "nombre_corto":"Director General",
+               "orden":55
+            },
+            "nombre":"DirecciÃ³n General de SubadministraciÃ³n de la Justicia Administrativa Municipal de Faltas",
+            "depende_de":311,
+            "electivo":false
+         },
+         "fecha_inicio":"2015-12-10",
+         "fecha_fin":null
+      },
+      {
+         "id":293,
+         "funcionario":{
+            "nombre":"Andrea",
+            "apellido":"Ortiz Arrigoni",
+            "franjaetaria":"40's",
+            "genero":"F",
+            "edad":42,
+            "foto":{
+
+            }
+         },
+         "cargo":{
+            "categoria":{
+               "nombre":"Director General",
+               "requiere_declaracion_jurada":true,
+               "nombre_corto":"Director General",
+               "orden":55
+            },
+            "nombre":"DirecciÃ³n General de CoordinaciÃ³n",
+            "depende_de":316,
+            "electivo":false
+         },
+         "fecha_inicio":"2016-02-02",
+         "fecha_fin":null
+      }
+   ]
+}
