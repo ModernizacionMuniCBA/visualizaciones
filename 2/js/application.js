@@ -2,10 +2,17 @@ function draw(root) {
   var margin = 20,
     diameter = 960;
 
-var color = d3.scale.linear()
+var saturationDepthPink = d3.scale.linear()
     .domain([1, depth])
-    .range(["hsl(152,80%,80%)", "hsl(228,30%,40%)"])
-    .interpolate(d3.interpolateHcl);
+    .range([61, 91]);
+
+var saturationDepthBlue = d3.scale.linear()
+    .domain([1, depth])
+    .range([50, 80]);
+
+var saturationDepthGray = d3.scale.linear()
+    .domain([1, depth])
+    .range([72, 100]);
 
 var pack = d3.layout.pack()
     .padding(2)
@@ -31,11 +38,26 @@ d3.select("body")
       nodes = pack.nodes(root),
       view;
 
+  function genderColor(d) {
+    console.log(d);
+    console.log(d.object.funcionario.genero);
+    if (d.object.funcionario.genero == 'F') {
+      // hsla(317, 97%, 76%, 1)
+      return 'hsl(317, 97%,' + saturationDepthPink(d.depth) + '%)';
+    } else if (d.object.funcionario.genero == 'M') {
+      // hsla(199, 85%, 65%, 1)
+      return 'hsl(199, 85%,' + saturationDepthBlue(d.depth) + '%)';
+    } else {
+      // hsla(0, 0%, 87%, 1)
+      return 'hsl(0, 0%, '+ saturationDepthGray(d.depth) + '%)';
+    }
+  }
+ 
   var circle = svg.selectAll("circle")
     .data(nodes)
     .enter().append("circle")
     .attr("class", function(d) { return d.parent ? d.children ? "node" : "node node--leaf" : "node node--root"; })
-    .style("fill", function(d) { return d.children ? color(d.depth) : null; })
+    .style("fill", function(d) { return d.children ? genderColor(d) : null; })
     .on("click", function(d) { if (focus !== d) zoom(d), d3.event.stopPropagation(); });
 
   var text = svg.selectAll("text")
