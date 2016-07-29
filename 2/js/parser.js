@@ -16,9 +16,6 @@ $( document ).ready(function() {
   	count = 1;
   	depth = 1;
   	searchDependencies(firstElem.cargo.id, data, depth);
-  	console.log(data);
-  	console.log(count);
-  	console.log(depth);
   	draw(data);
   });
 });

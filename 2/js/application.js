@@ -39,8 +39,6 @@ d3.select("body")
       view;
 
   function genderColor(d) {
-    console.log(d);
-    console.log(d.object.funcionario.genero);
     if (d.object.funcionario.genero == 'F') {
       // hsla(343, 100%, 58%, 1)
       return 'hsl(343, 100%,' + saturationDepthPink(d.depth) + '%)';
@@ -57,7 +55,7 @@ d3.select("body")
     .data(nodes)
     .enter().append("circle")
     .attr("class", function(d) { return d.parent ? d.children ? "node" : "node node--leaf" : "node node--root"; })
-    .style("fill", function(d) { return d.children ? genderColor(d) : null; })
+    .style("fill", genderColor)
     .on("click", function(d) { if (focus !== d) zoom(d), d3.event.stopPropagation(); });
 
   var text = svg.selectAll("text")
