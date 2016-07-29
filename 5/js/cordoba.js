@@ -181,6 +181,9 @@ function loadJson(path) {
                 }
             ])
             .order(d3.ascending)
+            .sortBy(function (d) {
+                return d.funcionario.edad;
+            })
             .on('renderlet', function (table) {
                 table.selectAll('.dc-table-group').classed('info', true);
             });
