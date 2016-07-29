@@ -3,6 +3,7 @@ var secretaryChart;
 var genderChart;
 var rankChart;
 
+var apiUrl = "http://gobiernoabierto.cordoba.gov.ar";
 loadJson("page.json");
 
 function loadJson(path) {
@@ -150,7 +151,7 @@ function loadJson(path) {
                 {
                     label: 'Foto',
                     format: function (d) {
-                        if(d.funcionario.foto.thumbnail == null || d.funcionario.foto.thumbnail === undefined)
+                        if(!d.funcionario.foto.thumbnail)
                             return "";
                         return "<img style='max-height:50px' src='" + d.funcionario.foto.thumbnail + "'/>";
                     }
@@ -158,7 +159,13 @@ function loadJson(path) {
                 {
                     label: 'Funcionario',
                     format: function (d) {
-                        return d.funcionario.nombre + " " + d.funcionario.apellido;
+                        return "<a href="+apiUrl+d.funcionario.url+">"+getText(d.funcionario) + "</a>";
+                        function getText(func){
+                            if(func.nombrepublico){
+                                return func.nombrepublico;
+                            }
+                            return func.nombre + " " + func.apellido;
+                        }
                     }
                 },
                 {
