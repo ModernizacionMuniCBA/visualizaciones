@@ -44,7 +44,7 @@ function loadJson(path) {
         root.secretary = "Intendencia";
         var directSubs = getSubordinates(people, root.cargo.id);
         directSubs.forEach(function(val){
-            val.secretary = val.cargo.nombre;
+            val.secretary = val.cargo.oficina;
             loadSecretary(people, val.cargo.id, val.secretary);
         });
 
