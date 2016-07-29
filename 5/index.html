@@ -20,10 +20,10 @@
 <body>
 
 <div style="width: 80%" class="container">
-<h2>Funcionarios Cordoba</h2>
+<h2>Funcionarios Córdoba</h2>
 <div id="content">
 
-  <div class="col-md-12">
+  <div class="row col-md-12">
         <div style="text-align:center;" id="age-chart">
             <strong>por grupos de edad</strong>
             <a class="reset" href="javascript:ageChart.filterAll();dc.redrawAll();" style="display: none;">borrar</a>
@@ -44,10 +44,10 @@
           <a class="reset" href="javascript:genderChart.filterAll();dc.redrawAll();" style="display: none;">borrar</a>
           <div class="clearfix"></div>
       </div>
+      <h4 style="float:left;margin:20px;">Promedio de Edad: <span style="text-align:center;" id="average-age"></span></h4>
   </div>
-
   <div class="row">
-        <div>
+      <div>
             <div class="dc-data-count">
                 <span class="filter-count"></span> de <span class="total-count"></span> | <a
                     href="javascript:dc.filterAll(); dc.renderAll();"> borrar todos los filtros</a>
@@ -55,6 +55,7 @@
         </div>
   </div>
     <div>
+
         <!-- <h3>Personas</h3> -->
         <table class="table table-hover dc-data-table"></table>
     </div>

@@ -2,6 +2,9 @@ var ageChart;
 var secretaryChart;
 var genderChart;
 var rankChart;
+var averageAge;
+var totalEdad = 0;
+var countEdad = 0;
 
 var apiUrl = "http://gobiernoabierto.cordoba.gov.ar";
 loadJson("page.json");
@@ -13,6 +16,7 @@ function loadJson(path) {
     genderChart = dc.pieChart("#gender-chart");
     peopleCount = dc.dataCount('.dc-data-count');
     peopleTable = dc.dataTable('.dc-data-table');
+    averageAge = dc.numberDisplay('#average-age');
     d3.json(path, function (data) {
         var dateFormat = d3.time.format('%Y-%m-%d');
         var numberFormat = d3.format('.2f');
@@ -33,6 +37,9 @@ function loadJson(path) {
             }
             if(d.funcionario.genero == null || d.funcionario.genero == ""){
                 d.funcionario.genero = "No especificado";
+            }
+            if(d.funcionario.edad == null || d.funcionario.edad == ""){
+                d.funcionario.edad = null;
             }
             return d;
         });
@@ -76,6 +83,10 @@ function loadJson(path) {
             return d.funcionario.genero;
         });
 
+        var allDimension = peopleData.dimension(function (d) {
+            return "";
+        });
+
         var ageGroup = ageDimension.group().reduceCount();
 
         var genderGroup = genderDimension.group().reduceCount();
@@ -86,6 +97,29 @@ function loadJson(path) {
 
         var secretaryGroup = secretaryDimension.group().reduceCount();
 
+        var average_age_group = allDimension.group().reduce(
+            function reduceAdd(ka, v) {
+                if(v.funcionario.edad == null){
+                    return ka;
+                }
+                ++ka.count;
+                ka.total += v.funcionario.edad;
+                return ka;
+            },
+
+            function reduceRemove(ka, v) {
+                if(v.funcionario.edad == null){
+                    return ka;
+                }
+                --ka.count;
+                ka.total -= v.funcionario.edad;
+                return ka;
+            },
+
+            function reduceInitial() {
+                return {count: 0, total: 0};
+            }
+        );
 
         rankChart
             .width(totalWidth/3)
@@ -112,6 +146,20 @@ function loadJson(path) {
             .group(secretaryGroup)
             .elasticX(true)
             .xAxis().tickFormat(d3.format("d"));
+
+        averageAge.group(average_age_group)
+            .valueAccessor(function (p) {
+                if(p.value.count){
+                    return (p.value.total)/p.value.count;
+                } else {
+                    return -1;
+                }})
+            .formatNumber(function(d){
+                if(d == -1){
+                    return "N/A";
+                }
+                return d.toFixed(2);
+            });
 
         ageChart
             .width(totalWidth/4)
