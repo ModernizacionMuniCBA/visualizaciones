@@ -174,9 +174,9 @@ function loadJson(path) {
                     }
                 },
                 {
-                    label: 'Organismo',
+                    label: 'Oficina',
                     format: function (d) {
-                        return d.cargo.nombre ;
+                        return d.cargo.oficina ;
                     }
                 }
             ])
