@@ -31,17 +31,21 @@ function loadJson(path) {
                 d.funcionario.franjaetaria = "Desconocido";
             }
             if(d.funcionario.genero == null || d.funcionario.genero == ""){
-                d.funcionario.genero = null;
+                d.funcionario.genero = "No especificado";
             }
             return d;
         });
 
+        people = people.filter(function(person){
+           return (person.cargo.depende_de == null || person.cargo.superioresids.length != 0);
+        });
+
         var root = getSubordinates(people, null)[0];
         root.secretary = "Intendencia";
-        var directSubs = getSubordinates(people, root.id);
+        var directSubs = getSubordinates(people, root.cargo.id);
         directSubs.forEach(function(val){
             val.secretary = val.cargo.nombre;
-            loadSecretary(people, val.id, val.secretary);
+            loadSecretary(people, val.cargo.id, val.secretary);
         });
 
         loadDefaultValues(people, root.id);
@@ -158,16 +162,23 @@ function loadJson(path) {
                     }
                 },
                 {
+                    label: 'Edad',
+                    format: function (d) {
+                        return d.funcionario.edad;
+                    }
+                },
+                {
                     label: 'Cargo',
                     format: function (d) {
                         return d.cargo.categoria.nombre;
                     }
-                },                {
+                },
+                {
                     label: 'Organismo',
                     format: function (d) {
                         return d.cargo.nombre ;
                     }
-                },
+                }
             ])
             .order(d3.ascending)
             .on('renderlet', function (table) {
@@ -199,7 +210,7 @@ function loadSecretary(array, id, secretary){
 }
 
 function loadDefaultValues(people, rootId){
-    loadDefaultValue(people, "secretary", "Unknown", rootId);
+    loadDefaultValue(people, "secretary", "Desconocido", rootId);
 }
 
 function loadDefaultValue(people, field, value, excludeId){
