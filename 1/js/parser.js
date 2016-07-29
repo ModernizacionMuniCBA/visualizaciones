@@ -2,7 +2,7 @@ function generateTree(array, id, level) {
     var results = new Array();
     array.forEach(function (person) {
         if (person.cargo.depende_de == id) {
-            var children = generateTree(array, person.id, level + 1);
+            var children = generateTree(array, person.cargo.id, level + 1);
             results.push(createPerson(person, children, level));
         }
     });
@@ -25,7 +25,7 @@ function createPerson(person, children, level) {
     }
     var gender = person.funcionario.genero;
     if (gender == null || gender === undefined) {
-        gender = Math.random() < 0.5 ? "Masculino" : "Femenino";
+        gender = null;
     }
     if (children.length != 0) {
         return {

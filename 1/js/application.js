@@ -1,4 +1,4 @@
-var radius = 960 / 2;
+var radius = 1440 / 2;
 
 var cluster = d3.layout.cluster()
     .size([360, radius - 120]);
@@ -17,7 +17,6 @@ var svg = d3.select("body").append("svg")
 d3.json("data/page.json", function (error, funcionarios) {
     if (error) throw error;
     var results = generateTree(funcionarios.results, null, 0)[0];
-    results.children = addAll(funcionarios.results, results.children);
     var nodes = cluster.nodes(results);
 
     var link = svg.selectAll("path.link")
@@ -43,7 +42,7 @@ d3.json("data/page.json", function (error, funcionarios) {
             return (20 - d.size) / 4;
         })
         .attr("stroke", function (d) {
-            return (d.gender == "Masculino") ? "DarkBlue" : "DeepPink";
+            return (d.gender == "M") ? "DarkBlue" : "DeepPink";
         })
         .on("mouseover", mouseover)
         .on("mousemove", function (d) {
