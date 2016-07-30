@@ -71,7 +71,7 @@ d3.json("data/page.json", function (error, funcionarios) {
     function mousemove(d) {
         div
             .html("<img style='max-height:100px;max-width:150px' src='" + d.photo + "'/><br/>" +
-                "<b>" + d.name + "</b><br/>" + "<b>" + d.rank + "</b>")
+                "<b>" + d.name + "</b><br/>" + d.rank)
             .style("left", (d3.event.pageX ) + "px")
             .style("top", (d3.event.pageY) + "px");
     }
