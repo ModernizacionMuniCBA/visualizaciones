@@ -158,7 +158,7 @@ function loadJson(path) {
                 if(d == -1){
                     return "N/A";
                 }
-                return d.toFixed(2);
+                return d.toFixed(1);
             });
 
         ageChart
