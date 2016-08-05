@@ -5,6 +5,7 @@ var rankChart;
 var averageAge;
 var totalEdad = 0;
 var countEdad = 0;
+var chartNameMap;
 
 var apiUrl = "http://gobiernoabierto.cordoba.gov.ar";
 loadJson("page.json");
@@ -17,6 +18,12 @@ function loadJson(path) {
     peopleCount = dc.dataCount('.dc-data-count');
     peopleTable = dc.dataTable('.dc-data-table');
     averageAge = dc.numberDisplay('#average-age');
+    chartNameMap = {
+        "edad": ageChart,
+        "secretaria": secretaryChart,
+        "genero": genderChart,
+        "cargo": rankChart
+    };
     d3.json(path, function (data) {
         var dateFormat = d3.time.format('%Y-%m-%d');
         var numberFormat = d3.format('.2f');
@@ -29,29 +36,29 @@ function loadJson(path) {
 
         var people = data.results;
         people.map(function (d) {
-            if(d.fecha_inicio != null) {
+            if (d.fecha_inicio) {
                 d.fechaIni = dateFormat.parse(d.fecha_inicio).getMonth() + 1;
             }
-            if(d.funcionario.franjaetaria == null){
+            if (!d.funcionario.franjaetaria) {
                 d.funcionario.franjaetaria = "Desconocido";
             }
-            if(d.funcionario.genero == null || d.funcionario.genero == ""){
+            if (!d.funcionario.genero) {
                 d.funcionario.genero = "No especificado";
             }
-            if(d.funcionario.edad == null || d.funcionario.edad == ""){
+            if (!d.funcionario.edad) {
                 d.funcionario.edad = null;
             }
             return d;
         });
 
-        people = people.filter(function(person){
-           return (person.cargo.depende_de == null || person.cargo.superioresids.length != 0);
+        people = people.filter(function (person) {
+            return (person.cargo.depende_de == null || person.cargo.superioresids.length != 0);
         });
 
         var root = getSubordinates(people, null)[0];
         root.secretary = "Intendencia";
         var directSubs = getSubordinates(people, root.cargo.id);
-        directSubs.forEach(function(val){
+        directSubs.forEach(function (val) {
             val.secretary = val.cargo.oficina;
             loadSecretary(people, val.cargo.id, val.secretary);
         });
@@ -99,7 +106,7 @@ function loadJson(path) {
 
         var average_age_group = allDimension.group().reduce(
             function reduceAdd(ka, v) {
-                if(v.funcionario.edad == null){
+                if (v.funcionario.edad == null) {
                     return ka;
                 }
                 ++ka.count;
@@ -108,7 +115,7 @@ function loadJson(path) {
             },
 
             function reduceRemove(ka, v) {
-                if(v.funcionario.edad == null){
+                if (v.funcionario.edad == null) {
                     return ka;
                 }
                 --ka.count;
@@ -122,7 +129,7 @@ function loadJson(path) {
         );
 
         rankChart
-            .width(totalWidth/3)
+            .width(totalWidth / 3)
             .height(300)
             .margins({top: 20, left: 10, right: 10, bottom: 20})
             .dimension(rankDimension)
@@ -135,7 +142,7 @@ function loadJson(path) {
             .xAxis().tickFormat(d3.format("d"));
 
         secretaryChart
-            .width(totalWidth/3)
+            .width(totalWidth / 3)
             .height(300)
             .margins({top: 20, left: 10, right: 10, bottom: 20})
             .dimension(secretaryDimension)
@@ -149,20 +156,21 @@ function loadJson(path) {
 
         averageAge.group(average_age_group)
             .valueAccessor(function (p) {
-                if(p.value.count){
-                    return (p.value.total)/p.value.count;
+                if (p.value.count) {
+                    return (p.value.total) / p.value.count;
                 } else {
                     return -1;
-                }})
-            .formatNumber(function(d){
-                if(d == -1){
+                }
+            })
+            .formatNumber(function (d) {
+                if (d == -1) {
                     return "N/A";
                 }
                 return d.toFixed(1);
             });
 
         ageChart
-            .width(totalWidth/4)
+            .width(totalWidth / 4)
             .height(300)
             .margins({top: 20, left: 10, right: 10, bottom: 20})
             .dimension(ageDimension)
@@ -173,10 +181,10 @@ function loadJson(path) {
             .xAxis().tickFormat(d3.format("d"));
 
         genderChart
-            .width(totalWidth/5)
+            .width(totalWidth / 5)
             .height(300)
             .dimension(genderDimension)
-            .ordinalColors(['#e377c2',"#1f77b4", "#DDD"])
+            .ordinalColors(['#e377c2', "#1f77b4", "#DDD"])
             .renderLabel(true)
             .group(genderGroup);
 
@@ -199,17 +207,17 @@ function loadJson(path) {
                 {
                     label: 'Foto',
                     format: function (d) {
-                        if(!d.funcionario.foto.thumbnail)
+                        if (!d.funcionario.foto.thumbnail)
                             return "";
-                        return "<img style='max-height:50px' src='" + d.funcionario.foto.thumbnail + "'/>";
+                        return "<img class='profile-picture' src='" + d.funcionario.foto.thumbnail + "'/>";
                     }
                 },
                 {
                     label: 'Funcionario',
                     format: function (d) {
-                        return "<a href="+apiUrl+d.funcionario.url+">"+getText(d.funcionario) + "</a>";
-                        function getText(func){
-                            if(func.nombrepublico){
+                        return "<a href=" + apiUrl + d.funcionario.url + ">" + getText(d.funcionario) + "</a>";
+                        function getText(func) {
+                            if (func.nombrepublico) {
                                 return func.nombrepublico;
                             }
                             return func.nombre + " " + func.apellido;
@@ -231,7 +239,7 @@ function loadJson(path) {
                 {
                     label: 'Oficina',
                     format: function (d) {
-                        return d.cargo.oficina ;
+                        return d.cargo.oficina;
                     }
                 }
             ])
@@ -243,38 +251,54 @@ function loadJson(path) {
                 table.selectAll('.dc-table-group').classed('info', true);
             });
 
+        loadFiltersFromUrl();
+
         dc.renderAll();
 
 
     });
 }
 
-function getSubordinates(array, id){
+function getSubordinates(array, id) {
     var results = new Array();
-    array.forEach(function(person){
-        if(person.cargo.depende_de == id){
+    array.forEach(function (person) {
+        if (person.cargo.depende_de == id) {
             results.push(person);
         }
     });
     return results;
 }
 
-function loadSecretary(array, id, secretary){
-    array.forEach(function(person){
-        if($.inArray(id, person.cargo.superioresids) != -1){
+function loadSecretary(array, id, secretary) {
+    array.forEach(function (person) {
+        if ($.inArray(id, person.cargo.superioresids) != -1) {
             person.secretary = secretary;
         }
     });
 }
 
-function loadDefaultValues(people, rootId){
+function loadDefaultValues(people, rootId) {
     loadDefaultValue(people, "secretary", "Desconocido", rootId);
 }
 
-function loadDefaultValue(people, field, value, excludeId){
-    people.forEach(function(val){
-        if((val[field] == undefined || val[field] == null) && val.id != excludeId){
+function loadDefaultValue(people, field, value, excludeId) {
+    people.forEach(function (val) {
+        if ((val[field] == undefined || val[field] == null) && val.id != excludeId) {
             val[field] = value;
         }
     });
+}
+
+function loadFiltersFromUrl() {
+    var queryParams = getJsonFromUrl();
+    for (var q in queryParams) {
+        var chart = getChartByName(q);
+        if (chart) {
+            chart.filter(queryParams[q]);
+        }
+    }
+}
+
+function getChartByName(name) {
+    return chartNameMap[name];
 }
