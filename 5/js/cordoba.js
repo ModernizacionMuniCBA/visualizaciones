@@ -294,7 +294,14 @@ function loadFiltersFromUrl() {
     for (var q in queryParams) {
         var chart = getChartByName(q);
         if (chart) {
-            chart.filter(queryParams[q]);
+            var filterq = JSON.parse(queryParams[q]);
+            if(filterq instanceof  Array) {
+                filterq.forEach(function (filt) {
+                    chart.filter(filt);
+                });
+            } else {
+                chart.filter(filterq);
+            }
         }
     }
 }
