@@ -7,7 +7,18 @@ var totalEdad = 0;
 var countEdad = 0;
 var chartNameMap;
 
-var apiUrl = "http://gobiernoabierto.cordoba.gov.ar";
+var apiUrl = "https://gobiernoabierto.cordoba.gov.ar";
+// $.ajax({
+//     type: "GET",
+//     url: apiUrl + "/api/funciones/?format=json&page_size=350",
+//     dataType: "jsonp",
+//     done: function(data){
+//         console.log(data);
+//     },
+//     error: function(err) { console.log(err); }
+// });
+// loadJson("https://gobiernoabierto.cordoba.gov.ar/api/funciones/?format=json&page_size=350");
+
 loadJson("page.json");
 
 function loadJson(path) {
@@ -250,8 +261,8 @@ function loadJson(path) {
             .on('renderlet', function (table) {
                 table.selectAll('.dc-table-group').classed('info', true);
             });
-
-        loadFiltersFromUrl();
+        
+        dcFilterRememberer();
 
         dc.renderAll();
 
@@ -267,6 +278,19 @@ function getSubordinates(array, id) {
         }
     });
     return results;
+}
+
+function generateFilterHandler(name) {
+    return function (dimension, filter) {
+        dimension.filter(filter);
+        if(filter.length > 0){
+            setJsonToUrl(name, JSON.stringify(filter));
+        } else {
+
+        }
+        dc.renderAll();
+        return filter;
+    }
 }
 
 function loadSecretary(array, id, secretary) {
@@ -289,20 +313,9 @@ function loadDefaultValue(people, field, value, excludeId) {
     });
 }
 
-function loadFiltersFromUrl() {
-    var queryParams = getJsonFromUrl();
-    for (var q in queryParams) {
-        var chart = getChartByName(q);
-        if (chart) {
-            var filterq = JSON.parse(queryParams[q]);
-            if(filterq instanceof  Array) {
-                filterq.forEach(function (filt) {
-                    chart.filter(filt);
-                });
-            } else {
-                chart.filter(filterq);
-            }
-        }
+function addFilterHandlers() {
+    for (var chartName in chartNameMap) {
+        getChartByName(chartName).filterHandler(generateFilterHandler(chartName));
     }
 }
 
