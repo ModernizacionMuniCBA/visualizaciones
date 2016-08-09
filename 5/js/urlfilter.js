@@ -10,7 +10,6 @@
 	  var originalDcRenderAll = dc.renderAll;
 	  dc.renderAll = function(g) {
 	    if (firstRender) {
-	      //apply filters if set in query string
 	      var query_string = window.location.hash.substring(1);
 	      if (query_string.length > 0) {
 	        functions.applyFilters(JSON.parse(query_string));
@@ -19,16 +18,14 @@
 	    originalDcRenderAll(g);
 	  }
 	  window.onpopstate = function(event) {
-	    //on going back pages clear and apply filters
 	    var query_string = window.location.hash.substring(1);
 	    dc.filterAll();
 	    if (query_string.length > 0) {
-	      functions.applyFilters(functions.decodeFilters(query_string));
+	      functions.applyFilters(query_string);
 	    }
 	    dc.redrawAll();
 	  };
 	  dc.renderlet(function() {
-	    //global dc renderlet to encode filters to the query string
 	    var query_string = JSON.stringify(functions.getFilters());
 	    if (window.location.hash.substring(1) != query_string) {
 	      if (history.pushState) {
@@ -41,21 +38,21 @@
 	}
 
 	function getFilters() {
-	  return dc.chartRegistry.list().map(function(chart, index) {
+	  return dc.chartRegistry.list().map(function(chart) {
 	    return {
-	      grafico: index,
-	      value: chart.filters()
+	      filtro: getNameFromChart(chart),
+	      valores: chart.filters()
 	    };
 	  }).filter(function(o) {
-	    return o.value.length > 0;
+	    return o.valores.length > 0;
 	  });
 	}
 
 	function applyFilters(filters) {
 	  var charts = dc.chartRegistry.list();
 	  filters.forEach(function(object) {
-	    var chart = charts[object.grafico];
-	    object.value.forEach(function(filter) {
+	    var chart = getChartByName(object.filtro);
+	    object.valores.forEach(function(filter) {
 	      if (Array.isArray(filter) && filter.length == 2) {
 	        chart.filter(dc.filters.RangedTwoDimensionalFilter.call(this, filter));
 	      } else {
@@ -65,20 +62,10 @@
 	  });
 	}
 
-	function encodeFilters(filters) {
-	  return filters.length === 0 ? '' : window.btoa(escape(JSON.stringify(filters)));
-	}
-
-	function decodeFilters(encodedFilters) {
-	  return JSON.parse(unescape(window.atob(encodedFilters)));
-	}
-
 	var version = "1.0.0";
 
 	var functions = {
 	    getFilters: getFilters,
-	    encodeFilters: encodeFilters,
-	    decodeFilters: decodeFilters,
 	    applyFilters: applyFilters
 	  };
 	var dcFilterRememberer = filterRememberer.bind(functions);

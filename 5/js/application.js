@@ -313,12 +313,15 @@ function loadDefaultValue(people, field, value, excludeId) {
     });
 }
 
-function addFilterHandlers() {
-    for (var chartName in chartNameMap) {
-        getChartByName(chartName).filterHandler(generateFilterHandler(chartName));
-    }
-}
-
 function getChartByName(name) {
     return chartNameMap[name];
+}
+
+function getNameFromChart(chart) {
+    for(var k in chartNameMap){
+        if(chartNameMap[k] == chart){
+            return k;
+        }
+    }
+    return null;
 }
