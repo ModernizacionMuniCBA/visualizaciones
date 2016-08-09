@@ -12,7 +12,8 @@
 	    if (firstRender) {
 	      var query_string = window.location.hash.substring(1);
 	      if (query_string.length > 0) {
-	        functions.applyFilters(JSON.parse(query_string));
+	          console.log(JSON.parse(decodeURI(query_string)));
+	        functions.applyFilters(JSON.parse(decodeURI(query_string)));
 	      };
 	    }
 	    originalDcRenderAll(g);
