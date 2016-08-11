@@ -55,7 +55,7 @@ d3.json("page.json", function(error, data) {
   var simulation = d3.forceSimulation(datos)
       .force("x", d3.forceX(function(d) { return x(d.funcionario.edad); }).strength(1))
       .force("y", d3.forceY(height / 2))
-      .force("collide", d3.forceCollide(6))
+      .force("collide", d3.forceCollide(4))
       .stop();
 
   for (var i = 0; i < 100; ++i) simulation.tick();
@@ -74,7 +74,7 @@ d3.json("page.json", function(error, data) {
       .polygons(datos)).enter().append("g");
 
   cell.append("circle")
-      .attr("r", 6)
+      .attr("r", 4)
       .attr("cx", function(d) { return d.data.x; })
       .attr("cy", function(d) { return d.data.y; })
       .attr("fill", function(d) {  if (d.data.funcionario.genero == 'M') { return "midnightblue" } else { return "hotpink" }  });   
