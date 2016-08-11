@@ -55,7 +55,7 @@ d3.json("page.json", function(error, data) {
   var simulation = d3.forceSimulation(datos)
       .force("x", d3.forceX(function(d) { return x(d.funcionario.edad); }).strength(1))
       .force("y", d3.forceY(height / 2))
-      .force("collide", d3.forceCollide(4))
+      .force("collide", d3.forceCollide(6))
       .stop();
 
   for (var i = 0; i < 100; ++i) simulation.tick();
