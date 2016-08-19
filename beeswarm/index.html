@@ -44,7 +44,7 @@ var g = svg.append("g")
 
 var datos;
 
-d3.json("page.json", function(error, data) {
+d3.json("//gobiernoabierto.cordoba.gov.ar/api/funciones/?format=json&page_size=300", function(error, data) {
   if (error) throw error;
 
   datos = data.results;
