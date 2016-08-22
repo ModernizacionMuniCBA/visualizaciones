@@ -30,6 +30,7 @@ function createPerson(person, children, level) {
     if (gender == null || gender === undefined) {
         gender = null;
     }
+    var link = person.funcionario.url;
     if (children.length != 0) {
         return {
             name: fullName,
@@ -37,10 +38,11 @@ function createPerson(person, children, level) {
             photo: photo,
             gender: gender,
             children: children,
-            size: level
+            size: level,
+            link: link
         };
     } else {
-        return {name: fullName, rank: rank, photo: photo, gender: gender, size: level};
+        return {name: fullName, rank: rank, photo: photo, gender: gender, size: level, link: link};
     }
     return null;
 }

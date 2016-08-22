@@ -14,7 +14,9 @@ var svg = d3.select("body").append("svg")
     .append("g")
     .attr("transform", "translate(" + radius + "," + radius + ")");
 
-d3.json("//gobiernoabierto.cordoba.gov.ar/api/funciones/?format=json&page_size=350", function (error, funcionarios) {
+var apiUrl = "//gobiernoabierto.cordoba.gov.ar";
+
+d3.json(apiUrl + "/api/funciones/?format=json&page_size=350", function (error, funcionarios) {
     if (error) throw error;
     var results = generateTree(funcionarios.results, null, 0)[0];
     var nodes = cluster.nodes(results);
@@ -37,7 +39,14 @@ d3.json("//gobiernoabierto.cordoba.gov.ar/api/funciones/?format=json&page_size=3
         .attr("class", "tooltip")
         .style("opacity", 1e-6);
 
-    node.append("circle")
+    node.append("a")
+        .attr("href", function(d){
+            if(d.link){
+                return apiUrl + d.link;
+            }
+            return "#";
+        })
+        .append("circle")
         .attr("r", function (d) {
             return (20 - d.size) / 4;
         })
