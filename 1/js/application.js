@@ -14,7 +14,7 @@ var svg = d3.select("body").append("svg")
     .append("g")
     .attr("transform", "translate(" + radius + "," + radius + ")");
 
-d3.json("data/page.json", function (error, funcionarios) {
+d3.json("//gobiernoabierto.cordoba.gov.ar/api/funciones/?format=json&page_size=350", function (error, funcionarios) {
     if (error) throw error;
     var results = generateTree(funcionarios.results, null, 0)[0];
     var nodes = cluster.nodes(results);

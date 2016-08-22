@@ -17,7 +17,10 @@ function addAll(from, to) {
 }
 
 function createPerson(person, children, level) {
-    var fullName = person.funcionario.nombre + " " + person.funcionario.apellido;
+    var fullName = person.funcionario.nombrepublico;
+    if(!fullName){
+        fullName = person.funcionario.nombre + " " + person.funcionario.apellido;
+    }
     var rank = person.cargo.categoria.nombre;
     var photo = person.funcionario.foto.thumbnail;
     if (photo === undefined || photo == null) {

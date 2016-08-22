@@ -7,7 +7,7 @@ var totalEdad = 0;
 var countEdad = 0;
 var chartNameMap;
 
-var apiUrl = "https://gobiernoabierto.cordoba.gov.ar";
+var apiUrl = "//gobiernoabierto.cordoba.gov.ar";
 loadJson(apiUrl + "/api/funciones/?format=json&page_size=350");
 
 function loadJson(path) {
