@@ -5,7 +5,8 @@ var depth;
 
 $( document ).ready(function() {
 
-  d3.json("data/page.json", function(error, json) {
+// d3.json("data/page.json", function(error, json) {
+d3.json("https://gobiernoabierto.cordoba.gob.ar/api/funciones/?format=json&page_size=350", function(error, json) {
   	clerk = json.results;
   	var firstElem = _.find(clerk, function(o) { return o.cargo['depende_de'] == null; });
   	data = {
