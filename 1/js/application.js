@@ -37,15 +37,12 @@ d3.json(apiUrl + "/api/funciones/?format=json&page_size=350", function (error, f
 
     var div = d3.select("body").append("div")
         .attr("class", "tooltip")
-        .style("opacity", 1e-6);
+        .style("opacity", 1e-6)
+        .on("mouseover", mouseover)
+        .on("mouseout", mouseout);
 
     node.append("a")
-        .attr("href", function(d){
-            if(d.link){
-                return apiUrl + d.link;
-            }
-            return "#";
-        })
+        .attr("href", personLink)
         .append("circle")
         .attr("r", function (d) {
             return (20 - d.size) / 4;
@@ -54,12 +51,12 @@ d3.json(apiUrl + "/api/funciones/?format=json&page_size=350", function (error, f
             return (d.gender == "M") ? "DarkBlue" : "DeepPink";
         })
         .on("mouseover", mouseover)
-        .on("mousemove", function (d) {
-            mousemove(d);
-        })
+        .on("mousemove", mousemove)
         .on("mouseout", mouseout);
 
-    node.append("text")
+    node.append("a")
+        .attr("href", personLink)
+        .append("text")
         .attr("dy", ".31em")
         .attr("text-anchor", function (d) {
             return d.x < 180 ? "start" : "end";
@@ -69,7 +66,10 @@ d3.json(apiUrl + "/api/funciones/?format=json&page_size=350", function (error, f
         })
         .text(function (d) {
             return d.name;
-        });
+        })
+        .on("mouseover", mouseover)
+        .on("mousemove", mousemove)
+        .on("mouseout", mouseout);
 
     function mouseover() {
         div.transition()
@@ -80,7 +80,7 @@ d3.json(apiUrl + "/api/funciones/?format=json&page_size=350", function (error, f
     function mousemove(d) {
         div
             .html("<img style='max-height:100px;max-width:150px' src='" + d.photo + "'/><br/>" +
-                "<b>" + d.name + "</b><br/>" + d.rank)
+                "<b>" + d.name + "</b><br/>" + d.rank + "<br/><br/><i>" + d.data.cargo.oficina+"</i>")
             .style("left", (d3.event.pageX ) + "px")
             .style("top", (d3.event.pageY) + "px");
     }
@@ -89,6 +89,13 @@ d3.json(apiUrl + "/api/funciones/?format=json&page_size=350", function (error, f
         div.transition()
             .duration(300)
             .style("opacity", 1e-6);
+    }
+
+    function personLink(d){
+        if(d.link){
+            return apiUrl + d.link;
+        }
+        return "#";
     }
 });
 

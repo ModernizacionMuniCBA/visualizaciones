@@ -39,10 +39,11 @@ function createPerson(person, children, level) {
             gender: gender,
             children: children,
             size: level,
-            link: link
+            link: link,
+            data: person
         };
     } else {
-        return {name: fullName, rank: rank, photo: photo, gender: gender, size: level, link: link};
+        return {name: fullName, rank: rank, photo: photo, gender: gender, size: level, link: link, data: person};
     }
     return null;
 }
