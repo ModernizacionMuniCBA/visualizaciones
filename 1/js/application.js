@@ -14,7 +14,7 @@ var svg = d3.select("body").append("svg")
     .append("g")
     .attr("transform", "translate(" + radius + "," + radius + ")");
 
-var apiUrl = "//gobiernoabierto.cordoba.gov.ar";
+var apiUrl = "https://gobiernoabierto.cordoba.gob.ar";
 
 d3.json(apiUrl + "/api/funciones/?format=json&page_size=350", function (error, funcionarios) {
     if (error) throw error;
