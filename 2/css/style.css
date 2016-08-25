@@ -3,8 +3,8 @@
 }
 
 .node:hover {
-  stroke: #000;
-  stroke-width: 1.5px;
+  stroke: #1ED760;
+  stroke-width: 3px;
 }
 
 .label {
@@ -23,11 +23,16 @@
   position: absolute;
   text-align: center;
   width: 150px;
-  height: 200px;
   padding: 8px;
   font-size: 12px;
-  background: #ffffff;
-  border: solid 1px #aaa;
+  background: rgba(255, 255, 255, 0.7);
   border-radius: 8px;
   pointer-events: none;
+  -webkit-box-shadow: 13px 13px 10px -7px rgba(0,0,0,0.12);
+	-moz-box-shadow: 13px 13px 10px -7px rgba(0,0,0,0.12);
+	box-shadow: 13px 13px 10px -7px rgba(0,0,0,0.12);
+}
+
+.tooltip img {
+	max-width:150px
 }

@@ -1,5 +1,22 @@
 var apiUrl = "https://gobiernoabierto.cordoba.gob.ar";
 
+function personLink(d){
+  if(d.object.funcionario.url){
+      return apiUrl + d.object.funcionario.url;
+  }
+  return "#";
+}
+
+function personPhoto(d) {
+ if (d.object.funcionario.foto.thumbnail) {
+  return d.object.funcionario.foto.thumbnail;
+ } else if (d.object.funcionario.foto.original) {
+  return d.object.funcionario.foto.original;
+ } else {
+  return null;
+ }
+}
+
 function draw(root) {
   var margin = 20,
     diameter = 960;
@@ -11,25 +28,23 @@ function draw(root) {
   }
 
   function mousemove(d) {
-    console.log(d);
+    if (!personPhoto(d)) {
+      tooltip
+        .html(d.name + "</b><br/>" + d.object.cargo.categoria.nombre + "<br/><br/><i>" + d.object.cargo.oficina+"</i>")
+    } else {
+      tooltip
+        .html("<img src='" + personPhoto(d) + "'/><br/>" +
+            "<b>" + d.name + "</b><br/>" + d.object.cargo.categoria.nombre + "<br/><br/><i>" + d.object.cargo.oficina+"</i>")
+    }
     tooltip
-      .html("<img style='max-height:100px;max-width:150px' src='" + d.object.funcionario.foto.thumbnail + "'/><br/>" +
-          "<b>" + d.name + "</b><br/>" + d.object.funcionario.rank + "<br/><br/><i>" + d.object.cargo.oficina+"</i>")
       .style("left", (d3.event.pageX ) + "px")
       .style("top", (d3.event.pageY) + "px");
   }
 
   function mouseout() {
-    div.transition()
+    tooltip.transition()
       .duration(300)
       .style("opacity", 0);
-  }
-
-  function personLink(d){
-    if(d.object.funcionario.url){
-        return apiUrl + d.object.funcionario.url;
-    }
-    return "#";
   }
 
   var saturationDepthPink = d3.scale.linear()
@@ -59,7 +74,6 @@ function draw(root) {
     .style("background", '#FFF')
     .on("click", function() { zoom(root); });
 
-  // pending
   var tooltip = d3.select('body')
     .append('div')
     .attr('class', 'tooltip');
@@ -87,8 +101,9 @@ function draw(root) {
     .attr("class", function(d) { return d.parent ? d.children ? "node" : "node node--leaf" : "node node--root"; })
     .style("fill", genderColor)
     .on("click", function(d) { if (focus !== d) zoom(d), d3.event.stopPropagation(); })
-    .on("mouseover", function(d) { mouseover(d); d3.event.stopPropagation();})
-    .on("mousemove", function(d) { mousemove(d); d3.event.stopPropagation();});
+    .on("mouseover", function(d) { mouseover(); d3.event.stopPropagation();})
+    .on("mousemove", function(d) { mousemove(d); d3.event.stopPropagation();})
+    .on("mouseout", function(d) { mouseout(); d3.event.stopPropagation();});
 
   var text = svg.selectAll("text")
     .data(nodes)
