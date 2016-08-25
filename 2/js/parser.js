@@ -5,12 +5,15 @@ var depth;
 
 $( document ).ready(function() {
 
-// d3.json("data/page.json", function(error, json) {
 d3.json("https://gobiernoabierto.cordoba.gob.ar/api/funciones/?format=json&page_size=350", function(error, json) {
   	clerk = json.results;
   	var firstElem = _.find(clerk, function(o) { return o.cargo['depende_de'] == null; });
+    var name = firstElem.nombrepublico;
+    if (name == undefined) {
+      name = firstElem.funcionario.nombre + ' ' + firstElem.funcionario.apellido;
+    }
   	data = {
-  		'name': firstElem.funcionario.nombre + ' ' + firstElem.funcionario.apellido,
+  		'name': name,
   		'object': firstElem,
   		'children': []
   	};
@@ -28,6 +31,10 @@ function searchDependencies(positionId, root, depthItem) {
 	}
 	$.each(dependencies, function(indexDepency, dependency) {
 		count++;
+    var name = dependency.nombrepublico;
+    if (name == undefined) {
+      name = dependency.funcionario.nombre + ' ' + dependency.funcionario.apellido;
+    }
 		root.children.push({
   		'name': dependency.funcionario.nombre + ' ' + dependency.funcionario.apellido,
   		'object': dependency,

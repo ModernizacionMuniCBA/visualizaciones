@@ -18,3 +18,16 @@
 .node--leaf {
   pointer-events: none;
 }
+
+.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 150px;
+  height: 200px;
+  padding: 8px;
+  font-size: 12px;
+  background: #ffffff;
+  border: solid 1px #aaa;
+  border-radius: 8px;
+  pointer-events: none;
+}

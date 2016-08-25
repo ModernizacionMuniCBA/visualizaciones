@@ -1,33 +1,63 @@
+var apiUrl = "https://gobiernoabierto.cordoba.gob.ar";
+
 function draw(root) {
   var margin = 20,
     diameter = 960;
 
-var saturationDepthPink = d3.scale.linear()
-    .domain([1, depth])
-    .range([60, 85]);
+  function mouseover() {
+    tooltip.transition()
+    .duration(300)
+    .style("opacity", 1);
+  }
 
-var saturationDepthBlue = d3.scale.linear()
-    .domain([1, depth])
-    .range([50, 80]);
+  function mousemove(d) {
+    console.log(d);
+    tooltip
+      .html("<img style='max-height:100px;max-width:150px' src='" + d.object.funcionario.foto.thumbnail + "'/><br/>" +
+          "<b>" + d.name + "</b><br/>" + d.object.funcionario.rank + "<br/><br/><i>" + d.object.cargo.oficina+"</i>")
+      .style("left", (d3.event.pageX ) + "px")
+      .style("top", (d3.event.pageY) + "px");
+  }
 
-var saturationDepthGray = d3.scale.linear()
-    .domain([1, depth])
-    .range([72, 100]);
+  function mouseout() {
+    div.transition()
+      .duration(300)
+      .style("opacity", 0);
+  }
 
-var pack = d3.layout.pack()
-    .padding(2)
-    .size([diameter - margin, diameter - margin])
-    .value(function(d) { return d.size; })
+  function personLink(d){
+    if(d.object.funcionario.url){
+        return apiUrl + d.object.funcionario.url;
+    }
+    return "#";
+  }
 
-var svg = d3.select("body").append("svg")
-  .attr("width", diameter)
-  .attr("height", diameter)
-  .append("g")
-  .attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
+  var saturationDepthPink = d3.scale.linear()
+      .domain([1, depth])
+      .range([60, 85]);
 
-d3.select("body")
-  .style("background", '#FFF')
-  .on("click", function() { zoom(root); });
+  var saturationDepthBlue = d3.scale.linear()
+      .domain([1, depth])
+      .range([50, 80]);
+
+  var saturationDepthGray = d3.scale.linear()
+      .domain([1, depth])
+      .range([72, 100]);
+
+  var pack = d3.layout.pack()
+      .padding(2)
+      .size([diameter - margin, diameter - margin])
+      .value(function(d) { return d.size; })
+
+  var svg = d3.select("body").append("svg")
+    .attr("width", diameter)
+    .attr("height", diameter)
+    .append("g")
+    .attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
+
+  d3.select("body")
+    .style("background", '#FFF')
+    .on("click", function() { zoom(root); });
 
   // pending
   var tooltip = d3.select('body')
@@ -36,7 +66,7 @@ d3.select("body")
 
   var focus = root,
       nodes = pack.nodes(root),
-      view;
+        view;
 
   function genderColor(d) {
     if (d.object.funcionario.genero == 'F') {
@@ -56,11 +86,16 @@ d3.select("body")
     .enter().append("circle")
     .attr("class", function(d) { return d.parent ? d.children ? "node" : "node node--leaf" : "node node--root"; })
     .style("fill", genderColor)
-    .on("click", function(d) { if (focus !== d) zoom(d), d3.event.stopPropagation(); });
+    .on("click", function(d) { if (focus !== d) zoom(d), d3.event.stopPropagation(); })
+    .on("mouseover", function(d) { mouseover(d); d3.event.stopPropagation();})
+    .on("mousemove", function(d) { mousemove(d); d3.event.stopPropagation();});
 
   var text = svg.selectAll("text")
     .data(nodes)
     .enter()
+    .append("a")
+    .attr("target", "_blank")
+    .attr("href", personLink)
     .append("text")
     .attr("class", "label")
     .style("fill-opacity", function(d) { return d.parent === root ? 1 : 0; })
