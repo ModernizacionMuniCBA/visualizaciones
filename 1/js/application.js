@@ -1,26 +1,38 @@
-var radius = 1440 / 2;
-
-var cluster = d3.layout.cluster()
-    .size([360, radius - 120]);
-
-var diagonal = d3.svg.diagonal.radial()
-    .projection(function (d) {
-        return [d.y, d.x / 180 * Math.PI];
-    });
-
-var svg = d3.select("body").append("svg")
-    .attr("width", radius * 2)
-    .attr("height", radius * 2)
-    .append("g")
-    .attr("transform", "translate(" + radius + "," + radius + ")");
-
 var apiUrl = "https://gobiernoabierto.cordoba.gob.ar";
 
 d3.json(apiUrl + "/api/funciones/?format=json&page_size=350", function (error, funcionarios) {
     if (error) throw error;
+
+    var radius = 1440 / 2;
+
     var results = generateTree(funcionarios.results, null, 0)[0];
     var directors = getSubordinates(funcionarios.results, results.data.cargo.id);
     var secretaries = directors.map(function(p){return p.cargo.oficina});
+    var filterSecretary = getParameterByName("secretaria");
+    if(filterSecretary){
+        var filtered = results.children.filter(function(director){
+            return director.office == filterSecretary;
+        });
+        if(filtered && filtered.length > 0){
+            results = filtered[0];
+            radius/=2;
+        }
+    }
+
+    var cluster = d3.layout.cluster()
+        .size([360, radius - 120]);
+
+    var diagonal = d3.svg.diagonal.radial()
+        .projection(function (d) {
+            return [d.y, d.x / 180 * Math.PI];
+        });
+
+    var svg = d3.select("#dendogram").append("svg")
+        .attr("width", radius * 2)
+        .attr("height", radius * 2)
+        .append("g")
+        .attr("transform", "translate(" + radius + "," + radius + ")");
+
     var nodes = cluster.nodes(results);
 
     var link = svg.selectAll("path.link")
@@ -40,7 +52,7 @@ d3.json(apiUrl + "/api/funciones/?format=json&page_size=350", function (error, f
             return "rotate(" + (d.x - 90) + ")translate(" + d.y + ")";
         });
 
-    var div = d3.select("body").append("div")
+    var div = d3.select("#dendogram").append("div")
         .attr("class", "tooltip")
         .style("opacity", 1e-6)
         .on("mouseover", mouseover)
@@ -102,6 +114,38 @@ d3.json(apiUrl + "/api/funciones/?format=json&page_size=350", function (error, f
         }
         return "#";
     }
+
+    d3.select(self.frameElement).style("height", radius * 2 + "px");
+
+    loadFilters(secretaries, filterSecretary);
+
 });
 
-d3.select(self.frameElement).style("height", radius * 2 + "px");
+function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
+function loadFilters(secretaries, current) {
+    var s = $("<select/>");
+    $("<option />", {value: "Todos", text: "Todos"}).appendTo(s);
+    secretaries.forEach(function(secretary){
+        $("<option />", {value: secretary, text: secretary}).appendTo(s);
+    });
+    if(current){
+        s.val(current);
+    }
+    s.change(function(){
+        var secretary = $(this).val();
+        if(secretaries.indexOf(secretary) >= 0){
+            window.location.href = "?secretaria="+secretary;
+        } else {
+            window.location.href = ".";
+        }
+    });
+    s.appendTo("#filters");
+}
