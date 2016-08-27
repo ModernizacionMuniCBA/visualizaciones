@@ -19,12 +19,17 @@ var apiUrl = "https://gobiernoabierto.cordoba.gob.ar";
 d3.json(apiUrl + "/api/funciones/?format=json&page_size=350", function (error, funcionarios) {
     if (error) throw error;
     var results = generateTree(funcionarios.results, null, 0)[0];
+    var directors = getSubordinates(funcionarios.results, results.data.cargo.id);
+    var secretaries = directors.map(function(p){return p.cargo.oficina});
     var nodes = cluster.nodes(results);
 
     var link = svg.selectAll("path.link")
         .data(cluster.links(nodes))
         .enter().append("path")
         .attr("class", "link")
+        .attr("stroke", function(d){
+            return d3.scale.category20().range()[secretaries.indexOf(d.target.office)];
+        })
         .attr("d", diagonal);
 
     var node = svg.selectAll("g.node")

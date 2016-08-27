@@ -220,10 +220,7 @@ function loadJson(path) {
                         format: function (d) {
                             return "<a href=" + apiUrl + d.funcionario.url + ">" + getText(d.funcionario) + "</a>";
                             function getText(func) {
-                                if (func.nombrepublico) {
-                                    return func.nombrepublico;
-                                }
-                                return func.nombre + " " + func.apellido;
+                                return func.nombrepublico;
                             }
                         }
                     },

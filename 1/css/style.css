@@ -15,15 +15,15 @@
 
 .link {
     fill: none;
-    stroke: #ddd;
     stroke-width: 1.5px;
+    opacity: 0.25;
 }
 
 div.tooltip {
     position: absolute;
     text-align: center;
     width: 150px;
-    height: 200px;
+    height: 220px;
     padding: 8px;
     font: 12px sans-serif;
     background: #ffffff;
