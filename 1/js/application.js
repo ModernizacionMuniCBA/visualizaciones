@@ -79,7 +79,7 @@ d3.json(apiUrl + "/api/funciones/?format=json&page_size=350", function (error, f
 
     function mousemove(d) {
         div
-            .html("<img style='max-height:100px;max-width:150px' src='" + d.photo + "'/><br/>" +
+            .html("<div class='img-thumbnail'><img style='max-height:100px;max-width:150px' src='" + d.photo + "'/></div><br/>" +
                 "<b>" + d.name + "</b><br/>" + d.rank + "<br/><br/><i>" + d.data.cargo.oficina+"</i>")
             .style("left", (d3.event.pageX ) + "px")
             .style("top", (d3.event.pageY) + "px");

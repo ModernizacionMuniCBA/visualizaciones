@@ -8,6 +8,11 @@
     cursor: pointer;
 }
 
+.img-thumbnail {
+    height: 100px;
+    width: 150px;
+}
+
 .link {
     fill: none;
     stroke: #ddd;
