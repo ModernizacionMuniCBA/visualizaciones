@@ -23,8 +23,8 @@
   r: 6;
 }
 
-.link { cursor: pointer; }   
-  
+.link { cursor: pointer; }
+
 </style>
 <svg width="800" height="300"></svg>
 <script src="//d3js.org/d3.v4.min.js"></script>
@@ -45,15 +45,20 @@ var g = svg.append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 var datos;
+var dni;
 
 d3.json("//gobiernoabierto.cordoba.gob.ar/api/funciones/?format=json&page_size=300", function(error, data) {
   if (error) throw error;
   datos = data.results;
   datos.forEach(function(d) {
     if (d.funcionario.edad == null) {
-      d.funcionario.edad = 0;
+      dni = parseInt(d.funcionario.uniqueid.replace("DNI (AR) ",""));
+      if (dni > 0) {
+        d.funcionario.edad = (-0.000001508 * dni) + 77.779;
+      }
     }
   });
+
   datos = _.filter(datos, function(o) { return (o.funcionario.edad !== null); });
   x.domain(d3.extent(datos, function(d) { return d.funcionario.edad; }));
 
@@ -80,7 +85,7 @@ d3.json("//gobiernoabierto.cordoba.gob.ar/api/funciones/?format=json&page_size=3
 
   cell.append("a")
       .attr("class","link")
-      .attr("xlink:href",function(d) { return "//gobiernoabierto.cordoba.gob.ar" + d.data.funcionario.url; }) 
+      .attr("xlink:href",function(d) { return "//gobiernoabierto.cordoba.gob.ar" + d.data.funcionario.url; })
       .attr("target","_blank")
       .append("circle")
         .attr("r", 4)
