@@ -13,13 +13,18 @@ d3.json(apiUrl + "/api/funciones/?format=json&page_size=350", function (error, f
     var results = generateTree(funcionarios.results, null, 0)[0];
     var directors = getSubordinates(funcionarios.results, results.data.cargo.id);
     var secretaries = directors.map(function(p){return p.cargo.oficina});
-    var filterSecretary = getParameterByName("secretarias");
-    if(filterSecretary){
+    var filterSecretaries = getParameterByName("secretarias");
+    if(filterSecretaries){
+        filterSecretaries = JSON.parse(filterSecretaries);
         var filtered = results.children.filter(function(director){
-            return director.office == filterSecretary;
+            return filterSecretaries.indexOf(director.office) >= 0;
         });
-        if(filtered && filtered.length > 0){
-            results = filtered[0];
+        if(filtered){
+            if(filtered.length == 1){
+                results = filtered[0];
+            } else {
+                results.children = filtered;
+            }
         }
     }
 
@@ -121,7 +126,7 @@ d3.json(apiUrl + "/api/funciones/?format=json&page_size=350", function (error, f
 
     d3.select(self.frameElement).style("height", radius * 2 + "px");
 
-    loadFilters(secretaries, filterSecretary, selectedradius);
+    loadFilters(secretaries, filterSecretaries, selectedradius);
 
 });
 
@@ -135,24 +140,24 @@ function getParameterByName(name, url) {
     return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
 function loadFilters(secretaries, current, selectedradius) {
-    var s = $("<select/>");
-    $("<option />", {value: "Todos", text: "Todos"}).appendTo(s);
+    var s2 = $("<select/>", {class: "js-example-basic-multiple", multiple: "multiple"});
     secretaries.forEach(function(secretary){
-        $("<option />", {value: secretary, text: secretary}).appendTo(s);
+        $("<option />", {value: secretary, text: secretary}).appendTo(s2);
     });
     if(current){
-        s.val(current);
+        s2.val(current);
     }
-    s.change(function(){
-        var secretary = $(this).val();
+    s2.change(function(){
+        var secretaries = $(this).val();
         var params = new Object();
-        if(secretaries.indexOf(secretary)>=0){
-            params.secretarias = secretary;
-        }
         if(selectedradius){
             params.radio = selectedradius;
         }
+        if(secretaries) {
+            params.secretarias = JSON.stringify(secretaries);
+        }
         window.location.href = "?" + $.param(params);
     });
-    s.appendTo("#filters");
+    s2.appendTo("#filters");
+    $(".js-example-basic-multiple").select2();
 }
