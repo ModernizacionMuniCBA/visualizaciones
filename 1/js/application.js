@@ -3,19 +3,23 @@ var apiUrl = "https://gobiernoabierto.cordoba.gob.ar";
 d3.json(apiUrl + "/api/funciones/?format=json&page_size=350", function (error, funcionarios) {
     if (error) throw error;
 
-    var radius = 1440 / 2;
+    var selectedradius = getParameterByName("radio");
+    if(!selectedradius){
+        radius = 720;
+    } else {
+        radius = selectedradius;
+    }
 
     var results = generateTree(funcionarios.results, null, 0)[0];
     var directors = getSubordinates(funcionarios.results, results.data.cargo.id);
     var secretaries = directors.map(function(p){return p.cargo.oficina});
-    var filterSecretary = getParameterByName("secretaria");
+    var filterSecretary = getParameterByName("secretarias");
     if(filterSecretary){
         var filtered = results.children.filter(function(director){
             return director.office == filterSecretary;
         });
         if(filtered && filtered.length > 0){
             results = filtered[0];
-            radius/=2;
         }
     }
 
@@ -117,7 +121,7 @@ d3.json(apiUrl + "/api/funciones/?format=json&page_size=350", function (error, f
 
     d3.select(self.frameElement).style("height", radius * 2 + "px");
 
-    loadFilters(secretaries, filterSecretary);
+    loadFilters(secretaries, filterSecretary, selectedradius);
 
 });
 
@@ -130,7 +134,7 @@ function getParameterByName(name, url) {
     if (!results[2]) return '';
     return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
-function loadFilters(secretaries, current) {
+function loadFilters(secretaries, current, selectedradius) {
     var s = $("<select/>");
     $("<option />", {value: "Todos", text: "Todos"}).appendTo(s);
     secretaries.forEach(function(secretary){
@@ -141,11 +145,14 @@ function loadFilters(secretaries, current) {
     }
     s.change(function(){
         var secretary = $(this).val();
-        if(secretaries.indexOf(secretary) >= 0){
-            window.location.href = "?secretaria="+secretary;
-        } else {
-            window.location.href = ".";
+        var params = new Object();
+        if(secretaries.indexOf(secretary)>=0){
+            params.secretarias = secretary;
         }
+        if(selectedradius){
+            params.radio = selectedradius;
+        }
+        window.location.href = "?" + $.param(params);
     });
     s.appendTo("#filters");
 }
