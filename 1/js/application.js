@@ -73,7 +73,6 @@ d3.json(apiUrl + "/api/funciones/?format=json&page_size=350", function (error, f
         .attr("r", function (d) {
             var weight = d.data.cargo.categoria.orden;
             if(weight){
-                console.log(weight);
                 return (110 - weight)*0.15;
             }
             return (20 - d.size) / 4;
@@ -131,7 +130,7 @@ d3.json(apiUrl + "/api/funciones/?format=json&page_size=350", function (error, f
 
     d3.select(self.frameElement).style("height", radius * 2 + "px");
 
-    loadFilters(secretaries, filterSecretaries, selectedradius);
+    // loadFilters(secretaries, filterSecretaries, selectedradius);
 
 });
 
