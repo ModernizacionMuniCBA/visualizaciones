@@ -71,6 +71,11 @@ d3.json(apiUrl + "/api/funciones/?format=json&page_size=350", function (error, f
         .attr("href", personLink)
         .append("circle")
         .attr("r", function (d) {
+            var weight = d.data.cargo.categoria.orden;
+            if(weight){
+                console.log(weight);
+                return (110 - weight)*0.15;
+            }
             return (20 - d.size) / 4;
         })
         .attr("stroke", function (d) {
