@@ -1,10 +1,10 @@
-var apiUrl = "https://gobiernoabierto.cordoba.gob.ar";
+var apiUrl = "//gobiernoabierto.cordoba.gob.ar";
 
 d3.json(apiUrl + "/api/funciones/?format=json&page_size=350", function (error, funcionarios) {
     if (error) throw error;
 
     var selectedradius = getParameterByName("radio");
-    if(!selectedradius){
+    if (!selectedradius) {
         radius = 720;
     } else {
         radius = selectedradius;
@@ -12,15 +12,17 @@ d3.json(apiUrl + "/api/funciones/?format=json&page_size=350", function (error, f
 
     var results = generateTree(funcionarios.results, null, 0)[0];
     var directors = getSubordinates(funcionarios.results, results.data.cargo.id);
-    var secretaries = directors.map(function(p){return p.cargo.oficina});
+    var secretaries = directors.map(function (p) {
+        return p.cargo.oficina
+    });
     var filterSecretaries = getParameterByName("secretarias");
-    if(filterSecretaries){
+    if (filterSecretaries) {
         filterSecretaries = JSON.parse(filterSecretaries);
-        var filtered = results.children.filter(function(director){
+        var filtered = results.children.filter(function (director) {
             return filterSecretaries.indexOf(director.office) >= 0;
         });
-        if(filtered){
-            if(filtered.length == 1){
+        if (filtered) {
+            if (filtered.length == 1) {
                 results = filtered[0];
             } else {
                 results.children = filtered;
@@ -48,7 +50,7 @@ d3.json(apiUrl + "/api/funciones/?format=json&page_size=350", function (error, f
         .data(cluster.links(nodes))
         .enter().append("path")
         .attr("class", "link")
-        .attr("stroke", function(d){
+        .attr("stroke", function (d) {
             return d3.scale.category20().range()[secretaries.indexOf(d.target.office)];
         })
         .attr("d", diagonal);
@@ -72,8 +74,8 @@ d3.json(apiUrl + "/api/funciones/?format=json&page_size=350", function (error, f
         .append("circle")
         .attr("r", function (d) {
             var weight = d.data.cargo.categoria.orden;
-            if(weight){
-                return (110 - weight)*0.15;
+            if (weight) {
+                return (110 - weight) * 0.15;
             }
             return (20 - d.size) / 4;
         })
@@ -110,7 +112,7 @@ d3.json(apiUrl + "/api/funciones/?format=json&page_size=350", function (error, f
     function mousemove(d) {
         div
             .html("<div class='img-thumbnail'><img style='max-height:100px;max-width:150px' src='" + d.photo + "'/></div><br/>" +
-                "<b>" + d.name + "</b><br/>" + d.rank + "<br/><br/><i>" + d.data.cargo.oficina+"</i>")
+                "<b>" + d.name + "</b><br/>" + d.rank + "<br/><br/><i>" + d.data.cargo.oficina + "</i>")
             .style("left", (d3.event.pageX ) + "px")
             .style("top", (d3.event.pageY) + "px");
     }
@@ -121,8 +123,8 @@ d3.json(apiUrl + "/api/funciones/?format=json&page_size=350", function (error, f
             .style("opacity", 1e-6);
     }
 
-    function personLink(d){
-        if(d.link){
+    function personLink(d) {
+        if (d.link) {
             return apiUrl + d.link;
         }
         return "#";
@@ -130,7 +132,9 @@ d3.json(apiUrl + "/api/funciones/?format=json&page_size=350", function (error, f
 
     d3.select(self.frameElement).style("height", radius * 2 + "px");
 
-    // loadFilters(secretaries, filterSecretaries, selectedradius);
+    if (getParameterByName("select")) {
+        loadFilters(secretaries, filterSecretaries, selectedradius);
+    }
 
 });
 
@@ -145,19 +149,22 @@ function getParameterByName(name, url) {
 }
 function loadFilters(secretaries, current, selectedradius) {
     var s2 = $("<select/>", {class: "js-example-basic-multiple", multiple: "multiple"});
-    secretaries.forEach(function(secretary){
+    secretaries.forEach(function (secretary) {
         $("<option />", {value: secretary, text: secretary}).appendTo(s2);
     });
-    if(current){
+    if (current) {
         s2.val(current);
     }
-    s2.change(function(){
+    s2.change(function () {
         var secretaries = $(this).val();
         var params = new Object();
-        if(selectedradius){
+        if (selectedradius) {
             params.radio = selectedradius;
         }
-        if(secretaries) {
+        if (getParameterByName("select")) {
+            params.select = 1;
+        }
+        if (secretaries) {
             params.secretarias = JSON.stringify(secretaries);
         }
         window.location.href = "?" + $.param(params);
