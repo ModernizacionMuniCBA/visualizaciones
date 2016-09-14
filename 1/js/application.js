@@ -1,11 +1,27 @@
 var apiUrl = "//gobiernoabierto.cordoba.gob.ar";
 
-d3.json(apiUrl + "/api/funciones/?format=json&page_size=350", function (error, funcionarios) {
-    if (error) throw error;
+var task = new Promise(function (resolve, reject) {
+    if(localStorage.cacheData == null || localStorage.cacheData == "null" || localStorage.cacheData == "undefined") { //TODO Validar
+        d3.json(apiUrl + "/api/funciones/?format=json&page_size=350", function (error, funcionarios) {
+            if (error) reject(error);
+            resolve(funcionarios);
+            localStorage.cacheData = JSON.stringify(funcionarios);
+        });
+    } else {
+        resolve(JSON.parse(localStorage.cacheData));
+    }
+});
 
+$(function() {
+    task.then(dendogram).catch(function (error) {
+        throw error;
+    });
+});
+
+function dendogram(funcionarios) {
     var selectedradius = getParameterByName("radio");
     if (!selectedradius) {
-        radius = 720;
+        radius = 650;
     } else {
         radius = selectedradius;
     }
@@ -14,7 +30,7 @@ d3.json(apiUrl + "/api/funciones/?format=json&page_size=350", function (error, f
     var directors = getSubordinates(funcionarios.results, results.data.cargo.id);
     var secretaries = directors.map(function (p) {
         return p.cargo.oficina
-    });
+    }).sort();
     var filterSecretaries = getParameterByName("secretarias");
     if (filterSecretaries) {
         filterSecretaries = JSON.parse(filterSecretaries);
@@ -135,8 +151,7 @@ d3.json(apiUrl + "/api/funciones/?format=json&page_size=350", function (error, f
     if (getParameterByName("select")) {
         loadFilters(secretaries, filterSecretaries, selectedradius);
     }
-
-});
+}
 
 function getParameterByName(name, url) {
     if (!url) url = window.location.href;
@@ -147,6 +162,7 @@ function getParameterByName(name, url) {
     if (!results[2]) return '';
     return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
+
 function loadFilters(secretaries, current, selectedradius) {
     var s2 = $("<select/>", {class: "js-example-basic-multiple", multiple: "multiple"});
     secretaries.forEach(function (secretary) {

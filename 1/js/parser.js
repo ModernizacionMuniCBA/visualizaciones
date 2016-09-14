@@ -1,7 +1,5 @@
 function generateTree(array, id, level, office) {
-    var results = new Array();
-    array.forEach(function (person) {
-        if (person.cargo.depende_de == id) {
+    return _.map(getSubordinates(array, id), function (person) {
             var myOffice;
             if(office || level == 0){
                 myOffice = office;
@@ -11,18 +9,17 @@ function generateTree(array, id, level, office) {
             var children = generateTree(array, person.cargo.id, level + 1, myOffice);
             var person = createPerson(person, children, level);
             person.office = myOffice;
-            results.push(person);
+            return person;
         }
-    });
-    return results;
+    );
 }
 
-function addAll(from, to) {
-    from.forEach(function (person) {
-        to.push(createPerson(person, [], 1));
-    });
-    return to;
-}
+// function addAll(from, to) {
+//     from.forEach(function (person) {
+//         to.push(createPerson(person, [], 1));
+//     });
+//     return to;
+// }
 
 function createPerson(person, children, level) {
     var fullName = person.funcionario.nombrepublico;
@@ -53,21 +50,17 @@ function createPerson(person, children, level) {
     return null;
 }
 
-function countPeople(tree) {
-    if (!tree.children) {
-        return 1;
-    }
-    return 1 + tree.children.map(countPeople).reduce(function (a, b) {
-            return a + b
-        });
-}
+// function countPeople(tree) {
+//     if (!tree.children) {
+//         return 1;
+//     }
+//     return 1 + tree.children.map(countPeople).reduce(function (a, b) {
+//             return a + b
+//         });
+// }
 
 function getSubordinates(array, id) {
-    var results = new Array();
-    array.forEach(function (person) {
-        if (person.cargo.depende_de == id) {
-            results.push(person);
-        }
+    return _.filter(array, function(person) {
+        return person.cargo.depende_de == id;
     });
-    return results;
 }

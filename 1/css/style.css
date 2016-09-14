@@ -1,6 +1,6 @@
 .node circle {
     fill: #fff;
-    stroke-width: 1.5px;
+    stroke-width: 2px;
 }
 
 .node {
@@ -30,4 +30,8 @@ div.tooltip {
     border: solid 1px #aaa;
     border-radius: 8px;
     pointer-events: none;
+}
+
+#filters {
+    text-align: center;
 }
