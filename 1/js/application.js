@@ -1,4 +1,4 @@
-var apiUrl = "//gobiernoabierto.cordoba.gob.ar";
+var apiUrl = "https://gobiernoabierto.cordoba.gob.ar";
 
 var task = new Promise(function (resolve, reject) {
     if(localStorage.cacheData == null || localStorage.cacheData == "null" || localStorage.cacheData == "undefined") { //TODO Validar

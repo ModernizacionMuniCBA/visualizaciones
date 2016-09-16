@@ -27,8 +27,8 @@
 
 </style>
 <svg width="800" height="300"></svg>
-<script src="//d3js.org/d3.v4.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/4.14.2/lodash.min.js"></script>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.14.2/lodash.min.js"></script>
 
 <script>
 var svg = d3.select("svg"),
@@ -47,7 +47,7 @@ var g = svg.append("g")
 var datos;
 var dni;
 
-d3.json("//gobiernoabierto.cordoba.gob.ar/api/funciones/?format=json&page_size=300", function(error, data) {
+d3.json("https://gobiernoabierto.cordoba.gob.ar/api/funciones/?format=json&page_size=300", function(error, data) {
   if (error) throw error;
   datos = data.results;
   datos.forEach(function(d) {
@@ -85,7 +85,7 @@ d3.json("//gobiernoabierto.cordoba.gob.ar/api/funciones/?format=json&page_size=3
 
   cell.append("a")
       .attr("class","link")
-      .attr("xlink:href",function(d) { return "//gobiernoabierto.cordoba.gob.ar" + d.data.funcionario.url; })
+      .attr("xlink:href",function(d) { return "https://gobiernoabierto.cordoba.gob.ar" + d.data.funcionario.url; })
       .attr("target","_blank")
       .append("circle")
         .attr("r", 4)
