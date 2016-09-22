@@ -1,7 +1,7 @@
 var apiUrl = "https://gobiernoabierto.cordoba.gob.ar";
 
 var task = new Promise(function (resolve, reject) {
-    if(localStorage.cacheData == null || localStorage.cacheData == "null" || localStorage.cacheData == "undefined") { //TODO Validar
+    if (localStorage.cacheData == null || localStorage.cacheData == "null" || localStorage.cacheData == "undefined") {
         d3.json(apiUrl + "/api/funciones/?format=json&page_size=350", function (error, funcionarios) {
             if (error) reject(error);
             resolve(funcionarios);
@@ -13,7 +13,8 @@ var task = new Promise(function (resolve, reject) {
 });
 
 $(function() {
-    task.then(dendogram).catch(function (error) {
+    startSpinner();
+    task.then(dendogram).then(stopSpinner).catch(function (error) {
         throw error;
     });
 });
@@ -187,4 +188,26 @@ function loadFilters(secretaries, current, selectedradius) {
     });
     s2.appendTo("#filters");
     $(".js-example-basic-multiple").select2();
+}
+
+//Spinner
+var spinner;
+
+function startSpinner() {
+    var opts = {
+        lines: 9, // The number of lines to draw
+        length: 9, // The length of each line
+        width: 5, // The line thickness
+        radius: 14, // The radius of the inner circle
+        color: '#EE3124', // #rgb or #rrggbb or array of colors
+        speed: 1.9, // Rounds per second
+        trail: 40, // Afterglow percentage
+        className: 'spinner' // The CSS class to assign to the spinner
+    };
+    var target = document.getElementById("dendogram");
+    spinner = new Spinner(opts).spin(target);
+}
+
+function stopSpinner() {
+    spinner.stop();
 }
