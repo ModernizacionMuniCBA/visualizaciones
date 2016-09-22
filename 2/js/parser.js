@@ -3,10 +3,8 @@ var data;
 var count;
 var depth;
 
-$( document ).ready(function() {
-
-d3.json("https://gobiernoabierto.cordoba.gob.ar/api/funciones/?format=json&page_size=350", function(error, json) {
-  	clerk = json.results;
+function viz(jsonData) {
+	clerk = jsonData.results;
   	var firstElem = _.find(clerk, function(o) { return o.cargo['depende_de'] == null; });
     var name = firstElem.nombrepublico;
     if (name == undefined) {
@@ -21,8 +19,7 @@ d3.json("https://gobiernoabierto.cordoba.gob.ar/api/funciones/?format=json&page_
   	depth = 1;
   	searchDependencies(firstElem.cargo.id, data, depth);
   	draw(data);
-  });
-});
+}
 
 function searchDependencies(positionId, root, depthItem) {
 	const dependencies = _.filter(clerk, function(o) { return o.cargo['depende_de'] == positionId; });
@@ -31,16 +28,15 @@ function searchDependencies(positionId, root, depthItem) {
 	}
 	$.each(dependencies, function(indexDepency, dependency) {
 		count++;
-    var name = dependency.nombrepublico;
-    if (name == undefined) {
-      name = dependency.funcionario.nombre + ' ' + dependency.funcionario.apellido;
-    }
+    var name = dependency.cargo.oficina;
+
 		root.children.push({
-  		'name': dependency.funcionario.nombre + ' ' + dependency.funcionario.apellido,
-  		'object': dependency,
+  		// 'name': dependency.funcionario.nombre + ' ' + dependency.funcionario.apellido,
+		'name': name,
+		'object': dependency,
   		'size': 1,
   		'children': []
-		})
+		});
 		searchDependencies(dependency.cargo.id, root.children[indexDepency], depthItem + 1);
 	});
 }

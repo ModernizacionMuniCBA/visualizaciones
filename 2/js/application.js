@@ -1,8 +1,13 @@
-var apiUrl = "https://gobiernoabierto.cordoba.gob.ar";
+$(function() {
+  startSpinner("viz");
+  funcionariosTask.then(viz).then(stopSpinner).catch(function (error) {
+    throw error;
+  });
+});
 
 function personLink(d){
   if(d.object.funcionario.url){
-      return apiUrl + d.object.funcionario.url;
+      return getApiUrl() + d.object.funcionario.url;
   }
   return "#";
 }
@@ -30,11 +35,11 @@ function draw(root) {
   function mousemove(d) {
     if (!personPhoto(d)) {
       tooltip
-        .html(d.name + "</b><br/>" + d.object.cargo.categoria.nombre + "<br/><br/><i>" + d.object.cargo.oficina+"</i>")
+        .html(d.object.funcionario.nombrepublico + "</b><br/>" + d.object.cargo.categoria.nombre + "<br/><br/><i>" + d.object.cargo.oficina+"</i>")
     } else {
       tooltip
         .html("<img src='" + personPhoto(d) + "'/><br/>" +
-            "<b>" + d.name + "</b><br/>" + d.object.cargo.categoria.nombre + "<br/><br/><i>" + d.object.cargo.oficina+"</i>")
+            "<b>" + d.object.funcionario.nombrepublico + "</b><br/>" + d.object.cargo.categoria.nombre + "<br/><br/><i>" + d.object.cargo.oficina+"</i>")
     }
     tooltip
       .style("left", (d3.event.pageX ) + "px")
@@ -62,9 +67,9 @@ function draw(root) {
   var pack = d3.layout.pack()
       .padding(2)
       .size([diameter - margin, diameter - margin])
-      .value(function(d) { return d.size; })
+      .value(function(d) { return d.size; });
 
-  var svg = d3.select("body").append("svg")
+  var svg = d3.select("#viz").append("svg")
     .attr("width", diameter)
     .attr("height", diameter)
     .append("g")

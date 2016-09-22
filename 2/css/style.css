@@ -36,3 +36,7 @@
 .tooltip img {
 	max-width:150px
 }
+
+#viz {
+  text-align: center;
+}

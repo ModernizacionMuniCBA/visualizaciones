@@ -1,0 +1,26 @@
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font: 10px sans-serif;
+}
+
+.cells path {
+    fill: none;
+// pointer-events: all;
+}
+
+.cells :hover circle {
+    fill: red;
+    r: 6;
+}
+
+.link { cursor: pointer; }
+
+#viz {
+    text-align: center;
+}
