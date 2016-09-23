@@ -7,10 +7,14 @@ var totalEdad = 0;
 var countEdad = 0;
 var chartNameMap;
 
-var apiUrl = "https://gobiernoabierto.cordoba.gob.ar";
-loadJson(apiUrl + "/api/funciones/?format=json&page_size=350");
+$(function() {
+    startSpinner("viz");
+    funcionariosTask.then(viz).then(stopSpinner).catch(function (error) {
+        throw error;
+    });
+});
 
-function loadJson(path) {
+function viz(data) {
     secretaryChart = dc.rowChart('#secretary-chart');
     rankChart = dc.rowChart('#rank-chart');
     ageChart = dc.rowChart('#age-chart');
@@ -24,10 +28,6 @@ function loadJson(path) {
         "genero": genderChart,
         "cargo": rankChart
     };
-    d3.json(path, function (error,data) {
-        if(error){
-            $("#content").html("Hubo un error al cargar los datos");
-        } else {
             var dateFormat = d3.time.format('%Y-%m-%d');
             var numberFormat = d3.format('.2f');
             var topDir = 10;
@@ -218,7 +218,7 @@ function loadJson(path) {
                     {
                         label: 'Funcionario',
                         format: function (d) {
-                            return "<a href=" + apiUrl + d.funcionario.url + ">" + getText(d.funcionario) + "</a>";
+                            return "<a href=" + getApiUrl() + d.funcionario.url + ">" + getText(d.funcionario) + "</a>";
                             function getText(func) {
                                 return func.nombrepublico;
                             }
@@ -254,10 +254,9 @@ function loadJson(path) {
             dcFilterRememberer();
 
             dc.renderAll();
-        }
 
         $("#content").show();
-    });
+
 }
 
 function getSubordinates(array, id) {
