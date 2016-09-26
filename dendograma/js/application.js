@@ -8,8 +8,8 @@ $(function() {
 function dendogram(funcionarios) {
     var selectedradius = getParameterByName("radio");
     if (!selectedradius) {
-        console.log("window.innerWidth " + window.innerWidth);
-        radius = window.innerWidth;
+        // console.log("window.innerWidth " + window.innerWidth);
+        radius = window.innerWidth / 2;
     } else {
         radius = selectedradius;
     }
