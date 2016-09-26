@@ -8,7 +8,7 @@ $(function() {
 function dendogram(funcionarios) {
     var selectedradius = getParameterByName("radio");
     if (!selectedradius) {
-        radius = 650;
+        radius = window.innerWidth;
     } else {
         radius = selectedradius;
     }
