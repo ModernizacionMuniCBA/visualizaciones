@@ -74,7 +74,7 @@ function dendogram(funcionarios) {
         .on("mouseout", mouseout);
 
     node.append("a")
-        .attr("href", personLink)
+        .attr("xlink:href", personLink)
         .append("circle")
         .attr("r", function (d) {
             var weight = d.data.cargo.categoria.orden;
@@ -91,7 +91,7 @@ function dendogram(funcionarios) {
         .on("mouseout", mouseout);
 
     node.append("a")
-        .attr("href", personLink)
+        .attr("xlink:href", personLink)
         .append("text")
         .attr("dy", ".31em")
         .attr("text-anchor", function (d) {
