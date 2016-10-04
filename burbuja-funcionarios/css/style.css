@@ -13,12 +13,6 @@
   text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
 }
 
-.label,
-.node--root,
-.node--leaf {
-  pointer-events: none;
-}
-
 .tooltip {
   position: absolute;
   text-align: center;
@@ -28,13 +22,10 @@
   background: rgba(255, 255, 255, 0.7);
   border-radius: 8px;
   pointer-events: none;
-  -webkit-box-shadow: 13px 13px 10px -7px rgba(0,0,0,0.12);
-	-moz-box-shadow: 13px 13px 10px -7px rgba(0,0,0,0.12);
-	box-shadow: 13px 13px 10px -7px rgba(0,0,0,0.12);
 }
 
 .tooltip img {
-	max-width:150px
+  max-width:150px
 }
 
 #viz {

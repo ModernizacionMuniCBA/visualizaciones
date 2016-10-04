@@ -35,11 +35,17 @@ function draw(root) {
   function mousemove(d) {
     if (!personPhoto(d)) {
       tooltip
-        .html(d.object.funcionario.nombrepublico + "</b><br/>" + d.object.cargo.categoria.nombre + "<br/><br/><i>" + d.object.cargo.oficina+"</i>")
+        .html(
+            "<h4>" + d.object.cargo.oficina + "</h4>" +
+            "<h5>" + d.object.funcionario.nombrepublico + "</h5>" +
+            "<i>" + d.object.cargo.categoria.nombre + "</i>");
     } else {
       tooltip
-        .html("<img src='" + personPhoto(d) + "'/><br/>" +
-            "<b>" + d.object.funcionario.nombrepublico + "</b><br/>" + d.object.cargo.categoria.nombre + "<br/><br/><i>" + d.object.cargo.oficina+"</i>")
+          .html(
+              "<h4>" + d.object.cargo.oficina + "</h4>" +
+              "<img src='" + personPhoto(d) + "'/>" +
+              "<h5>" + d.object.funcionario.nombrepublico + "</h5>" +
+              "<i>" + d.object.cargo.categoria.nombre + "</i>");
     }
     tooltip
       .style("left", (d3.event.pageX ) + "px")
@@ -105,7 +111,12 @@ function draw(root) {
     .enter().append("circle")
     .attr("class", function(d) { return d.parent ? d.children ? "node" : "node node--leaf" : "node node--root"; })
     .style("fill", genderColor)
-    .on("click", function(d) { if (focus !== d) zoom(d), d3.event.stopPropagation(); })
+    .on("click", function(d) {
+      if (focus !== d) {
+        zoom(d);
+        d3.event.stopPropagation();
+      }
+    })
     .on("mouseover", function(d) { mouseover(); d3.event.stopPropagation();})
     .on("mousemove", function(d) { mousemove(d); d3.event.stopPropagation();})
     .on("mouseout", function(d) { mouseout(); d3.event.stopPropagation();});
@@ -113,13 +124,11 @@ function draw(root) {
   var text = svg.selectAll("text")
     .data(nodes)
     .enter()
-    .append("a")
-    .attr("target", "_blank")
-    .attr("href", personLink)
     .append("text")
     .attr("class", "label")
     .style("fill-opacity", function(d) { return d.parent === root ? 1 : 0; })
     .style("display", function(d) { return d.parent === root ? "inline" : "none"; })
+    .on("click", function(d) { window.open(personLink(d)); })
     .text(function(d) { return d.name; });
 
   var node = svg.selectAll("circle,text");
