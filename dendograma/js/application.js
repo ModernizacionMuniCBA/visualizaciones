@@ -5,10 +5,11 @@ $(function() {
     });
 });
 
+var secreatariesSeparator = "-";
+
 function dendogram(funcionarios) {
     var selectedradius = getParameterByName("radio");
     if (!selectedradius) {
-        // console.log("window.innerWidth " + window.innerWidth);
         radius = window.innerWidth / 2;
     } else {
         radius = selectedradius;
@@ -19,9 +20,19 @@ function dendogram(funcionarios) {
     var secretaries = directors.map(function (p) {
         return p.cargo.oficina
     }).sort();
+
+    var secretariesAux = new Array();
+    secretaries.forEach(function (value, i) {
+        secretariesAux.push(i);
+    });
+
     var filterSecretaries = getParameterByName("secretarias");
     if (filterSecretaries) {
-        filterSecretaries = JSON.parse(filterSecretaries);
+        var ids = filterSecretaries.split(secreatariesSeparator);
+        filterSecretaries = new Array();
+        ids.forEach(function (o) { //id -> nombre
+            filterSecretaries.push(secretaries[o]);
+        });
         var filtered = results.children.filter(function (director) {
             return filterSecretaries.indexOf(director.office) >= 0;
         });
@@ -115,7 +126,7 @@ function dendogram(funcionarios) {
 
     function mousemove(d) {
         div
-            .html("<div class='img-thumbnail'><img style='max-height:100px;max-width:150px' src='" + d.photo + "'/></div><br/>" +
+            .html("<div class='img'><img style='max-height:100px;max-width:150px' src='" + d.photo + "'/></div><br/>" +
                 "<b>" + d.name + "</b><br/>" + d.rank + "<br/><br/><i>" + d.data.cargo.oficina + "</i>")
             .style("left", (d3.event.pageX ) + "px")
             .style("top", (d3.event.pageY) + "px");
@@ -153,14 +164,18 @@ function getParameterByName(name, url) {
 
 function loadFilters(secretaries, current, selectedradius) {
     var s2 = $("<select/>", {class: "js-example-basic-multiple", multiple: "multiple"});
-    secretaries.forEach(function (secretary) {
-        $("<option />", {value: secretary, text: secretary}).appendTo(s2);
+    secretaries.forEach(function (secretary, i) {
+        $("<option />", {value: i, text: secretary}).appendTo(s2);
     });
     if (current) {
-        s2.val(current);
+        var currentVals = new Array();
+        current.forEach(function (o) { //name -> id
+            currentVals.push(secretaries.indexOf(o));
+        });
+        s2.val(currentVals)
     }
     s2.change(function () {
-        var secretaries = $(this).val();
+        var secretariesAux = $(this).val();
         var params = new Object();
         if (selectedradius) {
             params.radio = selectedradius;
@@ -168,8 +183,19 @@ function loadFilters(secretaries, current, selectedradius) {
         if (getParameterByName("select")) {
             params.select = 1;
         }
-        if (secretaries) {
-            params.secretarias = JSON.stringify(secretaries);
+        if (secretariesAux) {
+            if(secretariesAux.length === 1) {
+                params.secretarias = secretariesAux[0];
+            } else {
+                params.secretarias = "";
+                secretariesAux.forEach(function (o) {
+                    if(o === secretariesAux[0]) {
+                        params.secretarias = o; //first element
+                    } else {
+                        params.secretarias = params.secretarias + secreatariesSeparator + o;
+                    }
+                });
+            }
         }
         window.location.href = "?" + $.param(params);
     });
